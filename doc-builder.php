@@ -1,4 +1,9 @@
 <?php
+
+require(__DIR__ . '/vendor/autoload.php');
+
+use Oft\Generator\ProvidersListBuilder;
+
 $PATH_TO_JSON = '/data/data.json';
 $OUTPUT_DIR_PATH = '/docs/';
 $DOC_CONFIG_FILE_PATH = '/mkdocs.yml';
@@ -16,52 +21,13 @@ function getJsonContent ($path) {
     }
 }
 
-/*
- *
- *
- * */
-
 try {
-    /* sort json */
     $json_content = getJsonContent($PATH_TO_JSON);
-    $tables = array_column($json_content, 'code');
-    array_multisort($tables, SORT_ASC, $json_content);
+    $providersListBuilder = new ProvidersListBuilder($json_content);
+    $providersListBuilder->build();
 
-    /* create directory for provider overview files */
-    @mkdir('/providers');
-    if (false === is_dir('/providers')) {
-        throw new Exception('/providers is not a directory');
-    }
-
-    /* write to list */
     $output_list_file = fopen(__DIR__.$OUTPUT_DIR_PATH.$LIST_MD_FILE_NAME, 'w');
-    fwrite($output_list_file, "#Payment Providers\n\n");
-    $header = "";
-
-    foreach ($json_content as $el) {
-        if (strtoupper($el['code'][0]) !== $header) {
-            /*
-             *  write head letter and table header
-             * */
-            $header = strtoupper($el['code'][0]);
-            fwrite($output_list_file, "\n##$header\n");
-            fwrite($output_list_file, "|Logo|Name|Code|\n|----|----|----|\n");
-        }
-
-        /*
-         * write table row
-         * */
-        fwrite($output_list_file, "|![](https://static.openfintech.io/payment_providers/$el[code]/logo.svg??w=600&c=v0.59.26#w100)|**$el[code]**|`$el[code]`|\n");
-
-        /*
-         * create file "$provider_code"
-         * write content
-         *
-         *
-         * */
-
-
-    }
+    fwrite($output_list_file, $providersListBuilder->getContent());
 
     fclose($output_list_file);
 } catch (Exception $err) {

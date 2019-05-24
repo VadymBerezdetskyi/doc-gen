@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6118e819-5c91-4dc5-88f7-b352b921177a" name="Default" comment="" />
+    <list default="true" id="6118e819-5c91-4dc5-88f7-b352b921177a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dto/BaseDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dto/MdTableColumnDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dto/ProviderDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dto/Translatable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Enums/AbstractEnum.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Enums/MdTableColumnAlignEnum.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Enums/TextEmphasisPatternEnum.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Md/MdCode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Md/MdCodeBlock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Md/MdElementInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Md/MdHeader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Md/MdHeaderId.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Md/MdImage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Md/MdLink.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Md/MdTable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Md/MdText.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Md/MdULItem.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MdBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProvidersListBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/oft_docs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/oft_docs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc-builder.php" beforeDir="false" afterPath="$PROJECT_DIR$/doc-builder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/providers-list.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/providers-list.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -9,31 +36,22 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings" doNotAsk="true">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/oft_docs$oft_docs.xml" NAME="oft_docs Coverage Results" MODIFIED="1558705689190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="oft_docs" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="doc-builder.php" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="doc-builder.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/doc-builder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="36" column="80" lean-forward="true" selection-start-line="36" selection-start-column="80" selection-end-line="36" selection-end-column="80" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/composer.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mkdocs.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mkdocs.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            <state relative-caret-position="408">
+              <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -42,23 +60,42 @@
         <entry file="file://$PROJECT_DIR$/docs/providers-list.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="120">
-                <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+              <first_editor relative-caret-position="72">
+                <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/data.json">
+      <file leaf-file-name="ProvidersListBuilder.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ProvidersListBuilder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2688">
-              <caret line="139" column="13" selection-start-line="139" selection-start-column="13" selection-end-line="139" selection-end-column="13" />
+            <state relative-caret-position="300">
+              <caret line="60" column="31" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
               <folding>
-                <element signature="e#1419#1582#0" />
-                <element signature="e#1586#1753#0" />
-                <element signature="e#1757#1932#0" />
+                <element signature="e#33#72#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MdTableColumnDto.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Dto/MdTableColumnDto.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MdTable.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Md/MdTable.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="76" column="8" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="8" />
+              <folding>
+                <element signature="e#36#75#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -66,10 +103,73 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>MdTableColumnDto</find>
+      <find>OFT_DOCS\Lib</find>
+      <find>mb_strtolower</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Oft\Generator</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/lib/Md/MdElement.php" />
+        <option value="$PROJECT_DIR$/lib/Md/MdLine.php" />
+        <option value="$PROJECT_DIR$/lib/Enums/TextTypeEnum.php" />
+        <option value="$PROJECT_DIR$/lib/Mappers/AbstractMapper.php" />
+        <option value="$PROJECT_DIR$/lib/Mappers/TextEmphasisMapper.php" />
+        <option value="$PROJECT_DIR$/lib/Enums/TextEmphasisTypeEnum.php" />
+        <option value="$PROJECT_DIR$/lib/Enums/ListTypeEnum.php" />
+        <option value="$PROJECT_DIR$/lib/Md/MdList.php" />
+        <option value="$PROJECT_DIR$/lib/Md/AbstractMdElement.php" />
+        <option value="$PROJECT_DIR$/lib/Md/MdElementDataSetter.php" />
+        <option value="$PROJECT_DIR$/lib/Dto/MdTableHeaderDto.php" />
+        <option value="$PROJECT_DIR$/lib/Md/MdCode.php" />
+        <option value="$PROJECT_DIR$/lib/Md/MdCodeBlock.php" />
+        <option value="$PROJECT_DIR$/lib/Md/MdElementInterface.php" />
+        <option value="$PROJECT_DIR$/lib/Md/MdHeader.php" />
+        <option value="$PROJECT_DIR$/lib/Md/MdHeaderId.php" />
+        <option value="$PROJECT_DIR$/lib/Md/MdImage.php" />
+        <option value="$PROJECT_DIR$/lib/Md/MdLink.php" />
+        <option value="$PROJECT_DIR$/lib/Md/MdULItem.php" />
+        <option value="$PROJECT_DIR$/lib/Enums/AbstractEnum.php" />
+        <option value="$PROJECT_DIR$/lib/Enums/MdTableColumnAlignEnum.php" />
+        <option value="$PROJECT_DIR$/lib/Enums/TextEmphasisPatternEnum.php" />
+        <option value="$PROJECT_DIR$/lib/Dto/BaseDto.php" />
+        <option value="$PROJECT_DIR$/lib/Dto/ProviderDto.php" />
+        <option value="$PROJECT_DIR$/lib/Dto/Translatable.php" />
+        <option value="$PROJECT_DIR$/lib/Dto/MdTableColumnDto.php" />
+        <option value="$PROJECT_DIR$/lib/Md/MdTable.php" />
+        <option value="$PROJECT_DIR$/lib/Md/MdText.php" />
+        <option value="$PROJECT_DIR$/lib/MdBuilder.php" />
+        <option value="$PROJECT_DIR$/lib/ProvidersListBuilder.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/src/Dto/MdTableColumnDto.php" />
+        <option value="$PROJECT_DIR$/src/Dto/ProviderDto.php" />
+        <option value="$PROJECT_DIR$/src/Dto/Translatable.php" />
+        <option value="$PROJECT_DIR$/src/MdBuilder.php" />
+        <option value="$PROJECT_DIR$/src/Md/MdCode.php" />
+        <option value="$PROJECT_DIR$/src/Md/MdCodeBlock.php" />
+        <option value="$PROJECT_DIR$/src/Md/MdElementInterface.php" />
+        <option value="$PROJECT_DIR$/src/Md/MdHeader.php" />
+        <option value="$PROJECT_DIR$/src/Md/MdHeaderId.php" />
+        <option value="$PROJECT_DIR$/src/Md/MdImage.php" />
+        <option value="$PROJECT_DIR$/src/Md/MdLink.php" />
+        <option value="$PROJECT_DIR$/src/Md/MdULItem.php" />
+        <option value="$PROJECT_DIR$/src/Enums/AbstractEnum.php" />
+        <option value="$PROJECT_DIR$/src/Enums/MdTableColumnAlignEnum.php" />
+        <option value="$PROJECT_DIR$/src/Enums/TextEmphasisPatternEnum.php" />
+        <option value="$PROJECT_DIR$/src/Md/MdText.php" />
+        <option value="$PROJECT_DIR$/src/Dto/BaseDto.php" />
+        <option value="$PROJECT_DIR$/src/ProvidersListBuilder.php" />
         <option value="$PROJECT_DIR$/doc-builder.php" />
+        <option value="$PROJECT_DIR$/src/Md/MdTable.php" />
       </list>
     </option>
   </component>
@@ -82,19 +182,28 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="PhpDebugGeneral" listening_started="true" />
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2" />
+  <component name="PhpDebugGeneral" xdebug_debug_port="9005" listening_started="true" />
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1920" />
     <option name="width" value="1920" />
     <option name="height" value="1172" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -112,10 +221,39 @@
               <item name="oft_docs" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="oft_docs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oft_docs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oft_docs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oft_docs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oft_docs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oft_docs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Enums" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oft_docs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oft_docs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Md" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oft_docs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oft_docs" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -123,6 +261,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../paycore" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -157,35 +296,73 @@
       <option name="presentableId" value="Default" />
       <updated>1557928973682</updated>
       <workItem from="1557928974991" duration="23632000" />
+      <workItem from="1558021082251" duration="4000" />
+      <workItem from="1558330988235" duration="4131000" />
+      <workItem from="1558525049229" duration="5038000" />
+      <workItem from="1558674710850" duration="24316000" />
+      <workItem from="1558705362924" duration="2553000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="oft_docs - 2019.05.20 at 09h 17m 14s.xml">
+      <configuration name="oft_docs" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="oft_docs - 2019.05.22 at 15h 09m 12s.xml">
+      <configuration name="oft_docs" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="oft_docs - 2019.05.22 at 15h 09m 34s.xml">
+      <configuration name="oft_docs" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="oft_docs - 2019.05.22 at 15h 09m 45s.xml">
+      <configuration name="oft_docs" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="oft_docs - 2019.05.22 at 15h 09m 49s.xml">
+      <configuration name="oft_docs" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="oft_docs - 2019.05.22 at 15h 10m 00s.xml">
+      <configuration name="oft_docs" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="oft_docs - 2019.05.24 at 15h 54m 44s.xml">
+      <configuration name="oft_docs" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="oft_docs - 2019.05.24 at 16h 36m 57s.xml">
+      <configuration name="oft_docs" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="oft_docs - 2019.05.24 at 16h 48m 09s.xml">
+      <configuration name="oft_docs" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="oft_docs - 2019.05.24 at 16h 56m 07s.xml">
+      <configuration name="oft_docs" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23632000" />
+    <option name="totallyTimeSpent" value="59674000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1172" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.119936034" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.32917467" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.32748538" />
+      <window_info anchor="right" id="Coverage" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.48635477" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49902534" visible="true" weight="0.1988273" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" weight="0.19474196" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Favorites" order="2" sideWeight="0.50097466" side_tool="true" weight="0.19669509" />
+      <window_info anchor="bottom" id="Debug" order="3" side_tool="true" visible="true" weight="0.26803118" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,43 +373,119 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/doc-builder.php</url>
-          <line>25</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="5" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="19" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/docs/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="96">
-            <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/data/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2832">
+          <caret line="118" selection-start-line="118" selection-end-line="119" />
+          <folding>
+            <element signature="e#156#594#0" />
+            <element signature="e#618#1307#0" />
+            <element signature="e#1419#1582#0" />
+            <element signature="e#1586#1753#0" />
+            <element signature="e#2452#3010#0" />
+            <element signature="e#3136#3658#0" />
+            <element signature="e#3662#3825#0" />
+            <element signature="e#3829#3992#0" />
+            <element signature="e#3996#4197#0" />
+            <element signature="e#4201#4397#0" />
+            <element signature="e#4401#5160#0" />
+            <element signature="e#5164#5319#0" />
+            <element signature="e#5323#5515#0" />
+            <element signature="e#5519#5739#0" />
+            <element signature="e#5743#5914#0" />
+            <element signature="e#5918#6532#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/basic.php">
+    <entry file="file://$PROJECT_DIR$/src/Md/MdTable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="144" column="9" selection-start-line="144" selection-start-column="9" selection-end-line="144" selection-end-column="9" />
+        <state relative-caret-position="1080">
+          <caret line="46" column="39" lean-forward="true" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
+          <folding>
+            <element signature="e#36#75#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc-builder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1608">
+          <caret line="67" column="50" selection-start-line="67" selection-start-column="50" selection-end-line="67" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/data.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2688">
-          <caret line="139" column="13" selection-start-line="139" selection-start-column="13" selection-end-line="139" selection-end-column="13" />
+        <state relative-caret-position="552">
+          <caret line="122" column="40" selection-start-line="122" selection-start-column="40" selection-end-line="122" selection-end-column="40" />
           <folding>
+            <element signature="e#156#594#0" />
+            <element signature="e#618#1307#0" />
             <element signature="e#1419#1582#0" />
             <element signature="e#1586#1753#0" />
-            <element signature="e#1757#1932#0" />
+            <element signature="e#2452#3010#0" />
+            <element signature="e#3136#3658#0" />
+            <element signature="e#3662#3825#0" />
+            <element signature="e#3829#3992#0" />
+            <element signature="e#3996#4197#0" />
+            <element signature="e#4201#4397#0" />
+            <element signature="e#4401#5160#0" />
+            <element signature="e#5164#5319#0" />
+            <element signature="e#5323#5515#0" />
+            <element signature="e#5519#5739#0" />
+            <element signature="e#5743#5914#0" />
+            <element signature="e#5918#6532#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Dto/BaseDto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Dto/ProviderDto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc-builder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="69" lean-forward="true" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc-builder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="36" column="80" lean-forward="true" selection-start-line="36" selection-start-column="80" selection-end-line="36" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mkdocs.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -246,24 +499,298 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3336">
+          <caret line="139" column="13" selection-start-line="139" selection-start-column="13" selection-end-line="139" selection-end-column="13" />
+          <folding>
+            <element signature="e#156#594#0" />
+            <element signature="e#618#1307#0" />
+            <element signature="e#1419#1582#0" />
+            <element signature="e#1586#1753#0" />
+            <element signature="e#2452#3010#0" />
+            <element signature="e#3136#3658#0" />
+            <element signature="e#3662#3825#0" />
+            <element signature="e#3829#3992#0" />
+            <element signature="e#3996#4197#0" />
+            <element signature="e#4201#4397#0" />
+            <element signature="e#4401#5160#0" />
+            <element signature="e#5164#5319#0" />
+            <element signature="e#5323#5515#0" />
+            <element signature="e#5519#5739#0" />
+            <element signature="e#5743#5914#0" />
+            <element signature="e#5918#6532#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/providers/1pay.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Mappers/AbstractMapper.php" />
+    <entry file="file://$PROJECT_DIR$/src/Enums/TextEmphasisPatternEnum.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Enums/TextEmphasisPatternEnum.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="53" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="8" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Mappers/TextEmphasisMapper.php" />
+    <entry file="file://$PROJECT_DIR$/lib/Enums/ListTypeEnum.php" />
+    <entry file="file://$PROJECT_DIR$/lib/Md/MdElementDataSetter.php" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_9.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="671" column="59" lean-forward="true" selection-start-line="671" selection-start-column="59" selection-end-line="671" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mkdocs.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
-          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_classmap.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_psr4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="51" lean-forward="true" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/ClassLoader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1152">
+          <caret line="17" column="54" lean-forward="true" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_static.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="72" selection-start-line="25" selection-start-column="72" selection-end-line="25" selection-end-column="72" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+        <state relative-caret-position="336">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Md/MdText.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Md/MdLink.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Md/MdImage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Md/MdHeaderId.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Md/MdHeader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Md/MdElementInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Md/MdCodeBlock.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Md/MdCode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MdBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Md/MdULItem.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Dto/ProviderDto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Enums/TextEmphasisPatternEnum.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Enums/MdTableColumnAlignEnum.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Enums/AbstractEnum.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Dto/Translatable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="118" selection-start-line="118" selection-end-line="119" />
+          <folding>
+            <element signature="e#156#594#0" />
+            <element signature="e#618#1307#0" />
+            <element signature="e#1419#1582#0" />
+            <element signature="e#1586#1753#0" />
+            <element signature="e#2452#3010#0" />
+            <element signature="e#3136#3658#0" />
+            <element signature="e#3662#3825#0" />
+            <element signature="e#3829#3992#0" />
+            <element signature="e#3996#4197#0" />
+            <element signature="e#4201#4397#0" />
+            <element signature="e#4401#5160#0" />
+            <element signature="e#5164#5319#0" />
+            <element signature="e#5323#5515#0" />
+            <element signature="e#5519#5739#0" />
+            <element signature="e#5743#5914#0" />
+            <element signature="e#5918#6532#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Dto/BaseDto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="75" lean-forward="true" selection-start-line="6" selection-start-column="75" selection-end-line="6" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Dto/MdTableColumnDto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/providers-list.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="72">
+            <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/doc-builder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="36" column="80" lean-forward="true" selection-start-line="36" selection-start-column="80" selection-end-line="36" selection-end-column="80" />
+        <state relative-caret-position="408">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProvidersListBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="60" column="31" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
+          <folding>
+            <element signature="e#33#72#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Md/MdTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="76" column="8" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="8" />
+          <folding>
+            <element signature="e#36#75#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
