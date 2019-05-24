@@ -2,6 +2,7 @@
 
 require(__DIR__ . '/vendor/autoload.php');
 
+use Oft\Generator\ProviderOverviewBuilder;
 use Oft\Generator\ProvidersListBuilder;
 
 $PATH_TO_JSON = '/data/data.json';
@@ -25,11 +26,20 @@ try {
     $json_content = getJsonContent($PATH_TO_JSON);
     $providersListBuilder = new ProvidersListBuilder($json_content);
     $providersListBuilder->build();
+    file_put_contents(__DIR__.$OUTPUT_DIR_PATH.$LIST_MD_FILE_NAME, $providersListBuilder->getContent());
 
-    $output_list_file = fopen(__DIR__.$OUTPUT_DIR_PATH.$LIST_MD_FILE_NAME, 'w');
-    fwrite($output_list_file, $providersListBuilder->getContent());
+    @mkdir(__DIR__.$OUTPUT_DIR_PATH.'providers');
+    if (false === is_dir(__DIR__.$OUTPUT_DIR_PATH.'providers')) {
+        throw new Exception('/docs/providers is not a directory');
+    }
 
-    fclose($output_list_file);
+    foreach ($json_content as $provider) {
+        $providerOverviewBuilder = new ProviderOverviewBuilder($provider);
+        $providerOverviewBuilder->build();
+
+        file_put_contents(__DIR__.$OUTPUT_DIR_PATH.'providers/'.$provider['code'].'.md', $providerOverviewBuilder->getContent());
+    }
+
 } catch (Exception $err) {
     echo $err->getMessage();
     exit;

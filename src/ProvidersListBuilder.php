@@ -14,6 +14,8 @@ use Oft\Generator\Md\MdText;
 
 final class ProvidersListBuilder extends MdBuilder
 {
+    use ImagesTrait;
+
     /* @var array */
     private $data;
 
@@ -44,20 +46,12 @@ final class ProvidersListBuilder extends MdBuilder
         return $grouped;
     }
 
-    private function getProviderLogo(string $code): string
-    {
-        return "https://static.openfintech.io/payment_providers/$code/logo.svg?w=600&c=v0.59.26#w100";
-    }
-
     public function build(): void
     {
-        $this->add(new MdHeader('Payment providers', 1));
-        $this->br();
+        $this->add(new MdHeader('Payment providers', 1), true);
 
         foreach ($this->data as $h => $group) {
-            $this->add(new MdHeader((string) $h, 1));
-            $this->br();
-
+            $this->add(new MdHeader((string) $h, 1), true);
             $this->add(new MdTable($group, [
                 MdTableColumnDto::fromArray([
                     'key' => 'Logo',

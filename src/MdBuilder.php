@@ -14,9 +14,13 @@ class MdBuilder
         $this->content = $this->content." \n";
     }
 
-    public function add(MdElementInterface $element): void
+    public function add(MdElementInterface $element, bool $return = false): void
     {
         $this->content = $this->content.$element->toString();
+
+        if ($return) {
+            $this->br();
+        }
     }
 
     /**

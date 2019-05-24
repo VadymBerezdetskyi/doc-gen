@@ -7,8 +7,11 @@ class ProviderDto extends BaseDto
     /** @var string */
     public $code;
 
+    /** @var array|null */
+    public $description;
+
     /** @var string */
-    public $vandor;
+    public $vendor;
 
     /** @var array|null */
     public $categories;
@@ -20,6 +23,9 @@ class ProviderDto extends BaseDto
     public $paymentMethod;
 
     /** @var array|null */
+    public $payoutMethod;
+
+    /** @var array|null */
     public $metadata;
 
     /** @var array */
@@ -28,5 +34,10 @@ class ProviderDto extends BaseDto
     public function getName(): Translatable
     {
         return Translatable::fromArray($this->name);
+    }
+
+    public function getDescription(): Translatable
+    {
+        return Translatable::fromArray($this->description);
     }
 }

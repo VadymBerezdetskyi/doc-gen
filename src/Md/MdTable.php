@@ -62,7 +62,7 @@ class MdTable implements MdElementInterface
         $this->br();
     }
 
-    private function addRow(BaseDto $row): void
+    private function addRow($row): void
     {
         /* @var MdTableColumnDto $col */
         foreach ($this->cols as $col) {
@@ -74,7 +74,7 @@ class MdTable implements MdElementInterface
             $this->add($element->toString());
             $this->separator();
         }
-        
+
         $this->br();
     }
 

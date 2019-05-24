@@ -12,9 +12,9 @@ class MdImage implements MdElementInterface
     /* @var string */
     private $alt;
 
-    public function __construct(string $str, string $alt = '')
+    public function __construct(string $src, string $alt = '')
     {
-        $this->str = $str;
+        $this->str = $src;
         $this->alt = $alt;
     }
 

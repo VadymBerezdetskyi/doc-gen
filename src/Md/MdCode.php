@@ -9,9 +9,9 @@ class MdCode implements MdElementInterface
     /* @var string */
     private $str;
 
-    public function __construct(string $string)
+    public function __construct(string $str)
     {
-        $this->str = $string;
+        $this->str = $str;
     }
 
     public function toString(): string
