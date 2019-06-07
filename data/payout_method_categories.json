@@ -1,0 +1,194 @@
+[
+  {
+    "code": "internet_banking",
+    "name": {
+      "en": "Internet-banking",
+      "ru": "Интернет-банкинг",
+      "uk": "Інтернет-банкінг"
+    }
+  },
+  {
+    "code": "payment_card",
+    "name": {
+      "en": "Payment card",
+      "ru": "Платежная карта",
+      "uk": "Платіжна карта"
+    }
+  },
+  {
+    "code": "bank_transfer",
+    "name": {
+      "en": "Bank transfer",
+      "ru": "Банковский перевод",
+      "uk": "Банківський переказ"
+    }
+  },
+  {
+    "code": "cash_on_delivery",
+    "name": {
+      "en": "Cash on delivery",
+      "ru": "Наложенный платёж",
+      "uk": "Накладний платіж"
+    }
+  },
+  {
+    "code": "cash_payment",
+    "name": {
+      "en": "Cash payment",
+      "ru": "Наличный расчет",
+      "uk": "Готівковий розрахунок"
+    }
+  },
+  {
+    "code": "check",
+    "name": {
+      "en": "Check",
+      "ru": "Чек",
+      "uk": "Чек"
+    }
+  },
+  {
+    "code": "direct_debit",
+    "name": {
+      "en": "Direct debit",
+      "ru": "Прямое дебетование",
+      "uk": "Пряме дебетування"
+    }
+  },
+  {
+    "code": "digital_wallet",
+    "name": {
+      "en": "Digital wallet",
+      "ru": "Электронный кошелёк",
+      "uk": "Електронний гаманець"
+    }
+  },
+  {
+    "code": "prepaid_voucher",
+    "name": {
+      "en": "Prepaid voucher",
+      "ru": "Предоплаченный ваучер",
+      "uk": "Передплачений ваучер"
+    }
+  },
+  {
+    "code": "prepaid_card",
+    "name": {
+      "en": "Prepaid card",
+      "ru": "Предоплаченная карта",
+      "uk": "Передплачена карта"
+    }
+  },
+  {
+    "code": "invoice_payment",
+    "name": {
+      "en": "Invoice payment",
+      "ru": "Выставление счета",
+      "uk": "Виставлення рахунку"
+    }
+  },
+  {
+    "code": "mobile_carrier_billing",
+    "name": {
+      "en": "Mobile carrier billing",
+      "ru": "Биллинг мобильного оператора",
+      "uk": "Біллінг мобільного оператора"
+    }
+  },
+  {
+    "code": "mobile_payment",
+    "name": {
+      "en": "Mobile payment",
+      "ru": "Мобильный платеж",
+      "uk": "Мобільний платіж"
+    }
+  },
+  {
+    "code": "alternative",
+    "name": {
+      "en": "Alternative",
+      "ru": "Альтернативный",
+      "uk": "Альтернативний"
+    }
+  },
+  {
+    "code": "public-services",
+    "name": {
+      "ru": "Комунальные платежи",
+      "en": "Utility payments",
+      "uk": "Комунальні платежі"
+    }
+  },
+  {
+    "code": "others",
+    "name": {
+      "ru": "Другие услуги",
+      "en": "Other services",
+      "uk": "Інші послуги"
+    }
+  },
+  {
+    "code": "telecommunications",
+    "name": {
+      "ru": "Телекоммуникации",
+      "en": "Telecommunications",
+      "uk": "Телекомунікації"
+    }
+  },
+  {
+    "code": "financial-services",
+    "name": {
+      "ru": "Финансовые услуги",
+      "en": "Financial Services",
+      "uk": "Фінансові послуги"
+    }
+  },
+  {
+    "code": "taxi",
+    "name": {
+      "ru": "Такси",
+      "en": "Taxi",
+      "uk": "Таксі"
+    }
+  },
+  {
+    "code": "charity",
+    "name": {
+      "en": "Charity",
+      "ru": "Благотворительность",
+      "uk": "Благодійність"
+    }
+  },
+  {
+    "code": "entertainment",
+    "name": {
+      "ru": "Развлечения",
+      "en": "Entertainment",
+      "uk": "Розваги"
+    }
+  },
+  {
+    "code": "budget-payments",
+    "name": {
+      "ru": "Платежи в бюджет",
+      "en": "Budget Payments",
+      "uk": "Платежі до бюджету"
+    }
+  },
+  {
+    "code": "distribution",
+    "name": {
+      "ru": "Дистрибуция",
+      "en": "Distribution",
+      "uk": "Дистрибуція"
+    }
+  },
+  {
+    "code": "selling-goods",
+    "name": {
+      "ru": "Продажа товаров",
+      "en": "Selling goods",
+      "uk": "Продаж товарів"
+    }
+  }
+]

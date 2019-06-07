@@ -4,7 +4,7 @@ namespace Oft\Generator\Md;
 
 class MdCodeBlock implements MdElementInterface
 {
-    private const PATTERN = '```$highlight $str ```';
+    private const PATTERN = '```$highlight'."\n".' $str``` ';
 
     /* @var string */
     private $str;

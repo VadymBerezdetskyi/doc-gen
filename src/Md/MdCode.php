@@ -4,7 +4,7 @@ namespace Oft\Generator\Md;
 
 class MdCode implements MdElementInterface
 {
-    private const PATTERN = '`$str`';
+    private const PATTERN = '`$str` ';
 
     /* @var string */
     private $str;

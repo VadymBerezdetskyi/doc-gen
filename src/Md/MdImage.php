@@ -4,7 +4,7 @@ namespace Oft\Generator\Md;
 
 class MdImage implements MdElementInterface
 {
-    private const PATTERN = '![$alt]($str)';
+    private const PATTERN = '![$alt]($str) ';
 
     /* @var string */
     private $str;
