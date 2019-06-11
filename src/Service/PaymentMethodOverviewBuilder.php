@@ -1,7 +1,8 @@
 <?php
 
-namespace Oft\Generator\Builders;
+namespace Oft\Generator\Service;
 
+use Oft\Generator\DataProvider;
 use Oft\Generator\Dto\PaymentMethodDto;
 use Oft\Generator\Enums\TextEmphasisPatternEnum;
 use Oft\Generator\ImagesTrait;
@@ -18,9 +19,10 @@ final class PaymentMethodOverviewBuilder extends MdBuilder
     /* @var PaymentMethodDto */
     private $data;
 
-    public function __construct(array $data)
+    public function __construct(DataProvider $dataProvider, PaymentMethodDto $data)
     {
-        $this->data = PaymentMethodDto::fromArray($data);
+        parent::__construct($dataProvider);
+        $this->data = $data;
     }
 
     public function build(): void

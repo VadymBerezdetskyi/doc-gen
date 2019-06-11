@@ -1,7 +1,8 @@
 <?php
 
-namespace Oft\Generator\Builders;
+namespace Oft\Generator\Service;
 
+use Oft\Generator\DataProvider;
 use Oft\Generator\Dto\MdTableColumnDto;
 use Oft\Generator\Dto\ProviderDto;
 use Oft\Generator\Enums\MdTableColumnAlignEnum;
@@ -22,9 +23,10 @@ final class ProviderOverviewBuilder extends MdBuilder
     /* @var ProviderDto */
     private $data;
 
-    public function __construct(array $data)
+    public function __construct(DataProvider $dataProvider, ProviderDto $data)
     {
-        $this->data = ProviderDto::fromArray($data);
+        parent::__construct($dataProvider);
+        $this->data = $data;
     }
 
     public function build(): void

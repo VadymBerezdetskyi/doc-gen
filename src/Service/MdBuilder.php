@@ -1,13 +1,22 @@
 <?php
 
-namespace Oft\Generator\Builders;
+namespace Oft\Generator\Service;
 
+use Oft\Generator\DataProvider;
 use Oft\Generator\Md\MdElementInterface;
 
 class MdBuilder
 {
     /** @var string */
     private $content = "";
+
+    /* @var DataProvider */
+    protected $dataProvider;
+
+    public function __construct(DataProvider $dataProviderProvider)
+    {
+        $this->dataProvider = $dataProviderProvider;
+    }
 
     public function br(): void
     {

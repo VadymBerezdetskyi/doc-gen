@@ -1,10 +1,10 @@
 <?php
 
-namespace Oft\Generator\Builders;
+namespace Oft\Generator\Service;
 
-
+use Oft\Generator\DataProvider;
 use Oft\Generator\Dto\MdTableColumnDto;
-use Oft\Generator\Dto\PayoutMethodDto;
+use Oft\Generator\Dto\ProviderDto;
 use Oft\Generator\Enums\MdTableColumnAlignEnum;
 use Oft\Generator\Enums\TextEmphasisPatternEnum;
 use Oft\Generator\ImagesTrait;
@@ -14,16 +14,17 @@ use Oft\Generator\Md\MdImage;
 use Oft\Generator\Md\MdTable;
 use Oft\Generator\Md\MdText;
 
-final class PayoutServicesListBuilder extends MdBuilder
+final class ProvidersListBuilder extends MdBuilder
 {
     use ImagesTrait;
 
     /* @var array */
     private $data;
 
-    public function __construct(array $data)
+    public function __construct(DataProvider $dataProvider)
     {
-        $this->data = $this->groupProviders($data);
+        parent::__construct($dataProvider);
+        $this->data = $this->groupProviders($this->dataProvider->getProviders());
     }
 
     private function groupProviders(array $data): array
@@ -34,14 +35,14 @@ final class PayoutServicesListBuilder extends MdBuilder
         array_multisort($codes, SORT_ASC, $data);
 
         foreach ($data as $el) {
-            /* @var PayoutMethodDto $payoutMethod */
-            $payoutMethod = PayoutMethodDto::fromArray($el);
-            $key = strtoupper($payoutMethod->code[0]);
+            /* @var ProviderDto $provider */
+            $provider = ProviderDto::fromArray($el);
+            $key = strtoupper($provider->code[0]);
 
             if (array_key_exists($key, $grouped)) {
-                array_push($grouped[$key], $payoutMethod);
+                array_push($grouped[$key], $provider);
             } else {
-                $grouped[$key] = [$payoutMethod];
+                $grouped[$key] = [$provider];
             }
         }
 
@@ -50,41 +51,33 @@ final class PayoutServicesListBuilder extends MdBuilder
 
     public function build(): void
     {
-        $this->add(new MdHeader('Payout Services', 1), true);
+        $this->add(new MdHeader('Payment providers', 1), true);
 
         foreach ($this->data as $h => $group) {
             $this->add(new MdHeader((string) $h, 2), true);
             $this->add(new MdTable($group, [
-//                MdTableColumnDto::fromArray([
-//                    'key' => 'Logo',
-//                    'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
-//                    'set_template' => function (PayoutMethodDto $row) {
-//                        return new MdImage($this->getProviderLogo($row->code), $row->code);
-//                    },
-//                ]),
+                MdTableColumnDto::fromArray([
+                    'key' => 'Logo',
+                    'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
+                    'set_template' => function (ProviderDto $row) {
+                        return new MdImage($this->getProviderLogo($row->code), $row->code);
+                    },
+                ]),
+                MdTableColumnDto::fromArray([
+                    'key' => 'Name',
+                    'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
+                    'set_template' => function (ProviderDto $row) {
+                        return new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::PLAIN), $row->getName()->en ?? '');
+                    },
+                ]),
                 MdTableColumnDto::fromArray([
                     'key' => 'Code',
                     'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
-                    'set_template' => function (PayoutMethodDto $row) {
+                    'set_template' => function (ProviderDto $row) {
                         return new MdCode($row->code);
-                    },
-                ]),
-                MdTableColumnDto::fromArray([
-                    'key' => 'Currency',
-                    'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
-                    'set_template' => function (PayoutMethodDto $row) {
-                        return new MdCode($row->currency ?? '');
-                    },
-                ]),
-                MdTableColumnDto::fromArray([
-                    'key' => 'Fields',
-                    'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
-                    'set_template' => function (PayoutMethodDto $row) {
-                        return new MdCode((string) count($row->fields ?? []));
                     },
                 ]),
             ]));
         }
     }
-
 }

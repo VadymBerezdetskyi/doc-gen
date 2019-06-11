@@ -16,6 +16,8 @@
   },
     "minimum-stability": "dev",
     "require": {
-        "symfony/filesystem": "^5.0@dev"
+        "symfony/filesystem": "^5.0@dev",
+        "symfony/finder": "^5.0@dev",
+        "symfony/yaml": "^5.0@dev"
     }
 }

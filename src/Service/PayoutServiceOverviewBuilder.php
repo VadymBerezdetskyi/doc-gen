@@ -1,9 +1,10 @@
 <?php
 
-namespace Oft\Generator\Builders;
+namespace Oft\Generator\Service;
 
+use Oft\Generator\DataProvider;
 use Oft\Generator\Dto\MdTableColumnDto;
-use Oft\Generator\Dto\PayoutMethodDto;
+use Oft\Generator\Dto\PayoutServiceDto;
 use Oft\Generator\Dto\ServiceFieldDto;
 use Oft\Generator\Enums\MdTableColumnAlignEnum;
 use Oft\Generator\Enums\TextEmphasisPatternEnum;
@@ -20,12 +21,13 @@ final class PayoutServiceOverviewBuilder extends MdBuilder
 {
     use ImagesTrait;
 
-    /* @var PayoutMethodDto */
+    /* @var PayoutServiceDto */
     private $data;
 
-    public function __construct(array $data)
+    public function __construct(DataProvider $dataProvider, PayoutServiceDto $data)
     {
-        $this->data = PayoutMethodDto::fromArray($data);
+        parent::__construct($dataProvider);
+        $this->data = $data;
     }
 
     public function build(): void
