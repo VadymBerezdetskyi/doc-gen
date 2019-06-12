@@ -7,7 +7,7 @@ use Oft\Generator\Dto\MdTableColumnDto;
 use Oft\Generator\Dto\ProviderDto;
 use Oft\Generator\Enums\MdTableColumnAlignEnum;
 use Oft\Generator\Enums\TextEmphasisPatternEnum;
-use Oft\Generator\ImagesTrait;
+use Oft\Generator\Traits\ImagesTrait;
 use Oft\Generator\Md\MdCode;
 use Oft\Generator\Md\MdHeader;
 use Oft\Generator\Md\MdImage;
@@ -34,9 +34,8 @@ final class ProvidersListBuilder extends MdBuilder
         $codes = array_column($data, 'code');
         array_multisort($codes, SORT_ASC, $data);
 
-        foreach ($data as $el) {
-            /* @var ProviderDto $provider */
-            $provider = ProviderDto::fromArray($el);
+        /* @var ProviderDto $provider */
+        foreach ($data as $provider) {
             $key = strtoupper($provider->code[0]);
 
             if (array_key_exists($key, $grouped)) {

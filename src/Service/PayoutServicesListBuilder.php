@@ -8,7 +8,7 @@ use Oft\Generator\Dto\MdTableColumnDto;
 use Oft\Generator\Dto\PayoutServiceDto;
 use Oft\Generator\Enums\MdTableColumnAlignEnum;
 use Oft\Generator\Enums\TextEmphasisPatternEnum;
-use Oft\Generator\ImagesTrait;
+use Oft\Generator\Traits\ImagesTrait;
 use Oft\Generator\Md\MdCode;
 use Oft\Generator\Md\MdHeader;
 use Oft\Generator\Md\MdImage;
@@ -35,15 +35,14 @@ final class PayoutServicesListBuilder extends MdBuilder
         $codes = array_column($data, 'code');
         array_multisort($codes, SORT_ASC, $data);
 
-        foreach ($data as $el) {
-            /* @var PayoutServiceDto $payoutMethod */
-            $payoutMethod = PayoutServiceDto::fromArray($el);
-            $key = strtoupper($payoutMethod->code[0]);
+        /* @var PayoutServiceDto $payoutService */
+        foreach ($data as $payoutService) {
+            $key = strtoupper($payoutService->code[0]);
 
             if (array_key_exists($key, $grouped)) {
-                array_push($grouped[$key], $payoutMethod);
+                array_push($grouped[$key], $payoutService);
             } else {
-                $grouped[$key] = [$payoutMethod];
+                $grouped[$key] = [$payoutService];
             }
         }
 

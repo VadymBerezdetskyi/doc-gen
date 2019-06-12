@@ -5,7 +5,7 @@ namespace Oft\Generator\Service;
 use Oft\Generator\DataProvider;
 use Oft\Generator\Dto\PaymentMethodDto;
 use Oft\Generator\Enums\TextEmphasisPatternEnum;
-use Oft\Generator\ImagesTrait;
+use Oft\Generator\Traits\ImagesTrait;
 use Oft\Generator\Md\MdCode;
 use Oft\Generator\Md\MdCodeBlock;
 use Oft\Generator\Md\MdHeader;
@@ -37,8 +37,10 @@ final class PaymentMethodOverviewBuilder extends MdBuilder
         $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), 'Code:'));
         $this->add(new MdCode($this->data->code), true);
 
-        $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), 'Vendor:'));
-        $this->add(new MdCode($this->data->vendor), true);
+        if (null !== $this->data->vendor) {
+            $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), 'Vendor:'));
+            $this->add(new MdCode($this->data->vendor), true);
+        }
 
         $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), 'Name:'), true);
         foreach ($this->data->name as $lang => $val) {

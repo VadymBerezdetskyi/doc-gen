@@ -1,0 +1,26 @@
+## General 
+**Code:** `megogo-maksimalnaia_uah`  
+**Method:** `megogo-maksimalnaia`  
+**Currency:** `UAH` [show -->]() 
+**Amount limits:** from `2`  to `14999`  UAH ## Fields 
+### Overview 
+|Key|Required|Type|Regexp| 
+|:---:|:---:|:---:|:---:| 
+|`client_id` |✔ |`string` |`/^\d{1,128}$/` | 
+ 
+### Details 
+0 **`client_id` **  
+Type: `string`  
+Regexp: `/^\d{1,128}$/`  
+Required: `1`  
+Label:  
+: [en] MEGOGO ID  
+: [uk] MEGOGO ID  
+: [ru] MEGOGO ID  
+Hint:  
+: [en] MEGOGO ID  
+: [uk] MEGOGO ID  
+: [ru] MEGOGO ID  
+## JSON Object 
+```json
+ {"code":"megogo-maksimalnaia_uah","method":"megogo-maksimalnaia","currency":"UAH","fields":[{"key":"client_id","type":"string","label":{"en":"MEGOGO ID","uk":"MEGOGO ID","ru":"MEGOGO ID"},"regexp":"\/^\\d{1,128}$\/","required":true,"position":1,"hint":{"en":"MEGOGO ID","uk":"MEGOGO ID","ru":"MEGOGO ID"},"example":"201956241"}],"amount_min":2,"amount_max":14999}```  

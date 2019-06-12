@@ -7,7 +7,7 @@ use Oft\Generator\Dto\MdTableColumnDto;
 use Oft\Generator\Dto\ProviderDto;
 use Oft\Generator\Enums\MdTableColumnAlignEnum;
 use Oft\Generator\Enums\TextEmphasisPatternEnum;
-use Oft\Generator\ImagesTrait;
+use Oft\Generator\Traits\ImagesTrait;
 use Oft\Generator\Md\MdCode;
 use Oft\Generator\Md\MdCodeBlock;
 use Oft\Generator\Md\MdHeader;

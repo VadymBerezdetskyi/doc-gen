@@ -1,0 +1,26 @@
+## General 
+**Code:** `paypal_phone_gbp`  
+**Method:** `paypal`  
+**Currency:** `GBP` [show -->]() 
+**Amount limits:** from `0.01`  to `10000`  GBP ## Fields 
+### Overview 
+|Key|Required|Type|Regexp| 
+|:---:|:---:|:---:|:---:| 
+|`phone` |✔ |`string` |`/^\+?[-\d]{9,32}$/` | 
+ 
+### Details 
+0 **`phone` **  
+Type: `string`  
+Regexp: `/^\+?[-\d]{9,32}$/`  
+Required: `1`  
+Label:  
+: [en] Phone number  
+: [ru] Телефон  
+: [uk] Телефон  
+Hint:  
+: [en] Enter phone  
+: [ru] Введите телефон получателя  
+: [uk] Введіть телефон отримувача  
+## JSON Object 
+```json
+ {"code":"paypal_phone_gbp","method":"paypal","currency":"GBP","fields":[{"key":"phone","type":"string","label":{"en":"Phone number","ru":"\u0422\u0435\u043b\u0435\u0444\u043e\u043d","uk":"\u0422\u0435\u043b\u0435\u0444\u043e\u043d"},"hint":{"en":"Enter phone","ru":"\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u0442\u0435\u043b\u0435\u0444\u043e\u043d \u043f\u043e\u043b\u0443\u0447\u0430\u0442\u0435\u043b\u044f","uk":"\u0412\u0432\u0435\u0434\u0456\u0442\u044c \u0442\u0435\u043b\u0435\u0444\u043e\u043d \u043e\u0442\u0440\u0438\u043c\u0443\u0432\u0430\u0447\u0430"},"regexp":"\/^\\+?[-\\d]{9,32}$\/","required":true,"position":1}],"amount_min":0.01,"amount_max":10000}```  

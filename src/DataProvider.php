@@ -11,22 +11,22 @@ use Symfony\Component\Yaml\Yaml;
 class DataProvider
 {
     const PATH_TO_DATA = __DIR__.'/../data';
-    const PROVIDERS_FILENAME = 'payment_providers.json';
-    const PAYMENT_METHODS_FILENAME = 'payment_methods.json';
-    const PAYOUT_SERVICES_FILENAME = 'payout_services.json';
+    const PROVIDERS_FILENAME = '/payment_providers.json';
+    const PAYMENT_METHODS_FILENAME = '/payment_methods.json';
+    const PAYOUT_SERVICES_FILENAME = '/payout_services.json';
     const CONFIG_FILE_PATH = __DIR__.'/../mkdocs.yml';
 
     /* @var array */
-    public $providers;
+    private $providers;
 
     /* @var array */
-    public $paymentMethods;
+    private $paymentMethods;
 
     /* @var array */
-    public $payoutServices;
+    private $payoutServices;
 
     /* @var array */
-    public $config;
+    private $config;
 
     public function __construct()
     {
@@ -104,5 +104,10 @@ class DataProvider
     public function getPayoutServices(): array
     {
         return $this->payoutServices;
+    }
+
+    public function getConfig(): array
+    {
+        return $this->config;
     }
 }

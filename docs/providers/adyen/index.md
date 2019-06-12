@@ -1,0 +1,196 @@
+# Adyen 
+![adyen](https://static.openfintech.io/payment_providers/adyen/logo.svg?w=600&c=v0.59.26#w100)  
+## General 
+**Code:** `adyen`  
+**Vendor:** `adyen`  
+**Name:**  
+:	[en] Adyen  
+**Categories:**  
+`collecting`  , `acquiring`  , `aggregating`  , `distributing`  
+**Countries:**  
+![AD](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/AD.svg#w24)  
+![AR](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/AR.svg#w24)  
+![AU](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/AU.svg#w24)  
+![BE](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/BE.svg#w24)  
+![BA](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/BA.svg#w24)  
+![BR](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/BR.svg#w24)  
+![BG](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/BG.svg#w24)  
+![CA](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/CA.svg#w24)  
+![CL](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/CL.svg#w24)  
+![CO](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/CO.svg#w24)  
+![CR](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/CR.svg#w24)  
+![HR](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/HR.svg#w24)  
+![CY](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/CY.svg#w24)  
+![CZ](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/CZ.svg#w24)  
+![DK](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/DK.svg#w24)  
+![EE](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/EE.svg#w24)  
+![FO](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/FO.svg#w24)  
+![FJ](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/FJ.svg#w24)  
+![FR](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/FR.svg#w24)  
+![DE](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/DE.svg#w24)  
+![GI](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/GI.svg#w24)  
+![GR](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/GR.svg#w24)  
+![HK](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/HK.svg#w24)  
+![HU](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/HU.svg#w24)  
+![IS](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/IS.svg#w24)  
+![IN](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/IN.svg#w24)  
+![ID](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/ID.svg#w24)  
+![IM](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/IM.svg#w24)  
+![IL](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/IL.svg#w24)  
+![IT](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/IT.svg#w24)  
+![JP](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/JP.svg#w24)  
+![LV](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/LV.svg#w24)  
+![LI](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/LI.svg#w24)  
+![LT](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/LT.svg#w24)  
+![LU](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/LU.svg#w24)  
+![MY](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/MY.svg#w24)  
+![ML](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/ML.svg#w24)  
+![MX](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/MX.svg#w24)  
+![MC](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/MC.svg#w24)  
+![NL](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/NL.svg#w24)  
+![NI](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/NI.svg#w24)  
+![NO](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/NO.svg#w24)  
+![PE](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/PE.svg#w24)  
+![PH](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/PH.svg#w24)  
+![AX](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/AX.svg#w24)  
+![PT](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/PT.svg#w24)  
+![RO](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/RO.svg#w24)  
+![SG](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/SG.svg#w24)  
+![SK](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/SK.svg#w24)  
+![ZA](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/ZA.svg#w24)  
+![ES](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/ES.svg#w24)  
+![SE](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/SE.svg#w24)  
+![CH](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/CH.svg#w24)  
+![TH](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/TH.svg#w24)  
+![RW](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/RW.svg#w24)  
+![AE](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/AE.svg#w24)  
+![UM](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/UM.svg#w24)  
+ 
+## Images 
+### Logo 
+![adyen](https://static.openfintech.io/payment_providers/adyen/logo.svg?w=600&c=v0.59.26#w100)  
+```
+ https://static.openfintech.io/payment_providers/adyen/logo.svg?w=600&c=v0.59.26#w100```  
+### Icon 
+![adyen](https://static.openfintech.io/payment_providers/adyen/icon.svg?w=600&c=v0.59.26#w100)  
+```
+ https://static.openfintech.io/payment_providers/adyen/icon.svg?w=600&c=v0.59.26#w100```  
+## Payment Methods 
+The list of supported  [Payment Methods](#) 
+|Code| 
+|:---| 
+|`visa2` | 
+|`cashu` | 
+|`cartebancaires` | 
+|`americanexpress` | 
+|`ukash` | 
+|`jcb` | 
+|`dinersclub` | 
+|`cartebleue` | 
+|`visaelectron` | 
+|`maestro` | 
+|`visadebit` | 
+|`vpay` | 
+|`mastercarddebit` | 
+|`uatp` | 
+|`postepay` | 
+|`cartasi` | 
+|`bancontactmistercash` | 
+|`multibanconet` | 
+|`aura` | 
+|`paysafecard` | 
+|`debitobradesco` | 
+|`chinaunionpay` | 
+|`cabal` | 
+|`dankort` | 
+|`hipercard` | 
+|`mastercard` | 
+|`elo` | 
+|`discover` | 
+|`presto` | 
+|`tarjetaripley` | 
+|`smsbilling` | 
+|`erstebank` | 
+|`directdebit` | 
+|`unicredit` | 
+|`ceskasporitelna` | 
+|`csob` | 
+|`ideal` | 
+|`sepacredittransfer` | 
+|`interac` | 
+|`gemoney` | 
+|`komercnibanka` | 
+|`raiffeisenbank` | 
+|`safetypay` | 
+|`volksbank` | 
+|`sebbank` | 
+|`bankzachodniwbk` | 
+|`creditagricole` | 
+|`boletobancariopay` | 
+|`pagorapido` | 
+|`polipayonline` | 
+|`przelewy24` | 
+|`sofortbanking` | 
+|`eps` | 
+|`acceptemail` | 
+|`danskebank` | 
+|`jyskebank` | 
+|`nordea` | 
+|`alandsbanken` | 
+|`aktia` | 
+|`handelsbanken` | 
+|`bradescocomercioeletronico` | 
+|`banrisulbanricompras` | 
+|`oppohjola` | 
+|`osuuspankki` | 
+|`poppankki` | 
+|`saastopankki` | 
+|`santander` | 
+|`forexbank` | 
+|`icabanken` | 
+|`spankki` | 
+|`giropay` | 
+|`tapiola` | 
+|`lansforsakringar` | 
+|`skandiabanken` | 
+|`swedbank` | 
+|`bankaxess` | 
+|`kbcbetaalknop` | 
+|`payshop` | 
+|`bancsabadell` | 
+|`sepadirectdebit` | 
+|`inteligo` | 
+|`bancopastor` | 
+|`mbank` | 
+|`elektronischeslastschriftverfahren` | 
+|`bancopopular` | 
+|`milleniumbank` | 
+|`bitcoin` | 
+|`multibank` | 
+|`ciberpay` | 
+|`afterpay` | 
+|`moneymail` | 
+|`otpbank` | 
+|`postovabanka` | 
+|`primabanka` | 
+|`trustly` | 
+|`slovenskasporitelna` | 
+|`tatrabanka` | 
+|`vubbanka` | 
+|`bankinter` | 
+|`argencard` | 
+|`klarna` | 
+|`bankia` | 
+|`pagofacil` | 
+|`bbva` | 
+|`ingspain` | 
+|`provinciapagos` | 
+|`lacaixa` | 
+|`electroniccheckach` | 
+|`rapipago` | 
+|`inghomepay` | 
+|`servipag` | 
+ 
+## JSON Object 
+```json
+ {"code":"adyen","description":null,"vendor":"adyen","categories":["collecting","acquiring","aggregating","distributing"],"countries":["AD","AR","AU","BE","BA","BR","BG","CA","CL","CO","CR","HR","CY","CZ","DK","EE","FO","FJ","FR","DE","GI","GR","HK","HU","IS","IN","ID","IM","IL","IT","JP","LV","LI","LT","LU","MY","ML","MX","MC","NL","NI","NO","PE","PH","AX","PT","RO","SG","SK","ZA","ES","SE","CH","TH","RW","AE","UM"],"payment_method":["visa2","cashu","cartebancaires","americanexpress","ukash","jcb","dinersclub","cartebleue","visaelectron","maestro","visadebit","vpay","mastercarddebit","uatp","postepay","cartasi","bancontactmistercash","multibanconet","aura","paysafecard","debitobradesco","chinaunionpay","cabal","dankort","hipercard","mastercard","elo","discover","presto","tarjetaripley","smsbilling","erstebank","directdebit","unicredit","ceskasporitelna","csob","ideal","sepacredittransfer","interac","gemoney","komercnibanka","raiffeisenbank","safetypay","volksbank","sebbank","bankzachodniwbk","creditagricole","boletobancariopay","pagorapido","polipayonline","przelewy24","sofortbanking","eps","acceptemail","danskebank","jyskebank","nordea","alandsbanken","aktia","handelsbanken","bradescocomercioeletronico","banrisulbanricompras","oppohjola","osuuspankki","poppankki","saastopankki","santander","forexbank","icabanken","spankki","giropay","tapiola","lansforsakringar","skandiabanken","swedbank","bankaxess","kbcbetaalknop","payshop","bancsabadell","sepadirectdebit","inteligo","bancopastor","mbank","elektronischeslastschriftverfahren","bancopopular","milleniumbank","bitcoin","multibank","ciberpay","afterpay","moneymail","otpbank","postovabanka","primabanka","trustly","slovenskasporitelna","tatrabanka","vubbanka","bankinter","argencard","klarna","bankia","pagofacil","bbva","ingspain","provinciapagos","lacaixa","electroniccheckach","rapipago","inghomepay","servipag"],"payout_method":null,"metadata":{"about_payments_code":"adyen"},"name":{"en":"Adyen"}}```  
