@@ -10,7 +10,7 @@
  
 **Name:**  
  
-:	[en] Europay Solutions  
+:	[EN] Europay Solutions  
 
 ## Images 
 

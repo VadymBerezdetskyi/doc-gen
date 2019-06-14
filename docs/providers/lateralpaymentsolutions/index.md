@@ -10,7 +10,7 @@
  
 **Name:**  
  
-:	[en] Lateral Payment Solutions  
+:	[EN] Lateral Payment Solutions  
 
 ## Images 
 

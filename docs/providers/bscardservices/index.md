@@ -10,7 +10,7 @@
  
 **Name:**  
  
-:	[en] B+S Card Service  
+:	[EN] B+S Card Service  
 
 ## Images 
 

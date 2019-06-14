@@ -10,7 +10,7 @@
  
 **Name:**  
  
-:	[en] Payment Express  
+:	[EN] Payment Express  
 
 ## Images 
 

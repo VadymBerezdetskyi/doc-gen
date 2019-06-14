@@ -10,7 +10,7 @@
  
 **Name:**  
  
-:	[en] PayAnyWay.com  
+:	[EN] PayAnyWay.com  
 
 ## Images 
 

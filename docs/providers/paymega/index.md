@@ -10,7 +10,7 @@
  
 **Name:**  
  
-:	[en] PayMega  
+:	[EN] PayMega  
 **Categories:**  
 `aggregating`  
  

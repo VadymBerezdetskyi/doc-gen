@@ -10,7 +10,7 @@
  
 **Name:**  
  
-:	[en] African Payment Solutions  
+:	[EN] African Payment Solutions  
 **Categories:**  
 `collecting`  , `distributing`  , `aggregating`  
  

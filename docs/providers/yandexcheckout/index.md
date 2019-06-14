@@ -10,9 +10,9 @@
  
 **Name:**  
  
-:	[en] Yandex.Checkout  
-:	[uk] Яндекс.Каса  
-:	[ru] Яндекс.Касса  
+:	[EN] Yandex.Checkout  
+:	[UK] Яндекс.Каса  
+:	[RU] Яндекс.Касса  
 **Categories:**  
 `aggregating`  , `distributing`  , `collecting`  
  

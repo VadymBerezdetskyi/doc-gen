@@ -10,7 +10,7 @@
  
 **Name:**  
  
-:	[en] AnyCash  
+:	[EN] AnyCash  
 
 ## Images 
 

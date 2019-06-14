@@ -10,7 +10,7 @@
  
 **Name:**  
  
-:	[en] EOS Payment  
+:	[EN] EOS Payment  
 
 ## Images 
 

@@ -10,7 +10,7 @@
  
 **Name:**  
  
-:	[en] State Bank of Mauritius  
+:	[EN] State Bank of Mauritius  
 
 ## Images 
 

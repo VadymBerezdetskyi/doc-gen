@@ -10,9 +10,9 @@
  
 **Name:**  
  
-:	[en] Test  
-:	[ru] Test  
-:	[uk] Test  
+:	[EN] Test  
+:	[RU] Test  
+:	[UK] Test  
 
 ## Images 
 

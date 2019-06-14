@@ -10,7 +10,7 @@
  
 **Name:**  
  
-:	[en] Wayforpay  
+:	[EN] Wayforpay  
 
 ## Images 
 

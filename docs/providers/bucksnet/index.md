@@ -10,7 +10,7 @@
  
 **Name:**  
  
-:	[en] Bucks Net Services  
+:	[EN] Bucks Net Services  
 
 ## Images 
 

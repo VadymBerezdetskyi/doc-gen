@@ -10,7 +10,7 @@
  
 **Name:**  
  
-:	[en] Ecpss  
+:	[EN] Ecpss  
 
 ## Images 
 

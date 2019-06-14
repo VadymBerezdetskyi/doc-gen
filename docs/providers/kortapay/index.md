@@ -10,7 +10,7 @@
  
 **Name:**  
  
-:	[en] Korta Pay  
+:	[EN] Korta Pay  
 
 ## Images 
 

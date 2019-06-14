@@ -10,7 +10,7 @@
  
 **Name:**  
  
-:	[en] First Atlantic Commerce  
+:	[EN] First Atlantic Commerce  
 **Categories:**  
 `collecting`  , `aggregating`  , `distributing`  
  

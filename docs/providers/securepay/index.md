@@ -10,11 +10,11 @@
  
 **Name:**  
  
-:	[en] SecurePay  
-**Countries:**  
-![AU](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/AU.svg#w24)  
-![NZ](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/NZ.svg#w24)  
+:	[EN] SecurePay  
  
+**Countries:**  
+ 
+:	![AU](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/au.svg#w24) 	![NZ](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/nz.svg#w24)  
 
 ## Images 
 

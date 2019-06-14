@@ -10,7 +10,7 @@
  
 **Name:**  
  
-:	[en] FlashPay  
+:	[EN] FlashPay  
 
 ## Images 
 

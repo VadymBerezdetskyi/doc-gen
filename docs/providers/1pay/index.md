@@ -10,13 +10,14 @@
  
 **Name:**  
  
-:	[en] 1Pay  
+:	[EN] 1Pay  
 **Categories:**  
 `distributing`  
  
-**Countries:**  
-![VN](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/VN.svg#w24)  
  
+**Countries:**  
+ 
+:	![VN](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/vn.svg#w24)  
 
 ## Images 
 

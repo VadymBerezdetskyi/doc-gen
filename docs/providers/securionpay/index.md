@@ -10,7 +10,7 @@
  
 **Name:**  
  
-:	[en] SecurionPay  
+:	[EN] SecurionPay  
 **Categories:**  
 `collecting`  , `distributing`  , `aggregating`  
  

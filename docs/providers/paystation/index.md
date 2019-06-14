@@ -10,7 +10,7 @@
  
 **Name:**  
  
-:	[en] Paystation  
+:	[EN] Paystation  
 
 ## Images 
 

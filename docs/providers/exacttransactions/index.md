@@ -10,7 +10,7 @@
  
 **Name:**  
  
-:	[en] E-xact Transactions  
+:	[EN] E-xact Transactions  
 
 ## Images 
 

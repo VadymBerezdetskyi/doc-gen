@@ -10,7 +10,7 @@
  
 **Name:**  
  
-:	[en] SIX Payment Services  
+:	[EN] SIX Payment Services  
 
 ## Images 
 

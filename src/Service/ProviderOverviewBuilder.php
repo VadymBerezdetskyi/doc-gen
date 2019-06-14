@@ -47,7 +47,8 @@ final class ProviderOverviewBuilder extends MdBuilder
         $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), 'Name:'), true);
         $this->br();
         foreach ($this->data->name as $lang => $val) {
-            $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::PLAIN), ":\t[$lang] $val"), true);
+            $viewLang = strtoupper($lang);
+            $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::PLAIN), ":\t[$viewLang] $val"), true);
         }
 
         if (null !== $this->data->description) {
@@ -55,7 +56,8 @@ final class ProviderOverviewBuilder extends MdBuilder
             $this->br();
 
             foreach ($this->data->description as $lang => $val) {
-                $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::PLAIN), ": [$lang] $val"), true);
+                $viewLang = strtoupper($lang);
+                $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::PLAIN), ": [$viewLang] $val"), true);
             }
             $this->br();
         }
@@ -75,10 +77,14 @@ final class ProviderOverviewBuilder extends MdBuilder
         }
 
         if (null !== $this->data->countries) {
+            $this->br();
             $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), 'Countries:'), true);
+            $this->br();
+            $this->addString(":");
 
             foreach ($this->data->countries as $code) {
-                $this->add(new MdImage($this->getFlagIcon($code), $code), true);
+                $this->addString("\t");
+                $this->add(new MdImage($this->getFlagIcon(strtolower($code)), $code));
             }
 
             $this->br();

@@ -10,7 +10,7 @@
  
 **Name:**  
  
-:	[en] Paybox  
+:	[EN] Paybox  
 
 ## Images 
 

@@ -10,7 +10,7 @@
  
 **Name:**  
  
-:	[en] CardConnect  
+:	[EN] CardConnect  
 
 ## Images 
 

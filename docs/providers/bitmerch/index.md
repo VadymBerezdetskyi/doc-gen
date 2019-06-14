@@ -10,7 +10,7 @@
  
 **Name:**  
  
-:	[en] BitMerch  
+:	[EN] BitMerch  
 
 ## Images 
 

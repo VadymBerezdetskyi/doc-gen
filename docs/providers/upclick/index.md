@@ -10,7 +10,7 @@
  
 **Name:**  
  
-:	[en] Upclick  
+:	[EN] Upclick  
 
 ## Images 
 

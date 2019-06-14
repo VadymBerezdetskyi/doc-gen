@@ -10,10 +10,11 @@
  
 **Name:**  
  
-:	[en] Ezic  
-**Countries:**  
-![UM](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/UM.svg#w24)  
+:	[EN] Ezic  
  
+**Countries:**  
+ 
+:	![UM](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/um.svg#w24)  
 
 ## Images 
 

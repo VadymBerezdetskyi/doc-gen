@@ -10,7 +10,7 @@
  
 **Name:**  
  
-:	[en] Dinpay  
+:	[EN] Dinpay  
 **Categories:**  
 `collecting`  , `aggregating`  , `distributing`  , `acquiring`  
  

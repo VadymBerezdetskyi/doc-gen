@@ -10,7 +10,7 @@
  
 **Name:**  
  
-:	[en] PayCific  
+:	[EN] PayCific  
 
 ## Images 
 

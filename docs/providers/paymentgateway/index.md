@@ -10,7 +10,7 @@
  
 **Name:**  
  
-:	[en] PayGateway  
+:	[EN] PayGateway  
 
 ## Images 
 

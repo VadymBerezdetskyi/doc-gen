@@ -10,7 +10,7 @@
  
 **Name:**  
  
-:	[en] Realex Payments  
+:	[EN] Realex Payments  
 
 ## Images 
 

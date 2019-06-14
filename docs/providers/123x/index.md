@@ -10,7 +10,7 @@
  
 **Name:**  
  
-:	[en] 123x  
+:	[EN] 123x  
 
 ## Images 
 

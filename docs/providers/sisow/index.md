@@ -10,14 +10,14 @@
  
 **Name:**  
  
-:	[en] Sisow  
+:	[EN] Sisow  
 **Categories:**  
 `aggregating`  , `collecting`  , `distributing`  
  
-**Countries:**  
-![BE](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/BE.svg#w24)  
-![NL](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/NL.svg#w24)  
  
+**Countries:**  
+ 
+:	![BE](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/be.svg#w24) 	![NL](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/nl.svg#w24)  
 
 ## Images 
 

@@ -10,7 +10,7 @@
  
 **Name:**  
  
-:	[en] ProPay  
+:	[EN] ProPay  
 
 ## Images 
 

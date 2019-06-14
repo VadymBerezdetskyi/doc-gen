@@ -10,17 +10,14 @@
  
 **Name:**  
  
-:	[en] Mollie  
+:	[EN] Mollie  
 **Categories:**  
 `distributing`  , `collecting`  , `aggregating`  
  
-**Countries:**  
-![BE](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/BE.svg#w24)  
-![FR](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/FR.svg#w24)  
-![DE](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/DE.svg#w24)  
-![LU](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/LU.svg#w24)  
-![NL](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/NL.svg#w24)  
  
+**Countries:**  
+ 
+:	![BE](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/be.svg#w24) 	![FR](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/fr.svg#w24) 	![DE](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/de.svg#w24) 	![LU](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/lu.svg#w24) 	![NL](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/nl.svg#w24)  
 
 ## Images 
 

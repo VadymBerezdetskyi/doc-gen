@@ -10,7 +10,7 @@
  
 **Name:**  
  
-:	[en] LiqPay  
+:	[EN] LiqPay  
 
 ## Images 
 

@@ -10,13 +10,11 @@
  
 **Name:**  
  
-:	[en] DineroMail  
-**Countries:**  
-![AR](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/AR.svg#w24)  
-![BR](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/BR.svg#w24)  
-![CO](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/CO.svg#w24)  
-![MX](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/MX.svg#w24)  
+:	[EN] DineroMail  
  
+**Countries:**  
+ 
+:	![AR](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/ar.svg#w24) 	![BR](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/br.svg#w24) 	![CO](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/co.svg#w24) 	![MX](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/mx.svg#w24)  
 
 ## Images 
 

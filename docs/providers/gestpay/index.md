@@ -10,10 +10,11 @@
  
 **Name:**  
  
-:	[en] GestPay  
-**Countries:**  
-![IT](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/IT.svg#w24)  
+:	[EN] GestPay  
  
+**Countries:**  
+ 
+:	![IT](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/it.svg#w24)  
 
 ## Images 
 

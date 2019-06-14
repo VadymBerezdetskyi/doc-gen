@@ -10,10 +10,11 @@
  
 **Name:**  
  
-:	[en] Zaakpay  
-**Countries:**  
-![IN](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/IN.svg#w24)  
+:	[EN] Zaakpay  
  
+**Countries:**  
+ 
+:	![IN](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/in.svg#w24)  
 
 ## Images 
 

@@ -10,7 +10,7 @@
  
 **Name:**  
  
-:	[en] WebMoney  
+:	[EN] WebMoney  
 **Categories:**  
 `aggregating`  
  

@@ -10,7 +10,7 @@
  
 **Name:**  
  
-:	[en] BIPS  
+:	[EN] BIPS  
 
 ## Images 
 

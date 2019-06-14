@@ -10,7 +10,7 @@
  
 **Name:**  
  
-:	[en] CashSender  
+:	[EN] CashSender  
 
 ## Images 
 

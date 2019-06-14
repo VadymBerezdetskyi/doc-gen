@@ -10,10 +10,11 @@
  
 **Name:**  
  
-:	[en] BalticPay Corporation  
-**Countries:**  
-![LV](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/LV.svg#w24)  
+:	[EN] BalticPay Corporation  
  
+**Countries:**  
+ 
+:	![LV](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/lv.svg#w24)  
 
 ## Images 
 

@@ -10,7 +10,7 @@
  
 **Name:**  
  
-:	[en] Aramor Payments  
+:	[EN] Aramor Payments  
 
 ## Images 
 

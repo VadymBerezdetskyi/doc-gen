@@ -10,10 +10,11 @@
  
 **Name:**  
  
-:	[en] tefpay  
-**Countries:**  
-![ES](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/ES.svg#w24)  
+:	[EN] tefpay  
  
+**Countries:**  
+ 
+:	![ES](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/es.svg#w24)  
 
 ## Images 
 

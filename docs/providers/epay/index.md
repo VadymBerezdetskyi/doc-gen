@@ -10,7 +10,7 @@
  
 **Name:**  
  
-:	[en] ePay  
+:	[EN] ePay  
 
 ## Images 
 

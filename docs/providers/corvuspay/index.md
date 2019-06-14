@@ -10,7 +10,7 @@
  
 **Name:**  
  
-:	[en] CorvusPay  
+:	[EN] CorvusPay  
 
 ## Images 
 

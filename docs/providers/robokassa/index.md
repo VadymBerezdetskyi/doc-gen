@@ -10,7 +10,7 @@
  
 **Name:**  
  
-:	[en] Robokassa  
+:	[EN] Robokassa  
 
 ## Images 
 

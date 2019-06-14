@@ -10,7 +10,7 @@
  
 **Name:**  
  
-:	[en] Pin Payments  
+:	[EN] Pin Payments  
 
 ## Images 
 

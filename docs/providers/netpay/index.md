@@ -10,7 +10,7 @@
  
 **Name:**  
  
-:	[en] NetPay  
+:	[EN] NetPay  
 
 ## Images 
 

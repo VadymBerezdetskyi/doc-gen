@@ -10,7 +10,7 @@
  
 **Name:**  
  
-:	[en] eCard  
+:	[EN] eCard  
 
 ## Images 
 

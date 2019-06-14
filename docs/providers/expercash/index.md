@@ -10,7 +10,7 @@
  
 **Name:**  
  
-:	[en] EXPERCASH  
+:	[EN] EXPERCASH  
 
 ## Images 
 

@@ -10,7 +10,7 @@
  
 **Name:**  
  
-:	[en] Masterpayment  
+:	[EN] Masterpayment  
 
 ## Images 
 

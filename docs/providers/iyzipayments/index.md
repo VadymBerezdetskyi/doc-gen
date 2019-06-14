@@ -10,7 +10,7 @@
  
 **Name:**  
  
-:	[en] iyzico  
+:	[EN] iyzico  
 **Categories:**  
 `collecting`  , `aggregating`  , `distributing`  
  

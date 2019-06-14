@@ -10,7 +10,7 @@
  
 **Name:**  
  
-:	[en] Paymundo  
+:	[EN] Paymundo  
 
 ## Images 
 

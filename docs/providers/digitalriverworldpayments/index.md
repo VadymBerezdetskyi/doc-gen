@@ -10,7 +10,7 @@
  
 **Name:**  
  
-:	[en] Digital River World Payments  
+:	[EN] Digital River World Payments  
 **Categories:**  
 `acquiring`  , `collecting`  , `aggregating`  , `distributing`  
  

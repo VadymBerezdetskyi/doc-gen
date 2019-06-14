@@ -10,10 +10,11 @@
  
 **Name:**  
  
-:	[en] MangoPay  
-**Countries:**  
-![FR](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/FR.svg#w24)  
+:	[EN] MangoPay  
  
+**Countries:**  
+ 
+:	![FR](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/fr.svg#w24)  
 
 ## Images 
 

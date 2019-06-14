@@ -10,9 +10,9 @@
  
 **Name:**  
  
-:	[en] Yandex.Money  
-:	[ru] Яндекс.Деньги  
-:	[uk] Yandex.Money  
+:	[EN] Yandex.Money  
+:	[RU] Яндекс.Деньги  
+:	[UK] Yandex.Money  
 **Categories:**  
 `aggregating`  , `distributing`  , `collecting`  
  

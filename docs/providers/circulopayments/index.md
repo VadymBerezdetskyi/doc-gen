@@ -10,7 +10,7 @@
  
 **Name:**  
  
-:	[en] Circulo Payments  
+:	[EN] Circulo Payments  
 
 ## Images 
 
