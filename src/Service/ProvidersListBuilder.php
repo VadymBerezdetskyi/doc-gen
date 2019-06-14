@@ -14,10 +14,11 @@ use Oft\Generator\Md\MdHeader;
 use Oft\Generator\Md\MdImage;
 use Oft\Generator\Md\MdTable;
 use Oft\Generator\Md\MdText;
+use Oft\Generator\Traits\SortingTrait;
 
 final class ProvidersListBuilder extends MdBuilder
 {
-    use ImagesTrait;
+    use ImagesTrait, SortingTrait;
 
     /* @var array */
     private $data;
@@ -32,11 +33,8 @@ final class ProvidersListBuilder extends MdBuilder
     {
         $grouped = [];
 
-        $codes = array_column($data, 'code');
-        array_multisort($codes, SORT_ASC, $data);
-
         /* @var ProviderDto $provider */
-        foreach ($data as $provider) {
+        foreach ($this->sort($data) as $provider) {
             $key = strtoupper($provider->code[0]);
 
             if (array_key_exists($key, $grouped)) {

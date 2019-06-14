@@ -262,3 +262,29 @@ nav:
         Yapstone: providers/yapstone/index.md
       -
         Zaakpay: providers/zaakpay/index.md
+  -
+    'Payout services':
+      -
+        Overview: payout-services/index.md
+      -
+        Advcash_wallet_rub: payout-services/advcash_wallet_rub/index.md
+      -
+        Advcash_wallet_uah: payout-services/advcash_wallet_uah/index.md
+      -
+        Advcash_wallet_usd: payout-services/advcash_wallet_usd/index.md
+      -
+        Bank_card_kzt: payout-services/bank_card_kzt/index.md
+      -
+        Bank_card_rub: payout-services/bank_card_rub/index.md
+      -
+        Bank_card_uah: payout-services/bank_card_uah/index.md
+      -
+        Payment_card_holder_rub: payout-services/payment_card_holder_rub/index.md
+      -
+        Payment_card_kzt: payout-services/payment_card_kzt/index.md
+      -
+        Payment_card_rub: payout-services/payment_card_rub/index.md
+      -
+        Payment_card_uah: payout-services/payment_card_uah/index.md
+      -
+        Qiwi_rub: payout-services/qiwi_rub/index.md

@@ -77,7 +77,7 @@ class DocBuilder
         $this->createDirectory(self::PATH_TO_DOCS.'/payout-services');
 
         /* @var PayoutServiceDto $payoutService */
-        foreach ($this->dataProvider->getPayoutServices() as $payoutService) {
+        foreach ($this->sort($this->dataProvider->getPayoutServices()) as $payoutService) {
             $payoutServiceOverviewBuilder = new PayoutServiceOverviewBuilder($this->dataProvider, $payoutService);
             $payoutServiceOverviewBuilder->build();
 
@@ -114,11 +114,11 @@ class DocBuilder
         }
         array_push($nav, ['Providers' => $providers]);
 
-//        $payoutServices = [['Overview' => 'payout-services/index.md']];
-//        foreach ($this->dataProvider->getPayoutServices() as $service) {
-//            array_push($payoutServices, [ucfirst($service->code) => 'payout-services/'.$service->code.'/index.md']);
-//        }
-//        array_push($nav, ['Payout services' => $payoutServices]);
+        $payoutServices = [['Overview' => 'payout-services/index.md']];
+        foreach ($this->sort($this->dataProvider->getPayoutServices()) as $service) {
+            array_push($payoutServices, [ucfirst($service->code) => 'payout-services/'.$service->code.'/index.md']);
+        }
+        array_push($nav, ['Payout services' => $payoutServices]);
 //
 //        $paymentMethods = [];
 //        foreach ($this->dataProvider->getPaymentMethods() as $method) {
@@ -133,7 +133,7 @@ class DocBuilder
     public function build(): void
     {
         $this->buildProviders();
-//        $this->buildPayoutServices();
+        $this->buildPayoutServices();
 //        $this->buildPaymentMethods();
         $this->buildConfig();
     }
