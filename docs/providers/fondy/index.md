@@ -1,12 +1,19 @@
+
 # FONDY 
 ![fondy](https://static.openfintech.io/payment_providers/fondy/logo.svg?w=600&c=v0.59.26#w100)  
+
 ## General 
+ 
 **Code:** `fondy`  
+ 
 **Vendor:** `fondy`  
+ 
 **Name:**  
+ 
 :	[en] FONDY  
 **Categories:**  
 `aggregating`  , `collecting`  , `distributing`  
+ 
 **Countries:**  
 ![AU](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/AU.svg#w24)  
 ![AZ](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/AZ.svg#w24)  
@@ -42,17 +49,29 @@
 ![RW](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/RW.svg#w24)  
 ![AE](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/AE.svg#w24)  
  
+
 ## Images 
+
 ### Logo 
+ 
 ![fondy](https://static.openfintech.io/payment_providers/fondy/logo.svg?w=600&c=v0.59.26#w100)  
+
 ```
- https://static.openfintech.io/payment_providers/fondy/logo.svg?w=600&c=v0.59.26#w100```  
+https://static.openfintech.io/payment_providers/fondy/logo.svg?w=600&c=v0.59.26#w100
+```  
+
 ### Icon 
+ 
 ![fondy](https://static.openfintech.io/payment_providers/fondy/icon.svg?w=600&c=v0.59.26#w100)  
+
 ```
- https://static.openfintech.io/payment_providers/fondy/icon.svg?w=600&c=v0.59.26#w100```  
+https://static.openfintech.io/payment_providers/fondy/icon.svg?w=600&c=v0.59.26#w100
+```  
+
 ## Payment Methods 
+ 
 The list of supported  [Payment Methods](#) 
+
 |Code| 
 |:---| 
 |`mastercard` | 
@@ -73,6 +92,79 @@ The list of supported  [Payment Methods](#)
 |`sepacredittransfer` | 
 |`ekonto` | 
  
+
 ## JSON Object 
+
 ```json
- {"code":"fondy","description":null,"vendor":"fondy","categories":["aggregating","collecting","distributing"],"countries":["AU","AZ","BE","BG","CY","CZ","DK","EE","FJ","FR","GE","DE","GR","HU","IS","IT","KZ","LV","LT","LU","ML","MD","NL","NO","AX","PT","RO","SK","ES","SE","CH","RW","AE"],"payment_method":["mastercard","visa2","visaelectron","maestro","visadebit","vpay","mastercarddebit","account2account","giropay","komercnibanka","raiffeisenbank","banklink","ceskasporitelna","sofortbanking","csob","sepacredittransfer","ekonto"],"payout_method":null,"metadata":{"about_payments_code":"fondy"},"name":{"en":"FONDY"}}```  
+{
+  "code":"fondy",
+  "description":null,
+  "vendor":"fondy",
+  "categories":[
+    "aggregating",
+    "collecting",
+    "distributing"
+  ],
+  "countries":[
+    "AU",
+    "AZ",
+    "BE",
+    "BG",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FJ",
+    "FR",
+    "GE",
+    "DE",
+    "GR",
+    "HU",
+    "IS",
+    "IT",
+    "KZ",
+    "LV",
+    "LT",
+    "LU",
+    "ML",
+    "MD",
+    "NL",
+    "NO",
+    "AX",
+    "PT",
+    "RO",
+    "SK",
+    "ES",
+    "SE",
+    "CH",
+    "RW",
+    "AE"
+  ],
+  "payment_method":[
+    "mastercard",
+    "visa2",
+    "visaelectron",
+    "maestro",
+    "visadebit",
+    "vpay",
+    "mastercarddebit",
+    "account2account",
+    "giropay",
+    "komercnibanka",
+    "raiffeisenbank",
+    "banklink",
+    "ceskasporitelna",
+    "sofortbanking",
+    "csob",
+    "sepacredittransfer",
+    "ekonto"
+  ],
+  "payout_method":null,
+  "metadata":{
+    "about_payments_code":"fondy"
+  },
+  "name":{
+    "en":"FONDY"
+  }
+}
+```  

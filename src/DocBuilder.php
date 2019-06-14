@@ -10,12 +10,15 @@ use Oft\Generator\Service\PayoutServiceOverviewBuilder;
 use Oft\Generator\Service\PayoutServicesListBuilder;
 use Oft\Generator\Service\ProviderOverviewBuilder;
 use Oft\Generator\Service\ProvidersListBuilder;
+use Oft\Generator\Traits\SortingTrait;
 use Symfony\Component\Filesystem\Exception\IOExceptionInterface;
 use Symfony\Component\Filesystem\Filesystem;
 use Symfony\Component\Yaml\Yaml;
 
 class DocBuilder
 {
+    use SortingTrait;
+
     const PATH_TO_DOCS = __DIR__.'/../docs';
     const CONFIG_FILE_PATH = __DIR__.'/../mkdocs.yml';
 
@@ -56,7 +59,7 @@ class DocBuilder
         $this->createDirectory(self::PATH_TO_DOCS.'/providers');
 
         /* @var ProviderDto $provider */
-        foreach ($this->dataProvider->getProviders() as $provider) {
+        foreach ($this->sort($this->dataProvider->getProviders()) as $provider) {
             $providerOverviewBuilder = new ProviderOverviewBuilder($this->dataProvider, $provider);
             $providerOverviewBuilder->build();
 
@@ -103,15 +106,14 @@ class DocBuilder
 
     private function buildConfig(): void
     {
-        $config = $this->dataProvider->getConfig();
-//        $nav = $config['nav'] ?? [];
-//
-//        $providers = [['Overview' => 'providers/index.md']];
-//        foreach ($this->dataProvider->getProviders() as $provider) {
-//            array_push($providers, [ucfirst($provider->code) => 'providers/'.$provider->code.'/index.md']);
-//        }
-//        array_push($nav, ['Providers' => $providers]);
-//
+        $nav = [];
+
+        $providers = [['Overview' => 'providers/index.md']];
+        foreach ($this->sort($this->dataProvider->getProviders()) as $provider) {
+            array_push($providers, [ucfirst($provider->code) => 'providers/'.$provider->code.'/index.md']);
+        }
+        array_push($nav, ['Providers' => $providers]);
+
 //        $payoutServices = [['Overview' => 'payout-services/index.md']];
 //        foreach ($this->dataProvider->getPayoutServices() as $service) {
 //            array_push($payoutServices, [ucfirst($service->code) => 'payout-services/'.$service->code.'/index.md']);
@@ -119,20 +121,20 @@ class DocBuilder
 //        array_push($nav, ['Payout services' => $payoutServices]);
 //
 //        $paymentMethods = [];
-//        foreach ($this->dataProvider->getPayoutServices() as $method) {
+//        foreach ($this->dataProvider->getPaymentMethods() as $method) {
 //            array_push( $paymentMethods, [ucfirst($method->code) => 'payment-methods/'.$method->code.'/index.md']);
 //        }
 //        array_push($nav, ['Payment methods' => $paymentMethods]);
-//
-//        $config['nav'] = $nav;
-        $this->writeFile(self::CONFIG_FILE_PATH, Yaml::dump($config, 5));
+
+
+        $this->writeFile(self::CONFIG_FILE_PATH, $this->dataProvider->getConfig().Yaml::dump(['nav' => $nav], 5, 2));
     }
 
     public function build(): void
     {
         $this->buildProviders();
-        $this->buildPayoutServices();
-        $this->buildPaymentMethods();
+//        $this->buildPayoutServices();
+//        $this->buildPaymentMethods();
         $this->buildConfig();
     }
 }

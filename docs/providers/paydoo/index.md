@@ -1,12 +1,19 @@
+
 # Paydoo 
 ![paydoo](https://static.openfintech.io/payment_providers/paydoo/logo.svg?w=600&c=v0.59.26#w100)  
+
 ## General 
+ 
 **Code:** `paydoo`  
+ 
 **Vendor:** `paydoo`  
+ 
 **Name:**  
+ 
 :	[en] Paydoo  
 **Categories:**  
 `aggregating`  , `distributing`  , `collecting`  
+ 
 **Countries:**  
 ![AX](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/AX.svg#w24)  
 ![AL](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/AL.svg#w24)  
@@ -55,17 +62,29 @@
 ![RW](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/RW.svg#w24)  
 ![AE](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/AE.svg#w24)  
  
+
 ## Images 
+
 ### Logo 
+ 
 ![paydoo](https://static.openfintech.io/payment_providers/paydoo/logo.svg?w=600&c=v0.59.26#w100)  
+
 ```
- https://static.openfintech.io/payment_providers/paydoo/logo.svg?w=600&c=v0.59.26#w100```  
+https://static.openfintech.io/payment_providers/paydoo/logo.svg?w=600&c=v0.59.26#w100
+```  
+
 ### Icon 
+ 
 ![paydoo](https://static.openfintech.io/payment_providers/paydoo/icon.svg?w=600&c=v0.59.26#w100)  
+
 ```
- https://static.openfintech.io/payment_providers/paydoo/icon.svg?w=600&c=v0.59.26#w100```  
+https://static.openfintech.io/payment_providers/paydoo/icon.svg?w=600&c=v0.59.26#w100
+```  
+
 ## Payment Methods 
+ 
 The list of supported  [Payment Methods](#) 
+
 |Code| 
 |:---| 
 |`visa2` | 
@@ -86,6 +105,92 @@ The list of supported  [Payment Methods](#)
 |`klarna` | 
 |`sepadirectdebit` | 
  
+
 ## JSON Object 
+
 ```json
- {"code":"paydoo","description":null,"vendor":"paydoo","categories":["aggregating","distributing","collecting"],"countries":["AX","AL","AD","AU","BY","BE","BA","BG","HR","CY","CZ","DK","EE","FO","FJ","FR","DE","GI","GR","GG","HU","IS","IM","IT","JE","LV","LI","LT","LU","ML","MD","MC","ME","NL","NO","PT","RO","SM","RS","SK","ES","SJ","SE","CH","RW","AE"],"payment_method":["visa2","mastercard","americanexpress","jcb","maestro","visaelectron","discover","visadebit","chinaunionpay","mastercarddebit","giropay","directdebit","sofortbanking","trustly","ideal","klarna","sepadirectdebit"],"payout_method":null,"metadata":{"about_payments_code":"paydoo"},"name":{"en":"Paydoo"}}```  
+{
+  "code":"paydoo",
+  "description":null,
+  "vendor":"paydoo",
+  "categories":[
+    "aggregating",
+    "distributing",
+    "collecting"
+  ],
+  "countries":[
+    "AX",
+    "AL",
+    "AD",
+    "AU",
+    "BY",
+    "BE",
+    "BA",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FO",
+    "FJ",
+    "FR",
+    "DE",
+    "GI",
+    "GR",
+    "GG",
+    "HU",
+    "IS",
+    "IM",
+    "IT",
+    "JE",
+    "LV",
+    "LI",
+    "LT",
+    "LU",
+    "ML",
+    "MD",
+    "MC",
+    "ME",
+    "NL",
+    "NO",
+    "PT",
+    "RO",
+    "SM",
+    "RS",
+    "SK",
+    "ES",
+    "SJ",
+    "SE",
+    "CH",
+    "RW",
+    "AE"
+  ],
+  "payment_method":[
+    "visa2",
+    "mastercard",
+    "americanexpress",
+    "jcb",
+    "maestro",
+    "visaelectron",
+    "discover",
+    "visadebit",
+    "chinaunionpay",
+    "mastercarddebit",
+    "giropay",
+    "directdebit",
+    "sofortbanking",
+    "trustly",
+    "ideal",
+    "klarna",
+    "sepadirectdebit"
+  ],
+  "payout_method":null,
+  "metadata":{
+    "about_payments_code":"paydoo"
+  },
+  "name":{
+    "en":"Paydoo"
+  }
+}
+```  

@@ -1,9 +1,15 @@
+
 # Bitnet Technologies Ltd 
 ![bitnet](https://static.openfintech.io/payment_providers/bitnet/logo.svg?w=600&c=v0.59.26#w100)  
+
 ## General 
+ 
 **Code:** `bitnet`  
+ 
 **Vendor:** `bitnet`  
+ 
 **Name:**  
+ 
 :	[en] Bitnet Technologies Ltd  
 **Countries:**  
 ![AX](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/AX.svg#w24)  
@@ -58,15 +64,93 @@
 ![AE](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/AE.svg#w24)  
 ![UM](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/UM.svg#w24)  
  
+
 ## Images 
+
 ### Logo 
+ 
 ![bitnet](https://static.openfintech.io/payment_providers/bitnet/logo.svg?w=600&c=v0.59.26#w100)  
+
 ```
- https://static.openfintech.io/payment_providers/bitnet/logo.svg?w=600&c=v0.59.26#w100```  
+https://static.openfintech.io/payment_providers/bitnet/logo.svg?w=600&c=v0.59.26#w100
+```  
+
 ### Icon 
+ 
 ![bitnet](https://static.openfintech.io/payment_providers/bitnet/icon.svg?w=600&c=v0.59.26#w100)  
+
 ```
- https://static.openfintech.io/payment_providers/bitnet/icon.svg?w=600&c=v0.59.26#w100```  
+https://static.openfintech.io/payment_providers/bitnet/icon.svg?w=600&c=v0.59.26#w100
+```  
+
 ## JSON Object 
+
 ```json
- {"code":"bitnet","description":null,"vendor":"bitnet","categories":null,"countries":["AX","AL","AD","AU","BY","BE","BM","BA","BG","CA","HR","CY","CZ","DK","EE","FO","FJ","FR","DE","GI","GR","GG","HU","IS","IM","IT","JE","LV","LI","LT","LU","ML","MX","MD","MC","ME","NL","NO","PT","RO","SM","RS","SK","ES","PM","SJ","SE","CH","RW","AE","UM"],"payment_method":null,"payout_method":null,"metadata":{"about_payments_code":"bitnet"},"name":{"en":"Bitnet Technologies Ltd"}}```  
+{
+  "code":"bitnet",
+  "description":null,
+  "vendor":"bitnet",
+  "categories":null,
+  "countries":[
+    "AX",
+    "AL",
+    "AD",
+    "AU",
+    "BY",
+    "BE",
+    "BM",
+    "BA",
+    "BG",
+    "CA",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FO",
+    "FJ",
+    "FR",
+    "DE",
+    "GI",
+    "GR",
+    "GG",
+    "HU",
+    "IS",
+    "IM",
+    "IT",
+    "JE",
+    "LV",
+    "LI",
+    "LT",
+    "LU",
+    "ML",
+    "MX",
+    "MD",
+    "MC",
+    "ME",
+    "NL",
+    "NO",
+    "PT",
+    "RO",
+    "SM",
+    "RS",
+    "SK",
+    "ES",
+    "PM",
+    "SJ",
+    "SE",
+    "CH",
+    "RW",
+    "AE",
+    "UM"
+  ],
+  "payment_method":null,
+  "payout_method":null,
+  "metadata":{
+    "about_payments_code":"bitnet"
+  },
+  "name":{
+    "en":"Bitnet Technologies Ltd"
+  }
+}
+```  

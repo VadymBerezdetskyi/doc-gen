@@ -35,23 +35,29 @@ final class ProviderOverviewBuilder extends MdBuilder
         $this->add(new MdImage($this->getProviderLogo($this->data->code), $this->data->code), true);
 
         $this->add(new MdHeader('General', 2), true);
+        $this->br();
         $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), 'Code:'));
         $this->add(new MdCode($this->data->code), true);
+        $this->br();
 
         $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), 'Vendor:'));
         $this->add(new MdCode($this->data->vendor), true);
+        $this->br();
 
         $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), 'Name:'), true);
+        $this->br();
         foreach ($this->data->name as $lang => $val) {
             $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::PLAIN), ":\t[$lang] $val"), true);
         }
 
         if (null !== $this->data->description) {
             $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), 'Description:'), true);
+            $this->br();
 
             foreach ($this->data->description as $lang => $val) {
                 $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::PLAIN), ": [$lang] $val"), true);
             }
+            $this->br();
         }
 
         if (null !== $this->data->categories) {
@@ -64,6 +70,7 @@ final class ProviderOverviewBuilder extends MdBuilder
                 }
             }
 
+            $this->br();
             $this->br();
         }
 
@@ -79,15 +86,18 @@ final class ProviderOverviewBuilder extends MdBuilder
 
         $this->add(new MdHeader('Images', 2), true);
         $this->add(new MdHeader('Logo', 3), true);
+        $this->br();
         $this->add(new MdImage($this->getProviderLogo($this->data->code), $this->data->code), true);
         $this->add(new MdCodeBlock($this->getProviderLogo($this->data->code)), true);
 
         $this->add(new MdHeader('Icon', 3), true);
+        $this->br();
         $this->add(new MdImage($this->getProviderIcon($this->data->code), $this->data->code), true);
         $this->add(new MdCodeBlock($this->getProviderIcon($this->data->code)), true);
 
         if (null !== $this->data->paymentMethod) {
             $this->add(new MdHeader('Payment Methods', 2), true);
+            $this->br();
             $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::PLAIN), 'The list of supported '));
             /*
              * TODO: link to methods list page
@@ -109,6 +119,7 @@ final class ProviderOverviewBuilder extends MdBuilder
 
         if (null !== $this->data->payoutMethod) {
             $this->add(new MdHeader('Payout Methods', 2), true);
+            $this->br();
             $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::PLAIN), 'The list of supported '));
             /*
              * TODO: link to methods list page

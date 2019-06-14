@@ -1,3 +1,264 @@
-site_name: MkLorum
+site_name: 'OFT docs'
+
+theme:
+  name: 'material'
+  custom_dir: 'theme'
+  favicon: 'images/favicon.ico'
+  logo:
+    icon: 'import_contacts'
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+  feature:
+    tabs: true
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+# Customization
+extra:
+  social:
+    - type: 'facebook'
+      link: 'https://facebook.com/paycore.io/'
+    - type: 'twitter'
+      link: 'https://twitter.com/paycoreio'
+    - type: 'linkedin'
+      link: 'https://www.linkedin.com/company/paycore/'
+    - type: 'github'
+      link: 'https://github.com/paycoreio'
+extra_css:
+  - extra.css
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      hide_protocol: true
+      repo_url_shortener: true
+      repo_url_shorthand: true
+      user: paycoreio
+      repo: docs
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      preserve_tabs: true
+      custom_fences:
+        - name: flow
+          class: uml-flowchart
+          format: !!python/name:pymdownx.superfences.fence_code_format
+        - name: sequence
+          class: uml-sequence-diagram
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.details
+
 nav:
-    - Home: index.md
+  -
+    Providers:
+      -
+        Overview: providers/index.md
+      -
+        123x: providers/123x/index.md
+      -
+        1pay: providers/1pay/index.md
+      -
+        4bill: providers/4bill/index.md
+      -
+        Acceptance: providers/acceptance/index.md
+      -
+        Africanpaymentsolutions: providers/africanpaymentsolutions/index.md
+      -
+        Anycash: providers/anycash/index.md
+      -
+        Aramorpayments: providers/aramorpayments/index.md
+      -
+        Astropay: providers/astropay/index.md
+      -
+        Balticpay: providers/balticpay/index.md
+      -
+        Beanstream: providers/beanstream/index.md
+      -
+        Billtomobile: providers/billtomobile/index.md
+      -
+        Bips: providers/bips/index.md
+      -
+        Bitmerch: providers/bitmerch/index.md
+      -
+        Bitnet: providers/bitnet/index.md
+      -
+        Bitpay: providers/bitpay/index.md
+      -
+        Bscardservices: providers/bscardservices/index.md
+      -
+        Bucksnet: providers/bucksnet/index.md
+      -
+        Cardconnect: providers/cardconnect/index.md
+      -
+        Cashsender: providers/cashsender/index.md
+      -
+        Circulopayments: providers/circulopayments/index.md
+      -
+        Citopay: providers/citopay/index.md
+      -
+        Citruspay: providers/citruspay/index.md
+      -
+        Corvuspay: providers/corvuspay/index.md
+      -
+        Credorax: providers/credorax/index.md
+      -
+        Cxpay: providers/cxpay/index.md
+      -
+        Cyberbit: providers/cyberbit/index.md
+      -
+        Dalberry: providers/dalberry/index.md
+      -
+        Digitalriverworldpayments: providers/digitalriverworldpayments/index.md
+      -
+        Dineromail: providers/dineromail/index.md
+      -
+        Dinpay: providers/dinpay/index.md
+      -
+        Dlocal: providers/dlocal/index.md
+      -
+        Ecardsa: providers/ecardsa/index.md
+      -
+        Econtext: providers/econtext/index.md
+      -
+        Ecpss: providers/ecpss/index.md
+      -
+        Eospaymentsolutions: providers/eospaymentsolutions/index.md
+      -
+        Epay: providers/epay/index.md
+      -
+        Europayment: providers/europayment/index.md
+      -
+        Europaysolutions: providers/europaysolutions/index.md
+      -
+        Exacttransactions: providers/exacttransactions/index.md
+      -
+        Expercash: providers/expercash/index.md
+      -
+        Ezic: providers/ezic/index.md
+      -
+        Firstatlanticcommerce: providers/firstatlanticcommerce/index.md
+      -
+        Flashpay: providers/flashpay/index.md
+      -
+        Fondy: providers/fondy/index.md
+      -
+        Gestpay: providers/gestpay/index.md
+      -
+        Iyzipayments: providers/iyzipayments/index.md
+      -
+        Kortapay: providers/kortapay/index.md
+      -
+        Lateralpaymentsolutions: providers/lateralpaymentsolutions/index.md
+      -
+        Lianlianpay: providers/lianlianpay/index.md
+      -
+        Liqpay: providers/liqpay/index.md
+      -
+        Magnius: providers/magnius/index.md
+      -
+        Mangopay: providers/mangopay/index.md
+      -
+        Masterpayment: providers/masterpayment/index.md
+      -
+        Merchantscout: providers/merchantscout/index.md
+      -
+        Mollie: providers/mollie/index.md
+      -
+        Netmobileag: providers/netmobileag/index.md
+      -
+        Netpay: providers/netpay/index.md
+      -
+        Omnipayment: providers/omnipayment/index.md
+      -
+        Onpex: providers/onpex/index.md
+      -
+        Optomany: providers/optomany/index.md
+      -
+        Payanyway: providers/payanyway/index.md
+      -
+        Paybox: providers/paybox/index.md
+      -
+        Paycific: providers/paycific/index.md
+      -
+        Paydoo: providers/paydoo/index.md
+      -
+        Paymega: providers/paymega/index.md
+      -
+        Paymentexpress: providers/paymentexpress/index.md
+      -
+        Paymentgarage: providers/paymentgarage/index.md
+      -
+        Paymentgateway: providers/paymentgateway/index.md
+      -
+        Paymundo: providers/paymundo/index.md
+      -
+        Paystation: providers/paystation/index.md
+      -
+        Paytabs: providers/paytabs/index.md
+      -
+        Pinpayments: providers/pinpayments/index.md
+      -
+        Propay: providers/propay/index.md
+      -
+        Realexpayments: providers/realexpayments/index.md
+      -
+        Robokassa: providers/robokassa/index.md
+      -
+        Sbm: providers/sbm/index.md
+      -
+        Securepay: providers/securepay/index.md
+      -
+        Securionpay: providers/securionpay/index.md
+      -
+        Simplepay: providers/simplepay/index.md
+      -
+        Sisow: providers/sisow/index.md
+      -
+        Sixpaymentservices: providers/sixpaymentservices/index.md
+      -
+        Swishme: providers/swishme/index.md
+      -
+        Tefpay: providers/tefpay/index.md
+      -
+        Test: providers/test/index.md
+      -
+        Trustpay: providers/trustpay/index.md
+      -
+        Upclick: providers/upclick/index.md
+      -
+        Vallettapay: providers/vallettapay/index.md
+      -
+        Wayforpay: providers/wayforpay/index.md
+      -
+        Webmoney: providers/webmoney/index.md
+      -
+        Yandexcheckout: providers/yandexcheckout/index.md
+      -
+        Yandexmoney: providers/yandexmoney/index.md
+      -
+        Yapstone: providers/yapstone/index.md
+      -
+        Zaakpay: providers/zaakpay/index.md

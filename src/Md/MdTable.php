@@ -14,7 +14,7 @@ class MdTable implements MdElementInterface
     private $cols;
 
     /* @var string */
-    private $table = "";
+    private $table = "\n";
 
     public function __construct(array $data, array $cols)
     {

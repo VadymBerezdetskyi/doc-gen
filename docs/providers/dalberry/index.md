@@ -1,12 +1,19 @@
+
 # Dalberry 
 ![dalberry](https://static.openfintech.io/payment_providers/dalberry/logo.svg?w=600&c=v0.59.26#w100)  
+
 ## General 
+ 
 **Code:** `dalberry`  
+ 
 **Vendor:** `dalberry`  
+ 
 **Name:**  
+ 
 :	[en] Dalberry  
 **Categories:**  
 `aggregating`  , `collecting`  , `distributing`  
+ 
 **Countries:**  
 ![AX](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/AX.svg#w24)  
 ![AL](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/AL.svg#w24)  
@@ -55,17 +62,29 @@
 ![RW](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/RW.svg#w24)  
 ![AE](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/AE.svg#w24)  
  
+
 ## Images 
+
 ### Logo 
+ 
 ![dalberry](https://static.openfintech.io/payment_providers/dalberry/logo.svg?w=600&c=v0.59.26#w100)  
+
 ```
- https://static.openfintech.io/payment_providers/dalberry/logo.svg?w=600&c=v0.59.26#w100```  
+https://static.openfintech.io/payment_providers/dalberry/logo.svg?w=600&c=v0.59.26#w100
+```  
+
 ### Icon 
+ 
 ![dalberry](https://static.openfintech.io/payment_providers/dalberry/icon.svg?w=600&c=v0.59.26#w100)  
+
 ```
- https://static.openfintech.io/payment_providers/dalberry/icon.svg?w=600&c=v0.59.26#w100```  
+https://static.openfintech.io/payment_providers/dalberry/icon.svg?w=600&c=v0.59.26#w100
+```  
+
 ## Payment Methods 
+ 
 The list of supported  [Payment Methods](#) 
+
 |Code| 
 |:---| 
 |`americanexpress` | 
@@ -81,6 +100,87 @@ The list of supported  [Payment Methods](#)
 |`vpay` | 
 |`mastercarddebit` | 
  
+
 ## JSON Object 
+
 ```json
- {"code":"dalberry","description":null,"vendor":"dalberry","categories":["aggregating","collecting","distributing"],"countries":["AX","AL","AD","AU","BY","BE","BA","BG","HR","CY","CZ","DK","EE","FO","FJ","FR","DE","GI","GR","GG","HU","IS","IM","IT","JE","LV","LI","LT","LU","ML","MD","MC","ME","NL","NO","PT","RO","SM","RS","SK","ES","SJ","SE","CH","RW","AE"],"payment_method":["americanexpress","jcb","visa2","dinersclub","visaelectron","maestro","discover","visadebit","chinaunionpay","mastercard","vpay","mastercarddebit"],"payout_method":null,"metadata":{"about_payments_code":"dalberry"},"name":{"en":"Dalberry"}}```  
+{
+  "code":"dalberry",
+  "description":null,
+  "vendor":"dalberry",
+  "categories":[
+    "aggregating",
+    "collecting",
+    "distributing"
+  ],
+  "countries":[
+    "AX",
+    "AL",
+    "AD",
+    "AU",
+    "BY",
+    "BE",
+    "BA",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FO",
+    "FJ",
+    "FR",
+    "DE",
+    "GI",
+    "GR",
+    "GG",
+    "HU",
+    "IS",
+    "IM",
+    "IT",
+    "JE",
+    "LV",
+    "LI",
+    "LT",
+    "LU",
+    "ML",
+    "MD",
+    "MC",
+    "ME",
+    "NL",
+    "NO",
+    "PT",
+    "RO",
+    "SM",
+    "RS",
+    "SK",
+    "ES",
+    "SJ",
+    "SE",
+    "CH",
+    "RW",
+    "AE"
+  ],
+  "payment_method":[
+    "americanexpress",
+    "jcb",
+    "visa2",
+    "dinersclub",
+    "visaelectron",
+    "maestro",
+    "discover",
+    "visadebit",
+    "chinaunionpay",
+    "mastercard",
+    "vpay",
+    "mastercarddebit"
+  ],
+  "payout_method":null,
+  "metadata":{
+    "about_payments_code":"dalberry"
+  },
+  "name":{
+    "en":"Dalberry"
+  }
+}
+```  

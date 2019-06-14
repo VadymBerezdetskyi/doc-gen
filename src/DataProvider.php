@@ -5,8 +5,6 @@ namespace Oft\Generator;
 use Oft\Generator\Dto\PaymentMethodDto;
 use Oft\Generator\Dto\PayoutServiceDto;
 use Oft\Generator\Dto\ProviderDto;
-use Symfony\Component\Yaml\Exception\ParseException;
-use Symfony\Component\Yaml\Yaml;
 
 class DataProvider
 {
@@ -25,7 +23,7 @@ class DataProvider
     /* @var array */
     private $payoutServices;
 
-    /* @var array */
+    /* @var string */
     private $config;
 
     public function __construct()
@@ -35,8 +33,8 @@ class DataProvider
             $this->setPaymentMethods($this->getJsonContent(self::PATH_TO_DATA.self::PAYMENT_METHODS_FILENAME));
             $this->setPayoutServices($this->getJsonContent(self::PATH_TO_DATA.self::PAYOUT_SERVICES_FILENAME));
             $this->setConfig();
-        } catch (\Exception $ex) {
-            /* TODO: handle exceptions here */
+        } catch (\Throwable $ex) {
+            echo $ex->getMessage();
         }
     }
 
@@ -44,7 +42,7 @@ class DataProvider
     {
         try {
             return json_decode(file_get_contents($path), true);
-        } catch (\Exception $ex) {
+        } catch (\Throwable $ex) {
             throw $ex;
         }
     }
@@ -85,8 +83,9 @@ class DataProvider
     private function setConfig(): void
     {
         try {
-            $this->config = Yaml::parseFile(self::CONFIG_FILE_PATH);
-        } catch (ParseException $exception) {
+            $yaml = file_get_contents(self::CONFIG_FILE_PATH);
+            $this->config = substr($yaml, 0, strpos($yaml, 'nav'));
+        } catch (\Throwable $exception) {
             throw $exception;
         }
     }
@@ -106,8 +105,8 @@ class DataProvider
         return $this->payoutServices;
     }
 
-    public function getConfig(): array
+    public function getConfig(): string
     {
-        return $this->config;
+        return $this->config ?? '';
     }
 }

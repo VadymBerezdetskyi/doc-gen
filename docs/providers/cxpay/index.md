@@ -1,12 +1,19 @@
+
 # CX Pay 
 ![cxpay](https://static.openfintech.io/payment_providers/cxpay/logo.svg?w=600&c=v0.59.26#w100)  
+
 ## General 
+ 
 **Code:** `cxpay`  
+ 
 **Vendor:** `cxpay`  
+ 
 **Name:**  
+ 
 :	[en] CX Pay  
 **Categories:**  
 `aggregating`  , `collecting`  , `distributing`  
+ 
 **Countries:**  
 ![AI](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/AI.svg#w24)  
 ![AG](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/AG.svg#w24)  
@@ -45,17 +52,29 @@
 ![UM](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/UM.svg#w24)  
 ![UY](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/UY.svg#w24)  
  
+
 ## Images 
+
 ### Logo 
+ 
 ![cxpay](https://static.openfintech.io/payment_providers/cxpay/logo.svg?w=600&c=v0.59.26#w100)  
+
 ```
- https://static.openfintech.io/payment_providers/cxpay/logo.svg?w=600&c=v0.59.26#w100```  
+https://static.openfintech.io/payment_providers/cxpay/logo.svg?w=600&c=v0.59.26#w100
+```  
+
 ### Icon 
+ 
 ![cxpay](https://static.openfintech.io/payment_providers/cxpay/icon.svg?w=600&c=v0.59.26#w100)  
+
 ```
- https://static.openfintech.io/payment_providers/cxpay/icon.svg?w=600&c=v0.59.26#w100```  
+https://static.openfintech.io/payment_providers/cxpay/icon.svg?w=600&c=v0.59.26#w100
+```  
+
 ## Payment Methods 
+ 
 The list of supported  [Payment Methods](#) 
+
 |Code| 
 |:---| 
 |`tarjetanaranjacreditcard` | 
@@ -93,6 +112,99 @@ The list of supported  [Payment Methods](#)
 |`eps` | 
 |`polipayonline` | 
  
+
 ## JSON Object 
+
 ```json
- {"code":"cxpay","description":null,"vendor":"cxpay","categories":["aggregating","collecting","distributing"],"countries":["AI","AG","AR","AW","BB","BZ","BM","CA","KY","CL","CO","CR","CW","DM","SV","GD","GP","GT","HT","HN","JM","MQ","MX","MS","NI","PE","PR","BL","KN","LC","VC","SR","TT","TC","UM","UY"],"payment_method":["tarjetanaranjacreditcard","girocard","visa2","paysafecard","teleingreso","chinaunionpay","cabal","americanexpress","hipercard","mastercard","bancontactmistercash","elo","multibanconet","jcb","dinersclub","maestro","cartebancaires","presto","discover","visadebit","vpay","tarjetaripley","mastercarddebit","wiretransfer","directdebit","ideal","rapipago","giropay","przelewy24","sofortbanking","pagorapido","sepadirectdebit","eps","polipayonline"],"payout_method":null,"metadata":{"about_payments_code":"cxpay"},"name":{"en":"CX Pay"}}```  
+{
+  "code":"cxpay",
+  "description":null,
+  "vendor":"cxpay",
+  "categories":[
+    "aggregating",
+    "collecting",
+    "distributing"
+  ],
+  "countries":[
+    "AI",
+    "AG",
+    "AR",
+    "AW",
+    "BB",
+    "BZ",
+    "BM",
+    "CA",
+    "KY",
+    "CL",
+    "CO",
+    "CR",
+    "CW",
+    "DM",
+    "SV",
+    "GD",
+    "GP",
+    "GT",
+    "HT",
+    "HN",
+    "JM",
+    "MQ",
+    "MX",
+    "MS",
+    "NI",
+    "PE",
+    "PR",
+    "BL",
+    "KN",
+    "LC",
+    "VC",
+    "SR",
+    "TT",
+    "TC",
+    "UM",
+    "UY"
+  ],
+  "payment_method":[
+    "tarjetanaranjacreditcard",
+    "girocard",
+    "visa2",
+    "paysafecard",
+    "teleingreso",
+    "chinaunionpay",
+    "cabal",
+    "americanexpress",
+    "hipercard",
+    "mastercard",
+    "bancontactmistercash",
+    "elo",
+    "multibanconet",
+    "jcb",
+    "dinersclub",
+    "maestro",
+    "cartebancaires",
+    "presto",
+    "discover",
+    "visadebit",
+    "vpay",
+    "tarjetaripley",
+    "mastercarddebit",
+    "wiretransfer",
+    "directdebit",
+    "ideal",
+    "rapipago",
+    "giropay",
+    "przelewy24",
+    "sofortbanking",
+    "pagorapido",
+    "sepadirectdebit",
+    "eps",
+    "polipayonline"
+  ],
+  "payout_method":null,
+  "metadata":{
+    "about_payments_code":"cxpay"
+  },
+  "name":{
+    "en":"CX Pay"
+  }
+}
+```  

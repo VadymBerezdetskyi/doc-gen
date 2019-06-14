@@ -1,12 +1,19 @@
+
 # Magnius 
 ![magnius](https://static.openfintech.io/payment_providers/magnius/logo.svg?w=600&c=v0.59.26#w100)  
+
 ## General 
+ 
 **Code:** `magnius`  
+ 
 **Vendor:** `magnius`  
+ 
 **Name:**  
+ 
 :	[en] Magnius  
 **Categories:**  
 `distributing`  
+ 
 **Countries:**  
 ![AU](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/AU.svg#w24)  
 ![BE](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/BE.svg#w24)  
@@ -42,17 +49,29 @@
 ![CH](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/CH.svg#w24)  
 ![AE](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/AE.svg#w24)  
  
+
 ## Images 
+
 ### Logo 
+ 
 ![magnius](https://static.openfintech.io/payment_providers/magnius/logo.svg?w=600&c=v0.59.26#w100)  
+
 ```
- https://static.openfintech.io/payment_providers/magnius/logo.svg?w=600&c=v0.59.26#w100```  
+https://static.openfintech.io/payment_providers/magnius/logo.svg?w=600&c=v0.59.26#w100
+```  
+
 ### Icon 
+ 
 ![magnius](https://static.openfintech.io/payment_providers/magnius/icon.svg?w=600&c=v0.59.26#w100)  
+
 ```
- https://static.openfintech.io/payment_providers/magnius/icon.svg?w=600&c=v0.59.26#w100```  
+https://static.openfintech.io/payment_providers/magnius/icon.svg?w=600&c=v0.59.26#w100
+```  
+
 ## Payment Methods 
+ 
 The list of supported  [Payment Methods](#) 
+
 |Code| 
 |:---| 
 |`americanexpress` | 
@@ -73,6 +92,77 @@ The list of supported  [Payment Methods](#)
 |`klarna` | 
 |`sepadirectdebit` | 
  
+
 ## JSON Object 
+
 ```json
- {"code":"magnius","description":null,"vendor":"magnius","categories":["distributing"],"countries":["AU","BE","BG","HR","CY","CZ","DK","EE","FJ","FR","DE","GI","GR","HU","IS","IM","IT","JE","LV","LI","LT","LU","NL","NO","AX","PT","RO","SM","SK","ES","SE","CH","AE"],"payment_method":["americanexpress","mastercard","bancontactmistercash","visa2","paysafecard","maestro","visaelectron","cartebancaires","vpay","chinaunionpay","mastercarddebit","bitcoin","capayable","sofortbanking","ideal","klarna","sepadirectdebit"],"payout_method":null,"metadata":{"about_payments_code":"magnius"},"name":{"en":"Magnius"}}```  
+{
+  "code":"magnius",
+  "description":null,
+  "vendor":"magnius",
+  "categories":[
+    "distributing"
+  ],
+  "countries":[
+    "AU",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FJ",
+    "FR",
+    "DE",
+    "GI",
+    "GR",
+    "HU",
+    "IS",
+    "IM",
+    "IT",
+    "JE",
+    "LV",
+    "LI",
+    "LT",
+    "LU",
+    "NL",
+    "NO",
+    "AX",
+    "PT",
+    "RO",
+    "SM",
+    "SK",
+    "ES",
+    "SE",
+    "CH",
+    "AE"
+  ],
+  "payment_method":[
+    "americanexpress",
+    "mastercard",
+    "bancontactmistercash",
+    "visa2",
+    "paysafecard",
+    "maestro",
+    "visaelectron",
+    "cartebancaires",
+    "vpay",
+    "chinaunionpay",
+    "mastercarddebit",
+    "bitcoin",
+    "capayable",
+    "sofortbanking",
+    "ideal",
+    "klarna",
+    "sepadirectdebit"
+  ],
+  "payout_method":null,
+  "metadata":{
+    "about_payments_code":"magnius"
+  },
+  "name":{
+    "en":"Magnius"
+  }
+}
+```  

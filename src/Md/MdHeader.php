@@ -20,6 +20,6 @@ class MdHeader implements MdElementInterface
 
     public function toString(): string
     {
-        return str_repeat(self::PATTERN, $this->level).' '.$this->str;
+        return "\n".str_repeat(self::PATTERN, $this->level).' '.$this->str;
     }
 }

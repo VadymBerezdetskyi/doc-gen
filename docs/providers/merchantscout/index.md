@@ -1,12 +1,19 @@
+
 # MerchantScout 
 ![merchantscout](https://static.openfintech.io/payment_providers/merchantscout/logo.svg?w=600&c=v0.59.26#w100)  
+
 ## General 
+ 
 **Code:** `merchantscout`  
+ 
 **Vendor:** `merchantscout`  
+ 
 **Name:**  
+ 
 :	[en] MerchantScout  
 **Categories:**  
 `distributing`  
+ 
 **Countries:**  
 ![AX](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/AX.svg#w24)  
 ![AL](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/AL.svg#w24)  
@@ -55,17 +62,29 @@
 ![RW](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/RW.svg#w24)  
 ![AE](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/AE.svg#w24)  
  
+
 ## Images 
+
 ### Logo 
+ 
 ![merchantscout](https://static.openfintech.io/payment_providers/merchantscout/logo.svg?w=600&c=v0.59.26#w100)  
+
 ```
- https://static.openfintech.io/payment_providers/merchantscout/logo.svg?w=600&c=v0.59.26#w100```  
+https://static.openfintech.io/payment_providers/merchantscout/logo.svg?w=600&c=v0.59.26#w100
+```  
+
 ### Icon 
+ 
 ![merchantscout](https://static.openfintech.io/payment_providers/merchantscout/icon.svg?w=600&c=v0.59.26#w100)  
+
 ```
- https://static.openfintech.io/payment_providers/merchantscout/icon.svg?w=600&c=v0.59.26#w100```  
+https://static.openfintech.io/payment_providers/merchantscout/icon.svg?w=600&c=v0.59.26#w100
+```  
+
 ## Payment Methods 
+ 
 The list of supported  [Payment Methods](#) 
+
 |Code| 
 |:---| 
 |`girocard` | 
@@ -86,6 +105,90 @@ The list of supported  [Payment Methods](#)
 |`visaelectron` | 
 |`maestro` | 
  
+
 ## JSON Object 
+
 ```json
- {"code":"merchantscout","description":null,"vendor":"merchantscout","categories":["distributing"],"countries":["AX","AL","AD","AU","BY","BE","BA","BG","HR","CY","CZ","DK","EE","FO","FJ","FR","DE","GI","GR","GG","HU","IS","IM","IT","JE","LV","LI","LT","LU","ML","MD","MC","ME","NL","NO","PT","RO","SM","RS","SK","ES","SJ","SE","CH","RW","AE"],"payment_method":["girocard","visa2","paysafecard","cashu","chinaunionpay","dankort","americanexpress","mastercard","cartasi","ukash","bancontactmistercash","multibanconet","jcb","dinersclub","cartebleue","visaelectron","maestro"],"payout_method":null,"metadata":{"about_payments_code":"merchantscout"},"name":{"en":"MerchantScout"}}```  
+{
+  "code":"merchantscout",
+  "description":null,
+  "vendor":"merchantscout",
+  "categories":[
+    "distributing"
+  ],
+  "countries":[
+    "AX",
+    "AL",
+    "AD",
+    "AU",
+    "BY",
+    "BE",
+    "BA",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FO",
+    "FJ",
+    "FR",
+    "DE",
+    "GI",
+    "GR",
+    "GG",
+    "HU",
+    "IS",
+    "IM",
+    "IT",
+    "JE",
+    "LV",
+    "LI",
+    "LT",
+    "LU",
+    "ML",
+    "MD",
+    "MC",
+    "ME",
+    "NL",
+    "NO",
+    "PT",
+    "RO",
+    "SM",
+    "RS",
+    "SK",
+    "ES",
+    "SJ",
+    "SE",
+    "CH",
+    "RW",
+    "AE"
+  ],
+  "payment_method":[
+    "girocard",
+    "visa2",
+    "paysafecard",
+    "cashu",
+    "chinaunionpay",
+    "dankort",
+    "americanexpress",
+    "mastercard",
+    "cartasi",
+    "ukash",
+    "bancontactmistercash",
+    "multibanconet",
+    "jcb",
+    "dinersclub",
+    "cartebleue",
+    "visaelectron",
+    "maestro"
+  ],
+  "payout_method":null,
+  "metadata":{
+    "about_payments_code":"merchantscout"
+  },
+  "name":{
+    "en":"MerchantScout"
+  }
+}
+```  

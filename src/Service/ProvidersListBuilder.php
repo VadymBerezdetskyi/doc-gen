@@ -7,6 +7,7 @@ use Oft\Generator\Dto\MdTableColumnDto;
 use Oft\Generator\Dto\ProviderDto;
 use Oft\Generator\Enums\MdTableColumnAlignEnum;
 use Oft\Generator\Enums\TextEmphasisPatternEnum;
+use Oft\Generator\Md\MdLink;
 use Oft\Generator\Traits\ImagesTrait;
 use Oft\Generator\Md\MdCode;
 use Oft\Generator\Md\MdHeader;
@@ -66,7 +67,10 @@ final class ProvidersListBuilder extends MdBuilder
                     'key' => 'Name',
                     'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
                     'set_template' => function (ProviderDto $row) {
-                        return new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::PLAIN), $row->getName()->en ?? '');
+                        return new MdLink(
+                            (new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), $row->getName()->en ?? ''))->toString(),
+                            $row->code.'/index.md'
+                        );
                     },
                 ]),
                 MdTableColumnDto::fromArray([
@@ -76,7 +80,7 @@ final class ProvidersListBuilder extends MdBuilder
                         return new MdCode($row->code);
                     },
                 ]),
-            ]));
+            ]), true);
         }
     }
 }
