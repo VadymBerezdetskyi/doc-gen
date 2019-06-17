@@ -114,10 +114,7 @@ final class ProviderOverviewBuilder extends MdBuilder
                     'key' => 'Code',
                     'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::LEFT),
                     'set_template' => function (string $code) {
-                    /*
-                     * TODO: link to method page
-                    */
-                        return new MdCode($code);
+                        return new MdLink($code, '/payment-methods/'.$code);
                     },
                 ]),
             ]), true);

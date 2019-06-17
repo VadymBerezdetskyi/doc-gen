@@ -4,6 +4,7 @@
 **Code:** `advcash_wallet_usd` 
  
 **Method:** `advcash_wallet` 
+[show -->]() 
  
 **Currency:** `USD`[show -->]() 
  

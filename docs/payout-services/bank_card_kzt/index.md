@@ -4,6 +4,7 @@
 **Code:** `bank_card_kzt` 
  
 **Method:** `bank_card` 
+[show -->]() 
  
 **Currency:** `KZT`[show -->]() 
  

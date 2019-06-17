@@ -288,3 +288,119 @@ nav:
         Payment_card_uah: payout-services/payment_card_uah/index.md
       -
         Qiwi_rub: payout-services/qiwi_rub/index.md
+  -
+    'Payment methods':
+      -
+        Alandsbanken: payment-methods/alandsbanken/index.md
+      -
+        Alfaclick: payment-methods/alfaclick/index.md
+      -
+        Bancoitau: payment-methods/bancoitau/index.md
+      -
+        Bancopastor: payment-methods/bancopastor/index.md
+      -
+        Bigconlinepayment: payment-methods/bigconlinepayment/index.md
+      -
+        Bitcoin: payment-methods/bitcoin/index.md
+      -
+        Bpay: payment-methods/bpay/index.md
+      -
+        Bradescocomercioeletronico: payment-methods/bradescocomercioeletronico/index.md
+      -
+        Citadelelatvia: payment-methods/citadelelatvia/index.md
+      -
+        Elektronischeslastschriftverfahren: payment-methods/elektronischeslastschriftverfahren/index.md
+      -
+        Enetsdirectdebit: payment-methods/enetsdirectdebit/index.md
+      -
+        Erstebank: payment-methods/erstebank/index.md
+      -
+        Ethereum: payment-methods/ethereum/index.md
+      -
+        Euroset: payment-methods/euroset/index.md
+      -
+        Euteller: payment-methods/euteller/index.md
+      -
+        Gemoney: payment-methods/gemoney/index.md
+      -
+        Hdfcbanknetbankingindia: payment-methods/hdfcbanknetbankingindia/index.md
+      -
+        Ibox: payment-methods/ibox/index.md
+      -
+        Icicinetbanking: payment-methods/icicinetbanking/index.md
+      -
+        Ideal: payment-methods/ideal/index.md
+      -
+        Inghomepay: payment-methods/inghomepay/index.md
+      -
+        Ingspain: payment-methods/ingspain/index.md
+      -
+        Inteligo: payment-methods/inteligo/index.md
+      -
+        Jyskebank: payment-methods/jyskebank/index.md
+      -
+        Kasikornbankkbanknetbanking: payment-methods/kasikornbankkbanknetbanking/index.md
+      -
+        Komercnibanka: payment-methods/komercnibanka/index.md
+      -
+        Krungsrinetbanking: payment-methods/krungsrinetbanking/index.md
+      -
+        Krungthaibanknetbanking: payment-methods/krungthaibanknetbanking/index.md
+      -
+        Lacaixa: payment-methods/lacaixa/index.md
+      -
+        Libertybank: payment-methods/libertybank/index.md
+      -
+        Litecoin: payment-methods/litecoin/index.md
+      -
+        Mbank: payment-methods/mbank/index.md
+      -
+        Moneymail: payment-methods/moneymail/index.md
+      -
+        Octopus: payment-methods/octopus/index.md
+      -
+        Okpay: payment-methods/okpay/index.md
+      -
+        Otpbank: payment-methods/otpbank/index.md
+      -
+        Poppankki: payment-methods/poppankki/index.md
+      -
+        Pravexbank: payment-methods/pravexbank/index.md
+      -
+        Promsvyazbank: payment-methods/promsvyazbank/index.md
+      -
+        Provinciapagos: payment-methods/provinciapagos/index.md
+      -
+        Qazkombank: payment-methods/qazkombank/index.md
+      -
+        Rcbc: payment-methods/rcbc/index.md
+      -
+        Ripple: payment-methods/ripple/index.md
+      -
+        Safetypay: payment-methods/safetypay/index.md
+      -
+        Scbbanknetbanking: payment-methods/scbbanknetbanking/index.md
+      -
+        Sepacredittransfer: payment-methods/sepacredittransfer/index.md
+      -
+        Sepadirectdebit: payment-methods/sepadirectdebit/index.md
+      -
+        Spankki: payment-methods/spankki/index.md
+      -
+        Ssk: payment-methods/ssk/index.md
+      -
+        Tele2ru: payment-methods/tele2ru/index.md
+      -
+        Tescolotus: payment-methods/tescolotus/index.md
+      -
+        Trustly: payment-methods/trustly/index.md
+      -
+        Ukrsibbank: payment-methods/ukrsibbank/index.md
+      -
+        Unicredit: payment-methods/unicredit/index.md
+      -
+        Volksbank: payment-methods/volksbank/index.md
+      -
+        Vubbanka: payment-methods/vubbanka/index.md
+      -
+        Wiretransfer: payment-methods/wiretransfer/index.md

@@ -4,6 +4,7 @@
 **Code:** `qiwi_rub` 
  
 **Method:** `qiwi` 
+[show -->]() 
  
 **Currency:** `RUB`[show -->]() 
  

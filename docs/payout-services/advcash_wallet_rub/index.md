@@ -4,6 +4,7 @@
 **Code:** `advcash_wallet_rub` 
  
 **Method:** `advcash_wallet` 
+[show -->]() 
  
 **Currency:** `RUB`[show -->]() 
  

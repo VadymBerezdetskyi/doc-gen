@@ -119,12 +119,12 @@ class DocBuilder
             array_push($payoutServices, [ucfirst($service->code) => 'payout-services/'.$service->code.'/index.md']);
         }
         array_push($nav, ['Payout services' => $payoutServices]);
-//
-//        $paymentMethods = [];
-//        foreach ($this->dataProvider->getPaymentMethods() as $method) {
-//            array_push( $paymentMethods, [ucfirst($method->code) => 'payment-methods/'.$method->code.'/index.md']);
-//        }
-//        array_push($nav, ['Payment methods' => $paymentMethods]);
+
+        $paymentMethods = [];
+        foreach ($this->sort($this->dataProvider->getPaymentMethods()) as $method) {
+            array_push( $paymentMethods, [ucfirst($method->code) => 'payment-methods/'.$method->code.'/index.md']);
+        }
+        array_push($nav, ['Payment methods' => $paymentMethods]);
 
 
         $this->writeFile(self::CONFIG_FILE_PATH, $this->dataProvider->getConfig().Yaml::dump(['nav' => $nav], 5, 2));
@@ -134,7 +134,7 @@ class DocBuilder
     {
         $this->buildProviders();
         $this->buildPayoutServices();
-//        $this->buildPaymentMethods();
+        $this->buildPaymentMethods();
         $this->buildConfig();
     }
 }

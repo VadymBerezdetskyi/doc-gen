@@ -4,6 +4,7 @@
 **Code:** `bank_card_rub` 
  
 **Method:** `bank_card` 
+[show -->]() 
  
 **Currency:** `RUB`[show -->]() 
  
