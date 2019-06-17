@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `paymentgateway`  
+**Code:** `paymentgateway` 
  
-**Vendor:** `paymentgateway`  
+**Vendor:** `paymentgateway` 
  
 **Name:**  
  

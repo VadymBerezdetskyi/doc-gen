@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `bitnet`  
+**Code:** `bitnet` 
  
-**Vendor:** `bitnet`  
+**Vendor:** `bitnet` 
  
 **Name:**  
  

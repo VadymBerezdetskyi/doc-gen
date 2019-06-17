@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `paymundo`  
+**Code:** `paymundo` 
  
-**Vendor:** `paymundo`  
+**Vendor:** `paymundo` 
  
 **Name:**  
  

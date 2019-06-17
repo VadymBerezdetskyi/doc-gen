@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `corvuspay`  
+**Code:** `corvuspay` 
  
-**Vendor:** `corvuspay`  
+**Vendor:** `corvuspay` 
  
 **Name:**  
  

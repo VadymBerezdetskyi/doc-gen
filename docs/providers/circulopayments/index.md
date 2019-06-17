@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `circulopayments`  
+**Code:** `circulopayments` 
  
-**Vendor:** `circulopayments`  
+**Vendor:** `circulopayments` 
  
 **Name:**  
  

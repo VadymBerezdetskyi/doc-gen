@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `netpay`  
+**Code:** `netpay` 
  
-**Vendor:** `netpay`  
+**Vendor:** `netpay` 
  
 **Name:**  
  

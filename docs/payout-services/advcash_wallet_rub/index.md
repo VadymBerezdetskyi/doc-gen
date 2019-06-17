@@ -1,31 +1,43 @@
 
 ## General 
-**Code:** `advcash_wallet_rub`  
-**Method:** `advcash_wallet`  
-**Currency:** `RUB` [show -->]() 
-**Amount limits:** from `6.65`  to `6648133.52`  RUB 
+ 
+**Code:** `advcash_wallet_rub` 
+ 
+**Method:** `advcash_wallet` 
+ 
+**Currency:** `RUB`[show -->]() 
+ 
+**Amount limits:** from `6.65` to `6648133.52` RUB  
+
 ## Fields 
 
 ### Overview 
 
 |Key|Required|Type|Regexp| 
 |:---:|:---:|:---:|:---:| 
-|`wallet_id` |✔ |`string` |`/^R\d{12}$/` | 
+|`wallet_id`|✔ |`string`|`/^R\d{12}$/`| 
  
 
 ### Details 
-0 **`wallet_id` **  
-Type: `string`  
-Regexp: `/^R\d{12}$/`  
-Required: `1`  
-Label:  
-: [en] Account number  
-: [ru] Номер счета  
-: [uk] Номер рахунку  
-Hint:  
-: [en] Enter account number  
-: [ru] Введите номер счета  
-: [uk] Введіть номер рахунку  
+ 
+0. **`wallet_id`**  
+ 
+	Type: `string` 
+ 
+	Regexp: `/^R\d{12}$/` 
+ 
+	Required: `1` 
+ 
+	Label:  
+	: [en] Account number  
+	: [ru] Номер счета  
+	: [uk] Номер рахунку  
+ 
+	Hint:  
+	: [en] Enter account number  
+	: [ru] Введите номер счета  
+	: [uk] Введіть номер рахунку  
+ 
 
 ## JSON Object 
 

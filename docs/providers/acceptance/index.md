@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `acceptance`  
+**Code:** `acceptance` 
  
-**Vendor:** `acceptance`  
+**Vendor:** `acceptance` 
  
 **Name:**  
  

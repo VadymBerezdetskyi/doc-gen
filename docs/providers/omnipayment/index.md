@@ -4,15 +4,15 @@
 
 ## General 
  
-**Code:** `omnipayment`  
+**Code:** `omnipayment` 
  
-**Vendor:** `omnipayment`  
+**Vendor:** `omnipayment` 
  
 **Name:**  
  
 :	[EN] OmniPayment  
 **Categories:**  
-`distributing`  , `aggregating`  , `collecting`  
+`distributing` , `aggregating` , `collecting` 
  
  
 **Countries:**  
@@ -43,13 +43,13 @@ The list of supported  [Payment Methods](#)
 
 |Code| 
 |:---| 
-|`americanexpress` | 
-|`visa2` | 
-|`visadebit` | 
-|`mastercard` | 
-|`mastercarddebit` | 
-|`account2account` | 
-|`wiretransfer` | 
+|`americanexpress`| 
+|`visa2`| 
+|`visadebit`| 
+|`mastercard`| 
+|`mastercarddebit`| 
+|`account2account`| 
+|`wiretransfer`| 
  
 
 ## JSON Object 

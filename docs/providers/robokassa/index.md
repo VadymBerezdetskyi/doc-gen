@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `robokassa`  
+**Code:** `robokassa` 
  
-**Vendor:** `robokassa`  
+**Vendor:** `robokassa` 
  
 **Name:**  
  

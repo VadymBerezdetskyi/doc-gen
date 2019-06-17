@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `kortapay`  
+**Code:** `kortapay` 
  
-**Vendor:** `kortapay`  
+**Vendor:** `kortapay` 
  
 **Name:**  
  

@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `upclick`  
+**Code:** `upclick` 
  
-**Vendor:** `upclick`  
+**Vendor:** `upclick` 
  
 **Name:**  
  

@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `cyberbit`  
+**Code:** `cyberbit` 
  
-**Vendor:** `cyberbit`  
+**Vendor:** `cyberbit` 
  
 **Name:**  
  

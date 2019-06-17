@@ -4,15 +4,15 @@
 
 ## General 
  
-**Code:** `sisow`  
+**Code:** `sisow` 
  
-**Vendor:** `sisow`  
+**Vendor:** `sisow` 
  
 **Name:**  
  
 :	[EN] Sisow  
 **Categories:**  
-`aggregating`  , `collecting`  , `distributing`  
+`aggregating` , `collecting` , `distributing` 
  
  
 **Countries:**  
@@ -43,17 +43,17 @@ The list of supported  [Payment Methods](#)
 
 |Code| 
 |:---| 
-|`bancontactmistercash` | 
-|`visa2` | 
-|`maestro` | 
-|`mastercard` | 
-|`vpay` | 
-|`sofortbanking` | 
-|`ideal` | 
-|`giropay` | 
-|`inghomepay` | 
-|`klarna` | 
-|`paypal` | 
+|`bancontactmistercash`| 
+|`visa2`| 
+|`maestro`| 
+|`mastercard`| 
+|`vpay`| 
+|`sofortbanking`| 
+|`ideal`| 
+|`giropay`| 
+|`inghomepay`| 
+|`klarna`| 
+|`paypal`| 
  
 
 ## JSON Object 

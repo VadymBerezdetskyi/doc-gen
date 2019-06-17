@@ -4,15 +4,15 @@
 
 ## General 
  
-**Code:** `webmoney`  
+**Code:** `webmoney` 
  
-**Vendor:** `webmoney`  
+**Vendor:** `webmoney` 
  
 **Name:**  
  
 :	[EN] WebMoney  
 **Categories:**  
-`aggregating`  
+`aggregating` 
  
 
 ## Images 
@@ -39,21 +39,21 @@ The list of supported  [Payment Methods](#)
 
 |Code| 
 |:---| 
-|`webmoneytransfer` | 
-|`beeline` | 
-|`megafon` | 
-|`ssk_ua` | 
-|`ssk_ru` | 
-|`alfaclick` | 
-|`russian_standart_bank` | 
-|`vtb24` | 
-|`tele2ru` | 
-|`bitcoin` | 
-|`qiwi` | 
-|`russianpost` | 
-|`promsvyazbank` | 
-|`sberonline` | 
-|`svyaznoy` | 
+|`webmoneytransfer`| 
+|`beeline`| 
+|`megafon`| 
+|`ssk_ua`| 
+|`ssk_ru`| 
+|`alfaclick`| 
+|`russian_standart_bank`| 
+|`vtb24`| 
+|`tele2ru`| 
+|`bitcoin`| 
+|`qiwi`| 
+|`russianpost`| 
+|`promsvyazbank`| 
+|`sberonline`| 
+|`svyaznoy`| 
  
 
 ## JSON Object 

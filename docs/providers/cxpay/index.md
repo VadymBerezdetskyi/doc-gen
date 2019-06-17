@@ -4,15 +4,15 @@
 
 ## General 
  
-**Code:** `cxpay`  
+**Code:** `cxpay` 
  
-**Vendor:** `cxpay`  
+**Vendor:** `cxpay` 
  
 **Name:**  
  
 :	[EN] CX Pay  
 **Categories:**  
-`aggregating`  , `collecting`  , `distributing`  
+`aggregating` , `collecting` , `distributing` 
  
  
 **Countries:**  
@@ -43,40 +43,40 @@ The list of supported  [Payment Methods](#)
 
 |Code| 
 |:---| 
-|`tarjetanaranjacreditcard` | 
-|`girocard` | 
-|`visa2` | 
-|`paysafecard` | 
-|`teleingreso` | 
-|`chinaunionpay` | 
-|`cabal` | 
-|`americanexpress` | 
-|`hipercard` | 
-|`mastercard` | 
-|`bancontactmistercash` | 
-|`elo` | 
-|`multibanconet` | 
-|`jcb` | 
-|`dinersclub` | 
-|`maestro` | 
-|`cartebancaires` | 
-|`presto` | 
-|`discover` | 
-|`visadebit` | 
-|`vpay` | 
-|`tarjetaripley` | 
-|`mastercarddebit` | 
-|`wiretransfer` | 
-|`directdebit` | 
-|`ideal` | 
-|`rapipago` | 
-|`giropay` | 
-|`przelewy24` | 
-|`sofortbanking` | 
-|`pagorapido` | 
-|`sepadirectdebit` | 
-|`eps` | 
-|`polipayonline` | 
+|`tarjetanaranjacreditcard`| 
+|`girocard`| 
+|`visa2`| 
+|`paysafecard`| 
+|`teleingreso`| 
+|`chinaunionpay`| 
+|`cabal`| 
+|`americanexpress`| 
+|`hipercard`| 
+|`mastercard`| 
+|`bancontactmistercash`| 
+|`elo`| 
+|`multibanconet`| 
+|`jcb`| 
+|`dinersclub`| 
+|`maestro`| 
+|`cartebancaires`| 
+|`presto`| 
+|`discover`| 
+|`visadebit`| 
+|`vpay`| 
+|`tarjetaripley`| 
+|`mastercarddebit`| 
+|`wiretransfer`| 
+|`directdebit`| 
+|`ideal`| 
+|`rapipago`| 
+|`giropay`| 
+|`przelewy24`| 
+|`sofortbanking`| 
+|`pagorapido`| 
+|`sepadirectdebit`| 
+|`eps`| 
+|`polipayonline`| 
  
 
 ## JSON Object 

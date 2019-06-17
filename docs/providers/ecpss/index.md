@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `ecpss`  
+**Code:** `ecpss` 
  
-**Vendor:** `ecpss`  
+**Vendor:** `ecpss` 
  
 **Name:**  
  

@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `econtext`  
+**Code:** `econtext` 
  
-**Vendor:** `econtext`  
+**Vendor:** `econtext` 
  
 **Name:**  
  

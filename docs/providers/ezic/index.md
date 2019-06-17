@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `ezic`  
+**Code:** `ezic` 
  
-**Vendor:** `ezic`  
+**Vendor:** `ezic` 
  
 **Name:**  
  

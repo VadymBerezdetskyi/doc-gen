@@ -4,15 +4,15 @@
 
 ## General 
  
-**Code:** `paydoo`  
+**Code:** `paydoo` 
  
-**Vendor:** `paydoo`  
+**Vendor:** `paydoo` 
  
 **Name:**  
  
 :	[EN] Paydoo  
 **Categories:**  
-`aggregating`  , `distributing`  , `collecting`  
+`aggregating` , `distributing` , `collecting` 
  
  
 **Countries:**  
@@ -43,23 +43,23 @@ The list of supported  [Payment Methods](#)
 
 |Code| 
 |:---| 
-|`visa2` | 
-|`mastercard` | 
-|`americanexpress` | 
-|`jcb` | 
-|`maestro` | 
-|`visaelectron` | 
-|`discover` | 
-|`visadebit` | 
-|`chinaunionpay` | 
-|`mastercarddebit` | 
-|`giropay` | 
-|`directdebit` | 
-|`sofortbanking` | 
-|`trustly` | 
-|`ideal` | 
-|`klarna` | 
-|`sepadirectdebit` | 
+|`visa2`| 
+|`mastercard`| 
+|`americanexpress`| 
+|`jcb`| 
+|`maestro`| 
+|`visaelectron`| 
+|`discover`| 
+|`visadebit`| 
+|`chinaunionpay`| 
+|`mastercarddebit`| 
+|`giropay`| 
+|`directdebit`| 
+|`sofortbanking`| 
+|`trustly`| 
+|`ideal`| 
+|`klarna`| 
+|`sepadirectdebit`| 
  
 
 ## JSON Object 

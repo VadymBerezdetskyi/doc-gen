@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `zaakpay`  
+**Code:** `zaakpay` 
  
-**Vendor:** `zaakpay`  
+**Vendor:** `zaakpay` 
  
 **Name:**  
  

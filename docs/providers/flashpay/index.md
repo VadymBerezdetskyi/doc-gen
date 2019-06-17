@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `flashpay`  
+**Code:** `flashpay` 
  
-**Vendor:** `pat_bank_familnij`  
+**Vendor:** `pat_bank_familnij` 
  
 **Name:**  
  

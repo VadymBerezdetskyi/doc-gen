@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `beanstream`  
+**Code:** `beanstream` 
  
-**Vendor:** `beanstream`  
+**Vendor:** `beanstream` 
  
 **Name:**  
  

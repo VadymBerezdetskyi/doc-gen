@@ -1,31 +1,43 @@
 
 ## General 
-**Code:** `advcash_wallet_uah`  
-**Method:** `advcash_wallet`  
-**Currency:** `UAH` [show -->]() 
-**Amount limits:** from `0.01`  to `14900`  UAH 
+ 
+**Code:** `advcash_wallet_uah` 
+ 
+**Method:** `advcash_wallet` 
+ 
+**Currency:** `UAH`[show -->]() 
+ 
+**Amount limits:** from `0.01` to `14900` UAH  
+
 ## Fields 
 
 ### Overview 
 
 |Key|Required|Type|Regexp| 
 |:---:|:---:|:---:|:---:| 
-|`wallet_id` |✔ |`string` |`/^H\d{12}$/` | 
+|`wallet_id`|✔ |`string`|`/^H\d{12}$/`| 
  
 
 ### Details 
-0 **`wallet_id` **  
-Type: `string`  
-Regexp: `/^H\d{12}$/`  
-Required: `1`  
-Label:  
-: [en] Account number  
-: [ru] Номер счета  
-: [uk] Номер рахунку  
-Hint:  
-: [en] Enter account number  
-: [ru] Введите номер счета  
-: [uk] Введіть номер рахунку  
+ 
+0. **`wallet_id`**  
+ 
+	Type: `string` 
+ 
+	Regexp: `/^H\d{12}$/` 
+ 
+	Required: `1` 
+ 
+	Label:  
+	: [en] Account number  
+	: [ru] Номер счета  
+	: [uk] Номер рахунку  
+ 
+	Hint:  
+	: [en] Enter account number  
+	: [ru] Введите номер счета  
+	: [uk] Введіть номер рахунку  
+ 
 
 ## JSON Object 
 

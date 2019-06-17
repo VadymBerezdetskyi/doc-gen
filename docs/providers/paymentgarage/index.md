@@ -4,15 +4,15 @@
 
 ## General 
  
-**Code:** `paymentgarage`  
+**Code:** `paymentgarage` 
  
-**Vendor:** `paymentgarage`  
+**Vendor:** `paymentgarage` 
  
 **Name:**  
  
 :	[EN] PaymentGarage  
 **Categories:**  
-`collecting`  , `aggregating`  , `distributing`  
+`collecting` , `aggregating` , `distributing` 
  
  
 **Countries:**  
@@ -43,8 +43,8 @@ The list of supported  [Payment Methods](#)
 
 |Code| 
 |:---| 
-|`visa2` | 
-|`mastercard` | 
+|`visa2`| 
+|`mastercard`| 
  
 
 ## JSON Object 

@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `eospaymentsolutions`  
+**Code:** `eospaymentsolutions` 
  
-**Vendor:** `eospaymentsolutions`  
+**Vendor:** `eospaymentsolutions` 
  
 **Name:**  
  

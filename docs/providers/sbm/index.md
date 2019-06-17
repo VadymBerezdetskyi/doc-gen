@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `sbm`  
+**Code:** `sbm` 
  
-**Vendor:** `sbm`  
+**Vendor:** `sbm` 
  
 **Name:**  
  

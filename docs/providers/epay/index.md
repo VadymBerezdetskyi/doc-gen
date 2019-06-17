@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `epay`  
+**Code:** `epay` 
  
-**Vendor:** `epay`  
+**Vendor:** `epay` 
  
 **Name:**  
  

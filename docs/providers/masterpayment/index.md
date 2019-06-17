@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `masterpayment`  
+**Code:** `masterpayment` 
  
-**Vendor:** `masterpayment`  
+**Vendor:** `masterpayment` 
  
 **Name:**  
  

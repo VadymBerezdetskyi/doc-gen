@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `simplepay`  
+**Code:** `simplepay` 
  
-**Vendor:** `simplepay`  
+**Vendor:** `simplepay` 
  
 **Name:**  
  

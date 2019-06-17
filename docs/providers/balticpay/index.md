@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `balticpay`  
+**Code:** `balticpay` 
  
-**Vendor:** `balticpay`  
+**Vendor:** `balticpay` 
  
 **Name:**  
  

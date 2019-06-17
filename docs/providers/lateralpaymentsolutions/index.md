@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `lateralpaymentsolutions`  
+**Code:** `lateralpaymentsolutions` 
  
-**Vendor:** `lateralpaymentsolutions`  
+**Vendor:** `lateralpaymentsolutions` 
  
 **Name:**  
  

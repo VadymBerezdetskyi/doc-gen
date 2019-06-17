@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `paycific`  
+**Code:** `paycific` 
  
-**Vendor:** `paycific`  
+**Vendor:** `paycific` 
  
 **Name:**  
  

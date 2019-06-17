@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `sixpaymentservices`  
+**Code:** `sixpaymentservices` 
  
-**Vendor:** `sixpaymentservices`  
+**Vendor:** `sixpaymentservices` 
  
 **Name:**  
  

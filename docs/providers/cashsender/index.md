@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `cashsender`  
+**Code:** `cashsender` 
  
-**Vendor:** `cashsender`  
+**Vendor:** `cashsender` 
  
 **Name:**  
  

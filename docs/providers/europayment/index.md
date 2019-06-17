@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `europayment`  
+**Code:** `europayment` 
  
-**Vendor:** `europayment`  
+**Vendor:** `europayment` 
  
 **Name:**  
  

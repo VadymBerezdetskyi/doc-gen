@@ -4,15 +4,15 @@
 
 ## General 
  
-**Code:** `magnius`  
+**Code:** `magnius` 
  
-**Vendor:** `magnius`  
+**Vendor:** `magnius` 
  
 **Name:**  
  
 :	[EN] Magnius  
 **Categories:**  
-`distributing`  
+`distributing` 
  
  
 **Countries:**  
@@ -43,23 +43,23 @@ The list of supported  [Payment Methods](#)
 
 |Code| 
 |:---| 
-|`americanexpress` | 
-|`mastercard` | 
-|`bancontactmistercash` | 
-|`visa2` | 
-|`paysafecard` | 
-|`maestro` | 
-|`visaelectron` | 
-|`cartebancaires` | 
-|`vpay` | 
-|`chinaunionpay` | 
-|`mastercarddebit` | 
-|`bitcoin` | 
-|`capayable` | 
-|`sofortbanking` | 
-|`ideal` | 
-|`klarna` | 
-|`sepadirectdebit` | 
+|`americanexpress`| 
+|`mastercard`| 
+|`bancontactmistercash`| 
+|`visa2`| 
+|`paysafecard`| 
+|`maestro`| 
+|`visaelectron`| 
+|`cartebancaires`| 
+|`vpay`| 
+|`chinaunionpay`| 
+|`mastercarddebit`| 
+|`bitcoin`| 
+|`capayable`| 
+|`sofortbanking`| 
+|`ideal`| 
+|`klarna`| 
+|`sepadirectdebit`| 
  
 
 ## JSON Object 

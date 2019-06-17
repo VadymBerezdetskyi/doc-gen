@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `test`  
+**Code:** `test` 
  
-**Vendor:** `test`  
+**Vendor:** `test` 
  
 **Name:**  
  
@@ -38,7 +38,7 @@ The list of supported  [Payment Methods](#)
 
 |Code| 
 |:---| 
-|`test` | 
+|`test`| 
  
 
 ## JSON Object 

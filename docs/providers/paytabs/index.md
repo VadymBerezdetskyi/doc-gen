@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `paytabs`  
+**Code:** `paytabs` 
  
-**Vendor:** `paytabs`  
+**Vendor:** `paytabs` 
  
 **Name:**  
  

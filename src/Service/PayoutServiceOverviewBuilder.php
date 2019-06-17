@@ -37,12 +37,19 @@ final class PayoutServiceOverviewBuilder extends MdBuilder
 //        $this->add(new MdImage($this->getProviderLogo($this->data->code), $this->data->code), true);
 
         $this->add(new MdHeader('General', 2),true);
+        $this->br();
         $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), 'Code:'));
         $this->add(new MdCode($this->data->code),true);
+        $this->br();
 
         if (null !== $this->data->method) {
             $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), 'Method:'));
             $this->add(new MdCode($this->data->method),true);
+            /*
+            *  FIXME: add link
+            */
+            $this->add(new MdLink('show -->', ''), true);
+            $this->br();
         }
 
         if (null !== $this->data->currency) {
@@ -52,6 +59,7 @@ final class PayoutServiceOverviewBuilder extends MdBuilder
             *  FIXME: add link
             */
             $this->add(new MdLink('show -->', ''), true);
+            $this->br();
         }
 
         /*
@@ -63,6 +71,7 @@ final class PayoutServiceOverviewBuilder extends MdBuilder
         if (null !== $this->data->currency) {
             $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::PLAIN), ' '.$this->data->currency));
         }
+        $this->br();
 
         if (null !== $this->data->fields) {
             $this->add(new MdHeader('Fields', 2),true);
@@ -100,28 +109,35 @@ final class PayoutServiceOverviewBuilder extends MdBuilder
             ]), true);
 
             $this->add(new MdHeader('Details', 3),true);
+            $this->br();
             foreach ($this->data->getFields() as $index => $field) {
                 /* @var ServiceFieldDto $field */
-                $this->addString(((string) $index).' '.((new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), (new MdCode($field->key))->toString()))->toString()), true);
+                $this->addString(((string) $index).'. '.((new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), (new MdCode($field->key))->toString()))->toString()), true);
+                $this->br();
 
-                $this->addString('Type: ');
+                $this->addString('Type: ', false, 1);
                 $this->add(new MdCode($field->type), true);
+                $this->br();
 
-                $this->addString('Regexp: ');
+                $this->addString('Regexp: ', false, 1);
                 $this->add(new MdCode($field->regexp), true);
+                $this->br();
 
-                $this->addString('Required: ');
+                $this->addString('Required: ', false, 1);
                 $this->add(new MdCode((string) $field->required), true);
+                $this->br();
 
-                $this->addString('Label: ', true);
+                $this->addString('Label: ', true, 1);
                 foreach ($field->label as $lang => $val) {
-                    $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::PLAIN), ": [$lang] $val"), true);
+                    $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::PLAIN), ": [$lang] $val"), true, 1);
                 }
+                $this->br();
 
-                $this->addString('Hint: ', true);
+                $this->addString('Hint: ', true, 1);
                 foreach ($field->hint as $lang => $val) {
-                    $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::PLAIN), ": [$lang] $val"), true);
+                    $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::PLAIN), ": [$lang] $val"), true,1);
                 }
+                $this->br();
             }
 
             $this->add(new MdHeader('JSON Object', 2), true);

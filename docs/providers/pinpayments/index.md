@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `pinpayments`  
+**Code:** `pinpayments` 
  
-**Vendor:** `pinpayments`  
+**Vendor:** `pinpayments` 
  
 **Name:**  
  

@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `lianlianpay`  
+**Code:** `lianlianpay` 
  
-**Vendor:** `lianlianpay`  
+**Vendor:** `lianlianpay` 
  
 **Name:**  
  

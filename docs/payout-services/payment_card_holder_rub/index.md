@@ -1,44 +1,62 @@
 
 ## General 
-**Code:** `payment_card_holder_rub`  
-**Method:** `payment_card`  
-**Currency:** `RUB` [show -->]() 
-**Amount limits:** from `0.01`  to `100000`  RUB 
+ 
+**Code:** `payment_card_holder_rub` 
+ 
+**Method:** `payment_card` 
+ 
+**Currency:** `RUB`[show -->]() 
+ 
+**Amount limits:** from `0.01` to `100000` RUB  
+
 ## Fields 
 
 ### Overview 
 
 |Key|Required|Type|Regexp| 
 |:---:|:---:|:---:|:---:| 
-|`card_number` |✔ |`string` |`/^\d{12,19}$/` | 
-|`card_holder` |✔ |`string` |`/^([A-Za-z]+)\s([A-Za-z]+)$/` | 
+|`card_number`|✔ |`string`|`/^\d{12,19}$/`| 
+|`card_holder`|✔ |`string`|`/^([A-Za-z]+)\s([A-Za-z]+)$/`| 
  
 
 ### Details 
-0 **`card_number` **  
-Type: `string`  
-Regexp: `/^\d{12,19}$/`  
-Required: `1`  
-Label:  
-: [en] Card number  
-: [ru] Номер карты  
-: [uk] Номер карти  
-Hint:  
-: [en] Enter card number  
-: [ru] Введите номер карты  
-: [uk] Введіть номер картки  
-1 **`card_holder` **  
-Type: `string`  
-Regexp: `/^([A-Za-z]+)\s([A-Za-z]+)$/`  
-Required: `1`  
-Label:  
-: [en] Card holder  
-: [ru] Держатель карты  
-: [uk] Власник картки  
-Hint:  
-: [en] Card holder  
-: [ru] Держатель карты  
-: [uk] Власник картки  
+ 
+0. **`card_number`**  
+ 
+	Type: `string` 
+ 
+	Regexp: `/^\d{12,19}$/` 
+ 
+	Required: `1` 
+ 
+	Label:  
+	: [en] Card number  
+	: [ru] Номер карты  
+	: [uk] Номер карти  
+ 
+	Hint:  
+	: [en] Enter card number  
+	: [ru] Введите номер карты  
+	: [uk] Введіть номер картки  
+ 
+1. **`card_holder`**  
+ 
+	Type: `string` 
+ 
+	Regexp: `/^([A-Za-z]+)\s([A-Za-z]+)$/` 
+ 
+	Required: `1` 
+ 
+	Label:  
+	: [en] Card holder  
+	: [ru] Держатель карты  
+	: [uk] Власник картки  
+ 
+	Hint:  
+	: [en] Card holder  
+	: [ru] Держатель карты  
+	: [uk] Власник картки  
+ 
 
 ## JSON Object 
 

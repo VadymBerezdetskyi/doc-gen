@@ -4,15 +4,15 @@
 
 ## General 
  
-**Code:** `dalberry`  
+**Code:** `dalberry` 
  
-**Vendor:** `dalberry`  
+**Vendor:** `dalberry` 
  
 **Name:**  
  
 :	[EN] Dalberry  
 **Categories:**  
-`aggregating`  , `collecting`  , `distributing`  
+`aggregating` , `collecting` , `distributing` 
  
  
 **Countries:**  
@@ -43,18 +43,18 @@ The list of supported  [Payment Methods](#)
 
 |Code| 
 |:---| 
-|`americanexpress` | 
-|`jcb` | 
-|`visa2` | 
-|`dinersclub` | 
-|`visaelectron` | 
-|`maestro` | 
-|`discover` | 
-|`visadebit` | 
-|`chinaunionpay` | 
-|`mastercard` | 
-|`vpay` | 
-|`mastercarddebit` | 
+|`americanexpress`| 
+|`jcb`| 
+|`visa2`| 
+|`dinersclub`| 
+|`visaelectron`| 
+|`maestro`| 
+|`discover`| 
+|`visadebit`| 
+|`chinaunionpay`| 
+|`mastercard`| 
+|`vpay`| 
+|`mastercarddebit`| 
  
 
 ## JSON Object 

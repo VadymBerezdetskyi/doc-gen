@@ -4,15 +4,15 @@
 
 ## General 
  
-**Code:** `securionpay`  
+**Code:** `securionpay` 
  
-**Vendor:** `securionpay`  
+**Vendor:** `securionpay` 
  
 **Name:**  
  
 :	[EN] SecurionPay  
 **Categories:**  
-`collecting`  , `distributing`  , `aggregating`  
+`collecting` , `distributing` , `aggregating` 
  
 
 ## Images 
@@ -39,13 +39,13 @@ The list of supported  [Payment Methods](#)
 
 |Code| 
 |:---| 
-|`jcb` | 
-|`visa2` | 
-|`dinersclub` | 
-|`visaelectron` | 
-|`discover` | 
-|`visadebit` | 
-|`mastercard` | 
+|`jcb`| 
+|`visa2`| 
+|`dinersclub`| 
+|`visaelectron`| 
+|`discover`| 
+|`visadebit`| 
+|`mastercard`| 
  
 
 ## JSON Object 

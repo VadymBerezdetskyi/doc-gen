@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `aramorpayments`  
+**Code:** `aramorpayments` 
  
-**Vendor:** `aramorpayments`  
+**Vendor:** `aramorpayments` 
  
 **Name:**  
  

@@ -23,18 +23,22 @@ class MdBuilder
         $this->content = $this->content." \n";
     }
 
-    public function add(MdElementInterface $element, bool $return = false): void
+    public function add(MdElementInterface $element, bool $return = false, int $indent = 0): void
     {
-        $this->content = $this->content.$element->toString();
+        $this->content = $indent
+            ? $this->content.str_repeat("\t", $indent).$element->toString()
+            : $this->content.$element->toString();
 
         if ($return) {
             $this->br();
         }
     }
 
-    public function addString(string $string, bool $return = false): void
+    public function addString(string $string, bool $return = false, int $indent = 0): void
     {
-        $this->content = $this->content.$string;
+        $this->content = $indent
+            ? $this->content.str_repeat("\t", $indent).$string
+            : $this->content.$string;
 
         if ($return) {
             $this->br();

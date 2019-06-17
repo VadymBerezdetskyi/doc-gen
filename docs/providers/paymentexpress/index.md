@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `paymentexpress`  
+**Code:** `paymentexpress` 
  
-**Vendor:** `paymentexpress`  
+**Vendor:** `paymentexpress` 
  
 **Name:**  
  

@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `yapstone`  
+**Code:** `yapstone` 
  
-**Vendor:** `yapstone`  
+**Vendor:** `yapstone` 
  
 **Name:**  
  

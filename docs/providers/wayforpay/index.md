@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `wayforpay`  
+**Code:** `wayforpay` 
  
-**Vendor:** `wayforpay`  
+**Vendor:** `wayforpay` 
  
 **Name:**  
  

@@ -4,15 +4,15 @@
 
 ## General 
  
-**Code:** `mollie`  
+**Code:** `mollie` 
  
-**Vendor:** `mollie`  
+**Vendor:** `mollie` 
  
 **Name:**  
  
 :	[EN] Mollie  
 **Categories:**  
-`distributing`  , `collecting`  , `aggregating`  
+`distributing` , `collecting` , `aggregating` 
  
  
 **Countries:**  
@@ -43,23 +43,23 @@ The list of supported  [Payment Methods](#)
 
 |Code| 
 |:---| 
-|`mastercard` | 
-|`cartasi` | 
-|`bancontactmistercash` | 
-|`visa2` | 
-|`paysafecard` | 
-|`visaelectron` | 
-|`maestro` | 
-|`cartebancaires` | 
-|`visadebit` | 
-|`mastercarddebit` | 
-|`bitcoin` | 
-|`belfiusdirectnet` | 
-|`sofortbanking` | 
-|`ideal` | 
-|`sepadirectdebit` | 
-|`sepacredittransfer` | 
-|`acceptemail` | 
+|`mastercard`| 
+|`cartasi`| 
+|`bancontactmistercash`| 
+|`visa2`| 
+|`paysafecard`| 
+|`visaelectron`| 
+|`maestro`| 
+|`cartebancaires`| 
+|`visadebit`| 
+|`mastercarddebit`| 
+|`bitcoin`| 
+|`belfiusdirectnet`| 
+|`sofortbanking`| 
+|`ideal`| 
+|`sepadirectdebit`| 
+|`sepacredittransfer`| 
+|`acceptemail`| 
  
 
 ## JSON Object 

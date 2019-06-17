@@ -1,31 +1,43 @@
 
 ## General 
-**Code:** `qiwi_rub`  
-**Method:** `qiwi`  
-**Currency:** `RUB` [show -->]() 
-**Amount limits:** from `50`  to `60000`  RUB 
+ 
+**Code:** `qiwi_rub` 
+ 
+**Method:** `qiwi` 
+ 
+**Currency:** `RUB`[show -->]() 
+ 
+**Amount limits:** from `50` to `60000` RUB  
+
 ## Fields 
 
 ### Overview 
 
 |Key|Required|Type|Regexp| 
 |:---:|:---:|:---:|:---:| 
-|`wallet_id` |✔ |`string` |`/^\+\d{1,15}$/` | 
+|`wallet_id`|✔ |`string`|`/^\+\d{1,15}$/`| 
  
 
 ### Details 
-0 **`wallet_id` **  
-Type: `string`  
-Regexp: `/^\+\d{1,15}$/`  
-Required: `1`  
-Label:  
-: [en] Qiwi wallet  
-: [ru] Qiwi кошелек  
-: [uk] Qiwi гаманець  
-Hint:  
-: [en] Enter Qiwi wallet  
-: [ru] Введите Qiwi кошелек  
-: [uk] Введіть Qiwi гаманець  
+ 
+0. **`wallet_id`**  
+ 
+	Type: `string` 
+ 
+	Regexp: `/^\+\d{1,15}$/` 
+ 
+	Required: `1` 
+ 
+	Label:  
+	: [en] Qiwi wallet  
+	: [ru] Qiwi кошелек  
+	: [uk] Qiwi гаманець  
+ 
+	Hint:  
+	: [en] Enter Qiwi wallet  
+	: [ru] Введите Qiwi кошелек  
+	: [uk] Введіть Qiwi гаманець  
+ 
 
 ## JSON Object 
 

@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `bscardservices`  
+**Code:** `bscardservices` 
  
-**Vendor:** `bscardservices`  
+**Vendor:** `bscardservices` 
  
 **Name:**  
  

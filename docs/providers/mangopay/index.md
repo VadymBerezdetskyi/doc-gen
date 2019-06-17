@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `mangopay`  
+**Code:** `mangopay` 
  
-**Vendor:** `mangopay`  
+**Vendor:** `mangopay` 
  
 **Name:**  
  

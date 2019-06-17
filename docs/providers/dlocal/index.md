@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `dlocal`  
+**Code:** `dlocal` 
  
-**Vendor:** `dlocal`  
+**Vendor:** `dlocal` 
  
 **Name:**  
  

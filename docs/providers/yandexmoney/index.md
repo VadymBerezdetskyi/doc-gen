@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `yandexmoney`  
+**Code:** `yandexmoney` 
  
-**Vendor:** `yandex`  
+**Vendor:** `yandex` 
  
 **Name:**  
  
@@ -14,7 +14,7 @@
 :	[RU] Яндекс.Деньги  
 :	[UK] Yandex.Money  
 **Categories:**  
-`aggregating`  , `distributing`  , `collecting`  
+`aggregating` , `distributing` , `collecting` 
  
 
 ## Images 

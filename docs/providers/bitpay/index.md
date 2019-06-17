@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `bitpay`  
+**Code:** `bitpay` 
  
-**Vendor:** `bitpay`  
+**Vendor:** `bitpay` 
  
 **Name:**  
  

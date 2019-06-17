@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `credorax`  
+**Code:** `credorax` 
  
-**Vendor:** `credorax`  
+**Vendor:** `credorax` 
  
 **Name:**  
  

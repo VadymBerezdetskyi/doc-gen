@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `citopay`  
+**Code:** `citopay` 
  
-**Vendor:** `citopay`  
+**Vendor:** `citopay` 
  
 **Name:**  
  

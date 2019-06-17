@@ -4,15 +4,15 @@
 
 ## General 
  
-**Code:** `merchantscout`  
+**Code:** `merchantscout` 
  
-**Vendor:** `merchantscout`  
+**Vendor:** `merchantscout` 
  
 **Name:**  
  
 :	[EN] MerchantScout  
 **Categories:**  
-`distributing`  
+`distributing` 
  
  
 **Countries:**  
@@ -43,23 +43,23 @@ The list of supported  [Payment Methods](#)
 
 |Code| 
 |:---| 
-|`girocard` | 
-|`visa2` | 
-|`paysafecard` | 
-|`cashu` | 
-|`chinaunionpay` | 
-|`dankort` | 
-|`americanexpress` | 
-|`mastercard` | 
-|`cartasi` | 
-|`ukash` | 
-|`bancontactmistercash` | 
-|`multibanconet` | 
-|`jcb` | 
-|`dinersclub` | 
-|`cartebleue` | 
-|`visaelectron` | 
-|`maestro` | 
+|`girocard`| 
+|`visa2`| 
+|`paysafecard`| 
+|`cashu`| 
+|`chinaunionpay`| 
+|`dankort`| 
+|`americanexpress`| 
+|`mastercard`| 
+|`cartasi`| 
+|`ukash`| 
+|`bancontactmistercash`| 
+|`multibanconet`| 
+|`jcb`| 
+|`dinersclub`| 
+|`cartebleue`| 
+|`visaelectron`| 
+|`maestro`| 
  
 
 ## JSON Object 

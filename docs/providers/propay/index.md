@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `propay`  
+**Code:** `propay` 
  
-**Vendor:** `propay`  
+**Vendor:** `propay` 
  
 **Name:**  
  

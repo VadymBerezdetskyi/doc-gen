@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `bips`  
+**Code:** `bips` 
  
-**Vendor:** `bips`  
+**Vendor:** `bips` 
  
 **Name:**  
  

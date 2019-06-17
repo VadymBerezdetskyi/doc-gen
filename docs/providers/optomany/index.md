@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `optomany`  
+**Code:** `optomany` 
  
-**Vendor:** `optomany`  
+**Vendor:** `optomany` 
  
 **Name:**  
  

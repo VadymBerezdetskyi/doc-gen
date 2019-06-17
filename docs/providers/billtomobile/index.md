@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `billtomobile`  
+**Code:** `billtomobile` 
  
-**Vendor:** `billtomobile`  
+**Vendor:** `billtomobile` 
  
 **Name:**  
  

@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `bitmerch`  
+**Code:** `bitmerch` 
  
-**Vendor:** `bitmerch`  
+**Vendor:** `bitmerch` 
  
 **Name:**  
  

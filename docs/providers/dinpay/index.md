@@ -4,15 +4,15 @@
 
 ## General 
  
-**Code:** `dinpay`  
+**Code:** `dinpay` 
  
-**Vendor:** `dinpay`  
+**Vendor:** `dinpay` 
  
 **Name:**  
  
 :	[EN] Dinpay  
 **Categories:**  
-`collecting`  , `aggregating`  , `distributing`  , `acquiring`  
+`collecting` , `aggregating` , `distributing` , `acquiring` 
  
 
 ## Images 
@@ -39,8 +39,8 @@ The list of supported  [Payment Methods](#)
 
 |Code| 
 |:---| 
-|`chinaunionpay` | 
-|`bankofchinanetbanking` | 
+|`chinaunionpay`| 
+|`bankofchinanetbanking`| 
  
 
 ## JSON Object 

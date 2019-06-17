@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `cardconnect`  
+**Code:** `cardconnect` 
  
-**Vendor:** `cardconnect`  
+**Vendor:** `cardconnect` 
  
 **Name:**  
  

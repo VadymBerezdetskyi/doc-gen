@@ -4,15 +4,15 @@
 
 ## General 
  
-**Code:** `iyzipayments`  
+**Code:** `iyzipayments` 
  
-**Vendor:** `iyzipayments`  
+**Vendor:** `iyzipayments` 
  
 **Name:**  
  
 :	[EN] iyzico  
 **Categories:**  
-`collecting`  , `aggregating`  , `distributing`  
+`collecting` , `aggregating` , `distributing` 
  
 
 ## Images 
@@ -39,14 +39,14 @@ The list of supported  [Payment Methods](#)
 
 |Code| 
 |:---| 
-|`americanexpress` | 
-|`visa2` | 
-|`visaelectron` | 
-|`maestro` | 
-|`visadebit` | 
-|`mastercard` | 
-|`mastercarddebit` | 
-|`bkmexpress` | 
+|`americanexpress`| 
+|`visa2`| 
+|`visaelectron`| 
+|`maestro`| 
+|`visadebit`| 
+|`mastercard`| 
+|`mastercarddebit`| 
+|`bkmexpress`| 
  
 
 ## JSON Object 

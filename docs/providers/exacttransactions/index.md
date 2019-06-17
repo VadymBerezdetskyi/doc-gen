@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `exacttransactions`  
+**Code:** `exacttransactions` 
  
-**Vendor:** `exacttransactions`  
+**Vendor:** `exacttransactions` 
  
 **Name:**  
  

@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `liqpay`  
+**Code:** `liqpay` 
  
-**Vendor:** `liqpay`  
+**Vendor:** `liqpay` 
  
 **Name:**  
  
@@ -36,10 +36,10 @@ The list of supported  [Payment Methods](#)
 
 |Code| 
 |:---| 
-|`privat24` | 
-|`masterpass` | 
-|`cash` | 
-|`bank_card` | 
+|`privat24`| 
+|`masterpass`| 
+|`cash`| 
+|`bank_card`| 
  
 
 ## JSON Object 

@@ -4,15 +4,15 @@
 
 ## General 
  
-**Code:** `fondy`  
+**Code:** `fondy` 
  
-**Vendor:** `fondy`  
+**Vendor:** `fondy` 
  
 **Name:**  
  
 :	[EN] FONDY  
 **Categories:**  
-`aggregating`  , `collecting`  , `distributing`  
+`aggregating` , `collecting` , `distributing` 
  
  
 **Countries:**  
@@ -43,23 +43,23 @@ The list of supported  [Payment Methods](#)
 
 |Code| 
 |:---| 
-|`mastercard` | 
-|`visa2` | 
-|`visaelectron` | 
-|`maestro` | 
-|`visadebit` | 
-|`vpay` | 
-|`mastercarddebit` | 
-|`account2account` | 
-|`giropay` | 
-|`komercnibanka` | 
-|`raiffeisenbank` | 
-|`banklink` | 
-|`ceskasporitelna` | 
-|`sofortbanking` | 
-|`csob` | 
-|`sepacredittransfer` | 
-|`ekonto` | 
+|`mastercard`| 
+|`visa2`| 
+|`visaelectron`| 
+|`maestro`| 
+|`visadebit`| 
+|`vpay`| 
+|`mastercarddebit`| 
+|`account2account`| 
+|`giropay`| 
+|`komercnibanka`| 
+|`raiffeisenbank`| 
+|`banklink`| 
+|`ceskasporitelna`| 
+|`sofortbanking`| 
+|`csob`| 
+|`sepacredittransfer`| 
+|`ekonto`| 
  
 
 ## JSON Object 

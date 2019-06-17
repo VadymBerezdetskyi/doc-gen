@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `dineromail`  
+**Code:** `dineromail` 
  
-**Vendor:** `dineromail`  
+**Vendor:** `dineromail` 
  
 **Name:**  
  

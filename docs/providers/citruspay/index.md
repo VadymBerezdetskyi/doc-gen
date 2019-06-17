@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `citruspay`  
+**Code:** `citruspay` 
  
-**Vendor:** `citruspay`  
+**Vendor:** `citruspay` 
  
 **Name:**  
  

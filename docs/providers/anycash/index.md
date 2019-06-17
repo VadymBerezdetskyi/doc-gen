@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `anycash`  
+**Code:** `anycash` 
  
-**Vendor:** `anycash`  
+**Vendor:** `anycash` 
  
 **Name:**  
  

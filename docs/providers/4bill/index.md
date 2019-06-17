@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `4bill`  
+**Code:** `4bill` 
  
-**Vendor:** `4bill`  
+**Vendor:** `4bill` 
  
 **Name:**  
  
@@ -36,7 +36,7 @@ The list of supported  [Payment Methods](#)
 
 |Code| 
 |:---| 
-|`bank_card` | 
+|`bank_card`| 
  
 
 ## Payout Methods 
@@ -45,7 +45,7 @@ The list of supported  [Payout Methods](#)
 
 |Icon|Name|Code| 
 |:---:|:---:|:---:| 
-|![bank_card](https://static.openfintech.io/payout_methods/bank_card/icon.png?w=278&c=v0.59.26#w40) |[bank_card](#)|`bank_card` | 
+|![bank_card](https://static.openfintech.io/payout_methods/bank_card/icon.png?w=278&c=v0.59.26#w40) |[bank_card](#)|`bank_card`| 
  
 
 ## JSON Object 

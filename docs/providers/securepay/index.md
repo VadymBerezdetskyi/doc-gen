@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `securepay`  
+**Code:** `securepay` 
  
-**Vendor:** `securepay`  
+**Vendor:** `securepay` 
  
 **Name:**  
  

@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `paybox`  
+**Code:** `paybox` 
  
-**Vendor:** `paybox`  
+**Vendor:** `paybox` 
  
 **Name:**  
  

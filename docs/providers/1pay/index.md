@@ -4,15 +4,15 @@
 
 ## General 
  
-**Code:** `1pay`  
+**Code:** `1pay` 
  
-**Vendor:** `1pay`  
+**Vendor:** `1pay` 
  
 **Name:**  
  
 :	[EN] 1Pay  
 **Categories:**  
-`distributing`  
+`distributing` 
  
  
 **Countries:**  
@@ -43,9 +43,9 @@ The list of supported  [Payment Methods](#)
 
 |Code| 
 |:---| 
-|`visa2` | 
-|`mastercard` | 
-|`carrierbilling` | 
+|`visa2`| 
+|`mastercard`| 
+|`carrierbilling`| 
  
 
 ## JSON Object 

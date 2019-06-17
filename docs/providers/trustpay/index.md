@@ -4,15 +4,15 @@
 
 ## General 
  
-**Code:** `trustpay`  
+**Code:** `trustpay` 
  
-**Vendor:** `trustpay`  
+**Vendor:** `trustpay` 
  
 **Name:**  
  
 :	[EN] TrustPay  
 **Categories:**  
-`collecting`  , `distributing`  , `aggregating`  , `acquiring`  
+`collecting` , `distributing` , `aggregating` , `acquiring` 
  
  
 **Countries:**  
@@ -43,26 +43,26 @@ The list of supported  [Payment Methods](#)
 
 |Code| 
 |:---| 
-|`mastercard` | 
-|`visa2` | 
-|`paysafecard` | 
-|`cashu` | 
-|`visaelectron` | 
-|`maestro` | 
-|`visadebit` | 
-|`chinaunionpay` | 
-|`vpay` | 
-|`mastercarddebit` | 
-|`gemoney` | 
-|`wiretransfer` | 
-|`komercnibanka` | 
-|`postovabanka` | 
-|`unicredit` | 
-|`slovenskasporitelna` | 
-|`tatrabanka` | 
-|`vubbanka` | 
-|`sepadirectdebit` | 
-|`sepacredittransfer` | 
+|`mastercard`| 
+|`visa2`| 
+|`paysafecard`| 
+|`cashu`| 
+|`visaelectron`| 
+|`maestro`| 
+|`visadebit`| 
+|`chinaunionpay`| 
+|`vpay`| 
+|`mastercarddebit`| 
+|`gemoney`| 
+|`wiretransfer`| 
+|`komercnibanka`| 
+|`postovabanka`| 
+|`unicredit`| 
+|`slovenskasporitelna`| 
+|`tatrabanka`| 
+|`vubbanka`| 
+|`sepadirectdebit`| 
+|`sepacredittransfer`| 
  
 
 ## JSON Object 

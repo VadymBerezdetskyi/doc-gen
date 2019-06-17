@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `swishme`  
+**Code:** `swishme` 
  
-**Vendor:** `swishme`  
+**Vendor:** `swishme` 
  
 **Name:**  
  

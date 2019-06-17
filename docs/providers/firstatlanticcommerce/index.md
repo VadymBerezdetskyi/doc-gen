@@ -4,15 +4,15 @@
 
 ## General 
  
-**Code:** `firstatlanticcommerce`  
+**Code:** `firstatlanticcommerce` 
  
-**Vendor:** `firstatlanticcommerce`  
+**Vendor:** `firstatlanticcommerce` 
  
 **Name:**  
  
 :	[EN] First Atlantic Commerce  
 **Categories:**  
-`collecting`  , `aggregating`  , `distributing`  
+`collecting` , `aggregating` , `distributing` 
  
 
 ## Images 
@@ -39,20 +39,20 @@ The list of supported  [Payment Methods](#)
 
 |Code| 
 |:---| 
-|`americanexpress` | 
-|`mastercard` | 
-|`ukash` | 
-|`jcb` | 
-|`visa2` | 
-|`dinersclub` | 
-|`visaelectron` | 
-|`maestro` | 
-|`discover` | 
-|`visadebit` | 
-|`chinaunionpay` | 
-|`mastercarddebit` | 
-|`electroniccheckach` | 
-|`skrill` | 
+|`americanexpress`| 
+|`mastercard`| 
+|`ukash`| 
+|`jcb`| 
+|`visa2`| 
+|`dinersclub`| 
+|`visaelectron`| 
+|`maestro`| 
+|`discover`| 
+|`visadebit`| 
+|`chinaunionpay`| 
+|`mastercarddebit`| 
+|`electroniccheckach`| 
+|`skrill`| 
  
 
 ## JSON Object 

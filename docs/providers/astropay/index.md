@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `astropay`  
+**Code:** `astropay` 
  
-**Vendor:** `astropay`  
+**Vendor:** `astropay` 
  
 **Name:**  
  

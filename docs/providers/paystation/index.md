@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `paystation`  
+**Code:** `paystation` 
  
-**Vendor:** `paystation`  
+**Vendor:** `paystation` 
  
 **Name:**  
  

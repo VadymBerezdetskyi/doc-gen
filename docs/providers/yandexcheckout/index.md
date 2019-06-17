@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `yandexcheckout`  
+**Code:** `yandexcheckout` 
  
-**Vendor:** `yandex`  
+**Vendor:** `yandex` 
  
 **Name:**  
  
@@ -14,7 +14,7 @@
 :	[UK] Яндекс.Каса  
 :	[RU] Яндекс.Касса  
 **Categories:**  
-`aggregating`  , `distributing`  , `collecting`  
+`aggregating` , `distributing` , `collecting` 
  
 
 ## Images 

@@ -1,31 +1,43 @@
 
 ## General 
-**Code:** `bank_card_rub`  
-**Method:** `bank_card`  
-**Currency:** `RUB` [show -->]() 
-**Amount limits:** from `0.01`  to `100000`  RUB 
+ 
+**Code:** `bank_card_rub` 
+ 
+**Method:** `bank_card` 
+ 
+**Currency:** `RUB`[show -->]() 
+ 
+**Amount limits:** from `0.01` to `100000` RUB  
+
 ## Fields 
 
 ### Overview 
 
 |Key|Required|Type|Regexp| 
 |:---:|:---:|:---:|:---:| 
-|`card_number` |✔ |`string` |`/^\d{12,19}$/` | 
+|`card_number`|✔ |`string`|`/^\d{12,19}$/`| 
  
 
 ### Details 
-0 **`card_number` **  
-Type: `string`  
-Regexp: `/^\d{12,19}$/`  
-Required: `1`  
-Label:  
-: [en] Card number  
-: [ru] Номер карты  
-: [uk] Номер карти  
-Hint:  
-: [en] Enter card number  
-: [ru] Введите номер карты  
-: [uk] Введіть номер карти  
+ 
+0. **`card_number`**  
+ 
+	Type: `string` 
+ 
+	Regexp: `/^\d{12,19}$/` 
+ 
+	Required: `1` 
+ 
+	Label:  
+	: [en] Card number  
+	: [ru] Номер карты  
+	: [uk] Номер карти  
+ 
+	Hint:  
+	: [en] Enter card number  
+	: [ru] Введите номер карты  
+	: [uk] Введіть номер карти  
+ 
 
 ## JSON Object 
 

@@ -4,15 +4,15 @@
 
 ## General 
  
-**Code:** `africanpaymentsolutions`  
+**Code:** `africanpaymentsolutions` 
  
-**Vendor:** `africanpaymentsolutions`  
+**Vendor:** `africanpaymentsolutions` 
  
 **Name:**  
  
 :	[EN] African Payment Solutions  
 **Categories:**  
-`collecting`  , `distributing`  , `aggregating`  
+`collecting` , `distributing` , `aggregating` 
  
 
 ## Images 
@@ -39,8 +39,8 @@ The list of supported  [Payment Methods](#)
 
 |Code| 
 |:---| 
-|`visa2` | 
-|`mastercard` | 
+|`visa2`| 
+|`mastercard`| 
  
 
 ## JSON Object 

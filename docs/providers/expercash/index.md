@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `expercash`  
+**Code:** `expercash` 
  
-**Vendor:** `expercash`  
+**Vendor:** `expercash` 
  
 **Name:**  
  

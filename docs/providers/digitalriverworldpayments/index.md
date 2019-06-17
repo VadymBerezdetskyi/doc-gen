@@ -4,15 +4,15 @@
 
 ## General 
  
-**Code:** `digitalriverworldpayments`  
+**Code:** `digitalriverworldpayments` 
  
-**Vendor:** `digitalriverworldpayments`  
+**Vendor:** `digitalriverworldpayments` 
  
 **Name:**  
  
 :	[EN] Digital River World Payments  
 **Categories:**  
-`acquiring`  , `collecting`  , `aggregating`  , `distributing`  
+`acquiring` , `collecting` , `aggregating` , `distributing` 
  
 
 ## Images 
@@ -39,9 +39,9 @@ The list of supported  [Payment Methods](#)
 
 |Code| 
 |:---| 
-|`rupaypaysecure` | 
-|`visa2` | 
-|`cartasi` | 
+|`rupaypaysecure`| 
+|`visa2`| 
+|`cartasi`| 
  
 
 ## JSON Object 

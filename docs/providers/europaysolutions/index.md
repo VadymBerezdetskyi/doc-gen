@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `europaysolutions`  
+**Code:** `europaysolutions` 
  
-**Vendor:** `europaysolutions`  
+**Vendor:** `europaysolutions` 
  
 **Name:**  
  

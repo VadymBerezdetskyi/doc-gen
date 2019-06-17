@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `vallettapay`  
+**Code:** `vallettapay` 
  
-**Vendor:** `vallettapay`  
+**Vendor:** `vallettapay` 
  
 **Name:**  
  

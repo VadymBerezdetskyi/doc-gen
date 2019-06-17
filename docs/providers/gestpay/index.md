@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `gestpay`  
+**Code:** `gestpay` 
  
-**Vendor:** `gestpay`  
+**Vendor:** `gestpay` 
  
 **Name:**  
  

@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `123x`  
+**Code:** `123x` 
  
-**Vendor:** `123x`  
+**Vendor:** `123x` 
  
 **Name:**  
  
@@ -36,7 +36,7 @@ The list of supported  [Payment Methods](#)
 
 |Code| 
 |:---| 
-|`bank_card` | 
+|`bank_card`| 
  
 
 ## JSON Object 

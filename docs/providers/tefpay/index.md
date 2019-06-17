@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `tefpay`  
+**Code:** `tefpay` 
  
-**Vendor:** `tefpay`  
+**Vendor:** `tefpay` 
  
 **Name:**  
  

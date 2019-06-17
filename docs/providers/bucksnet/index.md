@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `bucksnet`  
+**Code:** `bucksnet` 
  
-**Vendor:** `bucksnet`  
+**Vendor:** `bucksnet` 
  
 **Name:**  
  

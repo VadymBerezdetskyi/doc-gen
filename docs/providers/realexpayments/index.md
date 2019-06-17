@@ -4,9 +4,9 @@
 
 ## General 
  
-**Code:** `realexpayments`  
+**Code:** `realexpayments` 
  
-**Vendor:** `realexpayments`  
+**Vendor:** `realexpayments` 
  
 **Name:**  
  

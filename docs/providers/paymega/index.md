@@ -4,15 +4,15 @@
 
 ## General 
  
-**Code:** `paymega`  
+**Code:** `paymega` 
  
-**Vendor:** `paymega`  
+**Vendor:** `paymega` 
  
 **Name:**  
  
 :	[EN] PayMega  
 **Categories:**  
-`aggregating`  
+`aggregating` 
  
 
 ## Images 
@@ -39,7 +39,7 @@ The list of supported  [Payment Methods](#)
 
 |Code| 
 |:---| 
-|`bank_card` | 
+|`bank_card`| 
  
 
 ## Payout Methods 
@@ -48,8 +48,8 @@ The list of supported  [Payout Methods](#)
 
 |Icon|Name|Code| 
 |:---:|:---:|:---:| 
-|![bank_card](https://static.openfintech.io/payout_methods/bank_card/icon.png?w=278&c=v0.59.26#w40) |[bank_card](#)|`bank_card` | 
-|![qiwi](https://static.openfintech.io/payout_methods/qiwi/icon.png?w=278&c=v0.59.26#w40) |[qiwi](#)|`qiwi` | 
+|![bank_card](https://static.openfintech.io/payout_methods/bank_card/icon.png?w=278&c=v0.59.26#w40) |[bank_card](#)|`bank_card`| 
+|![qiwi](https://static.openfintech.io/payout_methods/qiwi/icon.png?w=278&c=v0.59.26#w40) |[qiwi](#)|`qiwi`| 
  
 
 ## JSON Object 
