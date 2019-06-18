@@ -2,176 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6118e819-5c91-4dc5-88f7-b352b921177a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Dto/PaymentServiceDto.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/alandsbanken/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/alfaclick/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/bancoitau/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/bancopastor/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/bigconlinepayment/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/bitcoin/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/bpay/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/bradescocomercioeletronico/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/citadelelatvia/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/elektronischeslastschriftverfahren/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/enetsdirectdebit/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/erstebank/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/ethereum/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/euroset/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/euteller/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/gemoney/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/hdfcbanknetbankingindia/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/ibox/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/icicinetbanking/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/ideal/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/inghomepay/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/ingspain/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/inteligo/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/jyskebank/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/kasikornbankkbanknetbanking/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/komercnibanka/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/krungsrinetbanking/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/krungthaibanknetbanking/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/lacaixa/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/libertybank/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/litecoin/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/mbank/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/moneymail/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/octopus/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/okpay/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/otpbank/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/poppankki/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/pravexbank/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/promsvyazbank/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/provinciapagos/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/qazkombank/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/rcbc/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/ripple/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/safetypay/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/scbbanknetbanking/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/sepacredittransfer/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/sepadirectdebit/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/spankki/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/ssk/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/tele2ru/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/tescolotus/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/trustly/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/ukrsibbank/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/unicredit/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/volksbank/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/vubbanka/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payment-methods/wiretransfer/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payout-services/advcash_wallet_rub/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payout-services/advcash_wallet_uah/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payout-services/advcash_wallet_usd/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payout-services/bank_card_kzt/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payout-services/bank_card_rub/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payout-services/bank_card_uah/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payout-services/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payout-services/payment_card_holder_rub/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payout-services/payment_card_kzt/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payout-services/payment_card_rub/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payout-services/payment_card_uah/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/payout-services/qiwi_rub/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/123x/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/1pay/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/4bill/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/acceptance/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/africanpaymentsolutions/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/anycash/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/aramorpayments/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/astropay/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/balticpay/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/beanstream/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/billtomobile/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/bips/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/bitmerch/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/bitnet/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/bitpay/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/bscardservices/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/bucksnet/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/cardconnect/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/cashsender/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/circulopayments/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/citopay/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/citruspay/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/corvuspay/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/credorax/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/cxpay/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/cyberbit/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/dalberry/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/digitalriverworldpayments/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/dineromail/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/dinpay/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/dlocal/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/ecardsa/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/econtext/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/ecpss/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/eospaymentsolutions/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/epay/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/europayment/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/europaysolutions/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/exacttransactions/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/expercash/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/ezic/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/firstatlanticcommerce/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/flashpay/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/fondy/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/gestpay/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/iyzipayments/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/kortapay/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/lateralpaymentsolutions/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/lianlianpay/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/liqpay/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/magnius/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/mangopay/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/masterpayment/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/merchantscout/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/mollie/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/netmobileag/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/netpay/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/omnipayment/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/onpex/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/optomany/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/payanyway/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/paybox/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/paycific/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/paydoo/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/paymega/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/paymentexpress/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/paymentgarage/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/paymentgateway/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/paymundo/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/paystation/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/paytabs/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/pinpayments/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/propay/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/realexpayments/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/robokassa/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/sbm/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/securepay/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/securionpay/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/simplepay/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/sisow/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/sixpaymentservices/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/swishme/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/tefpay/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/test/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/trustpay/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/upclick/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/vallettapay/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/wayforpay/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/webmoney/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/yandexcheckout/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/yandexmoney/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/yapstone/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/providers/zaakpay/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DocBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DocBuilder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dto/ServiceFieldDto.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dto/ServiceFieldDto.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Service/PayoutServiceOverviewBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/PayoutServiceOverviewBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dto/PayoutMethodDto.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dto/PaymentMethodDto.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dto/PaymentMethodDto.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -205,35 +37,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DocBuilder.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PayoutServiceOverviewBuilder.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Service/PayoutServiceOverviewBuilder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-471">
+              <caret line="19" column="58" lean-forward="true" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PayoutMethodDto.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Dto/PayoutMethodDto.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="624">
+              <caret line="26" column="52" lean-forward="true" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PaymentMethodDto.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Dto/PaymentMethodDto.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="768">
+              <caret line="32" column="5" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="32" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DocBuilder.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DocBuilder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
-              <caret line="126" column="65" lean-forward="true" selection-start-line="126" selection-start-column="65" selection-end-line="126" selection-end-column="65" />
+            <state relative-caret-position="264">
+              <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
               <folding>
                 <element signature="e#33#72#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataProvider.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DataProvider.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="42" column="35" lean-forward="true" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
-              <folding>
-                <element signature="e#33#72#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PayoutServiceDto.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Dto/PayoutServiceDto.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="33" column="5" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="33" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -280,7 +118,6 @@
         <option value="$PROJECT_DIR$/src/MdBuilder.php" />
         <option value="$PROJECT_DIR$/src/PayoutMethodOverviewBuilder.php" />
         <option value="$PROJECT_DIR$/docs/providers/1pay.md" />
-        <option value="$PROJECT_DIR$/src/Dto/PaymentMethodDto.php" />
         <option value="$PROJECT_DIR$/src/ProviderOverviewBuilder.php" />
         <option value="$PROJECT_DIR$/src/PaymentMethodOverviewBuilder.php" />
         <option value="$PROJECT_DIR$/src/Builders/PayoutMethodOverviewBuilder.php" />
@@ -290,7 +127,6 @@
         <option value="$PROJECT_DIR$/src/Builders/ProviderOverviewBuilder.php" />
         <option value="$PROJECT_DIR$/src/Builders/PayoutServiceOverviewBuilder.php" />
         <option value="$PROJECT_DIR$/src/Builders/ProvidersListBuilder.php" />
-        <option value="$PROJECT_DIR$/src/Dto/PayoutMethodDto.php" />
         <option value="$PROJECT_DIR$/src/Dto/PayoutServiceDto.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/docs/payment-methods/7eleven/index.md" />
@@ -319,6 +155,8 @@
         <option value="$PROJECT_DIR$/src/Dto/PaymentServiceDto.php" />
         <option value="$PROJECT_DIR$/src/DataProvider.php" />
         <option value="$PROJECT_DIR$/src/DocBuilder.php" />
+        <option value="$PROJECT_DIR$/src/Dto/PaymentMethodDto.php" />
+        <option value="$PROJECT_DIR$/src/Dto/PayoutMethodDto.php" />
       </list>
     </option>
   </component>
@@ -369,12 +207,24 @@
             <path>
               <item name="oft_docs" type="b2602c69:ProjectViewProjectNode" />
               <item name="oft_docs" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="oft_docs" type="b2602c69:ProjectViewProjectNode" />
               <item name="oft_docs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oft_docs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oft_docs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oft_docs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oft_docs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -438,7 +288,7 @@
       <workItem from="1560186522797" duration="13400000" />
       <workItem from="1560255504276" duration="8847000" />
       <workItem from="1560430111048" duration="16636000" />
-      <workItem from="1560765043743" duration="12528000" />
+      <workItem from="1560765043743" duration="14975000" />
     </task>
     <servers />
   </component>
@@ -475,7 +325,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138924000" />
+    <option name="totallyTimeSpent" value="141371000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1172" extended-state="6" />
@@ -547,13 +397,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/filesystem/Exception/IOExceptionInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/symfony/yaml/Exception/ParseException.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="431">
@@ -792,13 +635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Dto/PaymentMethodDto.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Enums/TextEmphasisPatternEnum.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -854,13 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Service/PayoutServiceOverviewBuilder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2664">
-          <caret line="124" column="45" lean-forward="true" selection-start-line="124" selection-start-column="45" selection-end-line="124" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Dto/ServiceFieldDto.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="479">
@@ -871,7 +700,7 @@
     <entry file="file://$PROJECT_DIR$/src/Dto/PayoutServiceDto.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="792">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="33" selection-end-column="5" />
+          <caret line="33" column="5" selection-start-line="22" selection-start-column="22" selection-end-line="33" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -892,7 +721,7 @@
     <entry file="file://$PROJECT_DIR$/src/DataProvider.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
-          <caret line="42" column="35" lean-forward="true" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
+          <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
           <folding>
             <element signature="e#33#72#0#PHP" expanded="true" />
           </folding>
@@ -901,11 +730,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DocBuilder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="126" column="65" lean-forward="true" selection-start-line="126" selection-start-column="65" selection-end-line="126" selection-end-column="65" />
+        <state relative-caret-position="264">
+          <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
           <folding>
             <element signature="e#33#72#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/PayoutServiceOverviewBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-471">
+          <caret line="19" column="58" lean-forward="true" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Dto/PaymentMethodDto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Dto/PayoutMethodDto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="26" column="52" lean-forward="true" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
         </state>
       </provider>
     </entry>

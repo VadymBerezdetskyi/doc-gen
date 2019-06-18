@@ -2,7 +2,7 @@
 
 namespace Oft\Generator\Dto;
 
-class PaymentMethodDto extends BaseDto
+class PayoutMethodDto extends BaseDto
 {
     /** @var string */
     public $code;
@@ -31,4 +31,5 @@ class PaymentMethodDto extends BaseDto
     {
         return Translatable::fromArray($this->description);
     }
+
 }
