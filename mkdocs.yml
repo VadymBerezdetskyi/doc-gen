@@ -75,193 +75,193 @@ nav:
   -
     Providers:
       -
-        Overview: providers/index.md
+        Overview: payment-providers/index.md
       -
-        123x: providers/123x/index.md
+        123x: payment-providers/123x/index.md
       -
-        1pay: providers/1pay/index.md
+        1pay: payment-providers/1pay/index.md
       -
-        4bill: providers/4bill/index.md
+        4bill: payment-providers/4bill/index.md
       -
-        Acceptance: providers/acceptance/index.md
+        Acceptance: payment-providers/acceptance/index.md
       -
-        Africanpaymentsolutions: providers/africanpaymentsolutions/index.md
+        Africanpaymentsolutions: payment-providers/africanpaymentsolutions/index.md
       -
-        Anycash: providers/anycash/index.md
+        Anycash: payment-providers/anycash/index.md
       -
-        Aramorpayments: providers/aramorpayments/index.md
+        Aramorpayments: payment-providers/aramorpayments/index.md
       -
-        Astropay: providers/astropay/index.md
+        Astropay: payment-providers/astropay/index.md
       -
-        Balticpay: providers/balticpay/index.md
+        Balticpay: payment-providers/balticpay/index.md
       -
-        Beanstream: providers/beanstream/index.md
+        Beanstream: payment-providers/beanstream/index.md
       -
-        Billtomobile: providers/billtomobile/index.md
+        Billtomobile: payment-providers/billtomobile/index.md
       -
-        Bips: providers/bips/index.md
+        Bips: payment-providers/bips/index.md
       -
-        Bitmerch: providers/bitmerch/index.md
+        Bitmerch: payment-providers/bitmerch/index.md
       -
-        Bitnet: providers/bitnet/index.md
+        Bitnet: payment-providers/bitnet/index.md
       -
-        Bitpay: providers/bitpay/index.md
+        Bitpay: payment-providers/bitpay/index.md
       -
-        Bscardservices: providers/bscardservices/index.md
+        Bscardservices: payment-providers/bscardservices/index.md
       -
-        Bucksnet: providers/bucksnet/index.md
+        Bucksnet: payment-providers/bucksnet/index.md
       -
-        Cardconnect: providers/cardconnect/index.md
+        Cardconnect: payment-providers/cardconnect/index.md
       -
-        Cashsender: providers/cashsender/index.md
+        Cashsender: payment-providers/cashsender/index.md
       -
-        Circulopayments: providers/circulopayments/index.md
+        Circulopayments: payment-providers/circulopayments/index.md
       -
-        Citopay: providers/citopay/index.md
+        Citopay: payment-providers/citopay/index.md
       -
-        Citruspay: providers/citruspay/index.md
+        Citruspay: payment-providers/citruspay/index.md
       -
-        Corvuspay: providers/corvuspay/index.md
+        Corvuspay: payment-providers/corvuspay/index.md
       -
-        Credorax: providers/credorax/index.md
+        Credorax: payment-providers/credorax/index.md
       -
-        Cxpay: providers/cxpay/index.md
+        Cxpay: payment-providers/cxpay/index.md
       -
-        Cyberbit: providers/cyberbit/index.md
+        Cyberbit: payment-providers/cyberbit/index.md
       -
-        Dalberry: providers/dalberry/index.md
+        Dalberry: payment-providers/dalberry/index.md
       -
-        Digitalriverworldpayments: providers/digitalriverworldpayments/index.md
+        Digitalriverworldpayments: payment-providers/digitalriverworldpayments/index.md
       -
-        Dineromail: providers/dineromail/index.md
+        Dineromail: payment-providers/dineromail/index.md
       -
-        Dinpay: providers/dinpay/index.md
+        Dinpay: payment-providers/dinpay/index.md
       -
-        Dlocal: providers/dlocal/index.md
+        Dlocal: payment-providers/dlocal/index.md
       -
-        Ecardsa: providers/ecardsa/index.md
+        Ecardsa: payment-providers/ecardsa/index.md
       -
-        Econtext: providers/econtext/index.md
+        Econtext: payment-providers/econtext/index.md
       -
-        Ecpss: providers/ecpss/index.md
+        Ecpss: payment-providers/ecpss/index.md
       -
-        Eospaymentsolutions: providers/eospaymentsolutions/index.md
+        Eospaymentsolutions: payment-providers/eospaymentsolutions/index.md
       -
-        Epay: providers/epay/index.md
+        Epay: payment-providers/epay/index.md
       -
-        Europayment: providers/europayment/index.md
+        Europayment: payment-providers/europayment/index.md
       -
-        Europaysolutions: providers/europaysolutions/index.md
+        Europaysolutions: payment-providers/europaysolutions/index.md
       -
-        Exacttransactions: providers/exacttransactions/index.md
+        Exacttransactions: payment-providers/exacttransactions/index.md
       -
-        Expercash: providers/expercash/index.md
+        Expercash: payment-providers/expercash/index.md
       -
-        Ezic: providers/ezic/index.md
+        Ezic: payment-providers/ezic/index.md
       -
-        Firstatlanticcommerce: providers/firstatlanticcommerce/index.md
+        Firstatlanticcommerce: payment-providers/firstatlanticcommerce/index.md
       -
-        Flashpay: providers/flashpay/index.md
+        Flashpay: payment-providers/flashpay/index.md
       -
-        Fondy: providers/fondy/index.md
+        Fondy: payment-providers/fondy/index.md
       -
-        Gestpay: providers/gestpay/index.md
+        Gestpay: payment-providers/gestpay/index.md
       -
-        Iyzipayments: providers/iyzipayments/index.md
+        Iyzipayments: payment-providers/iyzipayments/index.md
       -
-        Kortapay: providers/kortapay/index.md
+        Kortapay: payment-providers/kortapay/index.md
       -
-        Lateralpaymentsolutions: providers/lateralpaymentsolutions/index.md
+        Lateralpaymentsolutions: payment-providers/lateralpaymentsolutions/index.md
       -
-        Lianlianpay: providers/lianlianpay/index.md
+        Lianlianpay: payment-providers/lianlianpay/index.md
       -
-        Liqpay: providers/liqpay/index.md
+        Liqpay: payment-providers/liqpay/index.md
       -
-        Magnius: providers/magnius/index.md
+        Magnius: payment-providers/magnius/index.md
       -
-        Mangopay: providers/mangopay/index.md
+        Mangopay: payment-providers/mangopay/index.md
       -
-        Masterpayment: providers/masterpayment/index.md
+        Masterpayment: payment-providers/masterpayment/index.md
       -
-        Merchantscout: providers/merchantscout/index.md
+        Merchantscout: payment-providers/merchantscout/index.md
       -
-        Mollie: providers/mollie/index.md
+        Mollie: payment-providers/mollie/index.md
       -
-        Netmobileag: providers/netmobileag/index.md
+        Netmobileag: payment-providers/netmobileag/index.md
       -
-        Netpay: providers/netpay/index.md
+        Netpay: payment-providers/netpay/index.md
       -
-        Omnipayment: providers/omnipayment/index.md
+        Omnipayment: payment-providers/omnipayment/index.md
       -
-        Onpex: providers/onpex/index.md
+        Onpex: payment-providers/onpex/index.md
       -
-        Optomany: providers/optomany/index.md
+        Optomany: payment-providers/optomany/index.md
       -
-        Payanyway: providers/payanyway/index.md
+        Payanyway: payment-providers/payanyway/index.md
       -
-        Paybox: providers/paybox/index.md
+        Paybox: payment-providers/paybox/index.md
       -
-        Paycific: providers/paycific/index.md
+        Paycific: payment-providers/paycific/index.md
       -
-        Paydoo: providers/paydoo/index.md
+        Paydoo: payment-providers/paydoo/index.md
       -
-        Paymega: providers/paymega/index.md
+        Paymega: payment-providers/paymega/index.md
       -
-        Paymentexpress: providers/paymentexpress/index.md
+        Paymentexpress: payment-providers/paymentexpress/index.md
       -
-        Paymentgarage: providers/paymentgarage/index.md
+        Paymentgarage: payment-providers/paymentgarage/index.md
       -
-        Paymentgateway: providers/paymentgateway/index.md
+        Paymentgateway: payment-providers/paymentgateway/index.md
       -
-        Paymundo: providers/paymundo/index.md
+        Paymundo: payment-providers/paymundo/index.md
       -
-        Paystation: providers/paystation/index.md
+        Paystation: payment-providers/paystation/index.md
       -
-        Paytabs: providers/paytabs/index.md
+        Paytabs: payment-providers/paytabs/index.md
       -
-        Pinpayments: providers/pinpayments/index.md
+        Pinpayments: payment-providers/pinpayments/index.md
       -
-        Propay: providers/propay/index.md
+        Propay: payment-providers/propay/index.md
       -
-        Realexpayments: providers/realexpayments/index.md
+        Realexpayments: payment-providers/realexpayments/index.md
       -
-        Robokassa: providers/robokassa/index.md
+        Robokassa: payment-providers/robokassa/index.md
       -
-        Sbm: providers/sbm/index.md
+        Sbm: payment-providers/sbm/index.md
       -
-        Securepay: providers/securepay/index.md
+        Securepay: payment-providers/securepay/index.md
       -
-        Securionpay: providers/securionpay/index.md
+        Securionpay: payment-providers/securionpay/index.md
       -
-        Simplepay: providers/simplepay/index.md
+        Simplepay: payment-providers/simplepay/index.md
       -
-        Sisow: providers/sisow/index.md
+        Sisow: payment-providers/sisow/index.md
       -
-        Sixpaymentservices: providers/sixpaymentservices/index.md
+        Sixpaymentservices: payment-providers/sixpaymentservices/index.md
       -
-        Swishme: providers/swishme/index.md
+        Swishme: payment-providers/swishme/index.md
       -
-        Tefpay: providers/tefpay/index.md
+        Tefpay: payment-providers/tefpay/index.md
       -
-        Test: providers/test/index.md
+        Test: payment-providers/test/index.md
       -
-        Trustpay: providers/trustpay/index.md
+        Trustpay: payment-providers/trustpay/index.md
       -
-        Upclick: providers/upclick/index.md
+        Upclick: payment-providers/upclick/index.md
       -
-        Vallettapay: providers/vallettapay/index.md
+        Vallettapay: payment-providers/vallettapay/index.md
       -
-        Wayforpay: providers/wayforpay/index.md
+        Wayforpay: payment-providers/wayforpay/index.md
       -
-        Webmoney: providers/webmoney/index.md
+        Webmoney: payment-providers/webmoney/index.md
       -
-        Yandexcheckout: providers/yandexcheckout/index.md
+        Yandexcheckout: payment-providers/yandexcheckout/index.md
       -
-        Yandexmoney: providers/yandexmoney/index.md
+        Yandexmoney: payment-providers/yandexmoney/index.md
       -
-        Yapstone: providers/yapstone/index.md
+        Yapstone: payment-providers/yapstone/index.md
       -
-        Zaakpay: providers/zaakpay/index.md
+        Zaakpay: payment-providers/zaakpay/index.md
   -
     'Payout services':
       -

@@ -56,20 +56,20 @@ class DocBuilder
 
     private function buildProviders(): void
     {
-        $this->createDirectory(self::PATH_TO_DOCS.'/providers');
+        $this->createDirectory(self::PATH_TO_DOCS.'/payment-providers');
 
         /* @var ProviderDto $provider */
         foreach ($this->sort($this->dataProvider->getProviders()) as $provider) {
             $providerOverviewBuilder = new ProviderOverviewBuilder($this->dataProvider, $provider);
             $providerOverviewBuilder->build();
 
-            $this->createDirectory(self::PATH_TO_DOCS.'/providers/'.$provider->code);
-            $this->writeFile(self::PATH_TO_DOCS.'/providers/'.$provider->code.'/index.md', $providerOverviewBuilder->getContent());
+            $this->createDirectory(self::PATH_TO_DOCS.'/payment-providers/'.$provider->code);
+            $this->writeFile(self::PATH_TO_DOCS.'/payment-providers/'.$provider->code.'/index.md', $providerOverviewBuilder->getContent());
         }
 
         $providersListBuilder = new ProvidersListBuilder($this->dataProvider);
         $providersListBuilder->build();
-        $this->writeFile(self::PATH_TO_DOCS.'/providers/index.md', $providersListBuilder->getContent());
+        $this->writeFile(self::PATH_TO_DOCS.'/payment-providers/index.md', $providersListBuilder->getContent());
     }
 
     private function buildPayoutServices(): void
@@ -108,9 +108,9 @@ class DocBuilder
     {
         $nav = [];
 
-        $providers = [['Overview' => 'providers/index.md']];
+        $providers = [['Overview' => 'payment-providers/index.md']];
         foreach ($this->sort($this->dataProvider->getProviders()) as $provider) {
-            array_push($providers, [ucfirst($provider->code) => 'providers/'.$provider->code.'/index.md']);
+            array_push($providers, [ucfirst($provider->code) => 'payment-providers/'.$provider->code.'/index.md']);
         }
         array_push($nav, ['Providers' => $providers]);
 

@@ -12,10 +12,10 @@ class ServiceFieldDto extends BaseDto
     /** @var string */
     public $type;
 
-    /** @var string */
+    /** @var array */
     public $label;
 
-    /** @var string */
+    /** @var array */
     public $hint;
 
     /** @var string */

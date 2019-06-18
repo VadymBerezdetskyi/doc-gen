@@ -3,6 +3,7 @@
 namespace Oft\Generator;
 
 use Oft\Generator\Dto\PaymentMethodDto;
+use Oft\Generator\Dto\PaymentServiceDto;
 use Oft\Generator\Dto\PayoutServiceDto;
 use Oft\Generator\Dto\ProviderDto;
 
@@ -12,6 +13,7 @@ class DataProvider
     const PROVIDERS_FILENAME = '/payment_providers.json';
     const PAYMENT_METHODS_FILENAME = '/payment_methods.json';
     const PAYOUT_SERVICES_FILENAME = '/payout_services.json';
+    const PAYMENT_SERVICES_FILENAME = '/payment_services.json';
     const CONFIG_FILE_PATH = __DIR__.'/../mkdocs.yml';
 
     /* @var array */
@@ -23,6 +25,9 @@ class DataProvider
     /* @var array */
     private $payoutServices;
 
+    /* @var array */
+    private $paymentServices;
+
     /* @var string */
     private $config;
 
@@ -32,6 +37,7 @@ class DataProvider
             $this->setProviders($this->getJsonContent(self::PATH_TO_DATA.self::PROVIDERS_FILENAME));
             $this->setPaymentMethods($this->getJsonContent(self::PATH_TO_DATA.self::PAYMENT_METHODS_FILENAME));
             $this->setPayoutServices($this->getJsonContent(self::PATH_TO_DATA.self::PAYOUT_SERVICES_FILENAME));
+            $this->setPaymentServices($this->getJsonContent(self::PATH_TO_DATA.self::PAYMENT_SERVICES_FILENAME));
             $this->setConfig();
         } catch (\Throwable $ex) {
             echo $ex->getMessage();
@@ -78,6 +84,17 @@ class DataProvider
         }
 
         $this->payoutServices = $tmp;
+    }
+
+    private function setPaymentServices(array $data): void
+    {
+        $tmp = [];
+
+        foreach ($data as $item) {
+            array_push($tmp, PaymentServiceDto::fromArray($item));
+        }
+
+        $this->paymentServices = $tmp;
     }
 
     private function setConfig(): void
