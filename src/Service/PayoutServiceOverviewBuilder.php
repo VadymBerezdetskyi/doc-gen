@@ -4,6 +4,7 @@ namespace Oft\Generator\Service;
 
 use Oft\Generator\DataProvider;
 use Oft\Generator\Dto\MdTableColumnDto;
+use Oft\Generator\Dto\PayoutMethodDto;
 use Oft\Generator\Dto\PayoutServiceDto;
 use Oft\Generator\Dto\ServiceFieldDto;
 use Oft\Generator\Enums\MdTableColumnAlignEnum;
@@ -16,10 +17,11 @@ use Oft\Generator\Md\MdImage;
 use Oft\Generator\Md\MdLink;
 use Oft\Generator\Md\MdTable;
 use Oft\Generator\Md\MdText;
+use Oft\Generator\Traits\UtilsTrait;
 
 final class PayoutServiceOverviewBuilder extends MdBuilder
 {
-    use ImagesTrait;
+    use ImagesTrait, UtilsTrait;
 
     /* @var PayoutServiceDto */
     private $data;
@@ -28,6 +30,13 @@ final class PayoutServiceOverviewBuilder extends MdBuilder
     {
         parent::__construct($dataProvider);
         $this->data = $data;
+    }
+
+    private function getMethod(): PayoutMethodDto
+    {
+        return $this->array_find($this->dataProvider->getPayoutMethods(), function (PayoutMethodDto $pom) {
+            return $pom->code === $this->data->method;
+        });
     }
 
     private function buildField(ServiceFieldDto $field, int $index): void
@@ -49,54 +58,65 @@ final class PayoutServiceOverviewBuilder extends MdBuilder
 
         $this->addString('Label: ', true, 1);
         foreach ($field->label as $lang => $val) {
-            $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::PLAIN), ": [$lang] $val"), true, 1);
+            $viewLang = strtoupper($lang);
+            $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::PLAIN), ": [$viewLang] $val"), true, 1);
         }
         $this->br();
 
         $this->addString('Hint: ', true, 1);
         foreach ($field->hint as $lang => $val) {
-            $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::PLAIN), ": [$lang] $val"), true,1);
+            $viewLang = strtoupper($lang);
+            $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::PLAIN), ": [$viewLang] $val"), true,1);
         }
         $this->br();
     }
 
     public function build(): void
     {
-        /* TODO: add header, logo */
-//        $this->add(new MdHeader('', 1), true);
-//        $this->add(new MdImage($this->getProviderLogo($this->data->code), $this->data->code), true);
+        $this->add(new MdHeader(($this->getMethod()->getName()->en ?? '').' (service)', 1), true);
+        $this->add(new MdImage($this->getPayoutMethodLogo($this->data->code), $this->data->code), true);
 
         $this->add(new MdHeader('General', 2),true);
         $this->br();
         $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), 'Code:'));
+        $this->space();
         $this->add(new MdCode($this->data->code),true);
         $this->br();
 
         if (null !== $this->data->method) {
             $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), 'Method:'));
+            $this->space();
             $this->add(new MdCode($this->data->method),true);
             /*
             *  FIXME: add link
             */
-            $this->add(new MdLink('show -->', ''), true);
+            $this->add(new MdLink('show -->', '#'), true);
             $this->br();
         }
 
         if (null !== $this->data->currency) {
             $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), 'Currency:'));
+            $this->space();
             $this->add(new MdCode($this->data->currency));
             /*
             *  FIXME: add link
             */
-            $this->add(new MdLink('show -->', ''), true);
+            $this->add(new MdLink('show -->', '#'), true);
             $this->br();
         }
 
-        /*
-         * TODO: add name???
-         * */
-//        $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), 'Name:'));
+        $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), 'Name:'), true);
+        $this->br();
+        foreach ($this->getMethod()->getName() as $lang => $val) {
+            if (null !== $val) {
+                $viewLang = strtoupper($lang);
+                $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::PLAIN), ":\t[$viewLang] $val"), true);
+            }
+        }
+        $this->br();
+
         $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), 'Amount limits:'));
+        $this->space();
         $this->addString('from '.((new MdCode($this->data->amountMin))->toString()).' to '.((new MdCode($this->data->amountMax))->toString()),null === $this->data->currency);
         if (null !== $this->data->currency) {
             $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::PLAIN), ' '.$this->data->currency));

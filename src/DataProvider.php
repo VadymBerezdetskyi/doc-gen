@@ -144,6 +144,11 @@ class DataProvider
         return $this->payoutMethods;
     }
 
+    public function getPaymentServices(): array
+    {
+        return $this->paymentServices;
+    }
+
     public function getConfig(): string
     {
         return $this->config ?? '';

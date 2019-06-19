@@ -73,7 +73,7 @@ final class PayoutServicesListBuilder extends MdBuilder
                         'key' => 'Code',
                         'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
                         'set_template' => function (PayoutServiceDto $row) {
-                            return new MdCode($row->code);
+                            return new MdLink((new MdCode($row->code))->toString(), $row->code.'/index.md');
                         },
                     ]),
                     MdTableColumnDto::fromArray([
