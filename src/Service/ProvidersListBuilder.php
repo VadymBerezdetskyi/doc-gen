@@ -14,11 +14,11 @@ use Oft\Generator\Md\MdHeader;
 use Oft\Generator\Md\MdImage;
 use Oft\Generator\Md\MdTable;
 use Oft\Generator\Md\MdText;
-use Oft\Generator\Traits\SortingTrait;
+use Oft\Generator\Traits\UtilsTrait;
 
 final class ProvidersListBuilder extends MdBuilder
 {
-    use ImagesTrait, SortingTrait;
+    use ImagesTrait, UtilsTrait;
 
     /* @var array */
     private $data;

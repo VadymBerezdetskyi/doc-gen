@@ -4,6 +4,7 @@ namespace Oft\Generator;
 
 use Oft\Generator\Dto\PaymentMethodDto;
 use Oft\Generator\Dto\PaymentServiceDto;
+use Oft\Generator\Dto\PayoutMethodDto;
 use Oft\Generator\Dto\PayoutServiceDto;
 use Oft\Generator\Dto\ProviderDto;
 
@@ -14,6 +15,7 @@ class DataProvider
     const PAYMENT_METHODS_FILENAME = '/payment_methods.json';
     const PAYOUT_SERVICES_FILENAME = '/payout_services.json';
     const PAYMENT_SERVICES_FILENAME = '/payment_services.json';
+    const PAYOUT_METHODS_FILENAME = '/payout_methods.json';
     const CONFIG_FILE_PATH = __DIR__.'/../mkdocs.yml';
 
     /* @var array */
@@ -28,6 +30,9 @@ class DataProvider
     /* @var array */
     private $paymentServices;
 
+    /* @var array */
+    private $payoutMethods;
+
     /* @var string */
     private $config;
 
@@ -38,6 +43,7 @@ class DataProvider
             $this->setPaymentMethods($this->getJsonContent(self::PATH_TO_DATA.self::PAYMENT_METHODS_FILENAME));
             $this->setPayoutServices($this->getJsonContent(self::PATH_TO_DATA.self::PAYOUT_SERVICES_FILENAME));
             $this->setPaymentServices($this->getJsonContent(self::PATH_TO_DATA.self::PAYMENT_SERVICES_FILENAME));
+            $this->setPayoutMethods($this->getJsonContent(self::PATH_TO_DATA.self::PAYOUT_METHODS_FILENAME));
             $this->setConfig();
         } catch (\Throwable $ex) {
             echo $ex->getMessage();
@@ -97,6 +103,17 @@ class DataProvider
         $this->paymentServices = $tmp;
     }
 
+    private function setPayoutMethods(array $data): void
+    {
+        $tmp = [];
+
+        foreach ($data as $item) {
+            array_push($tmp, PayoutMethodDto::fromArray($item));
+        }
+
+        $this->payoutMethods = $tmp;
+    }
+
     private function setConfig(): void
     {
         try {
@@ -120,6 +137,11 @@ class DataProvider
     public function getPayoutServices(): array
     {
         return $this->payoutServices;
+    }
+
+    public function getPayoutMethods(): array
+    {
+        return $this->payoutMethods;
     }
 
     public function getConfig(): string

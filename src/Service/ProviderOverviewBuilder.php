@@ -37,10 +37,12 @@ final class ProviderOverviewBuilder extends MdBuilder
         $this->add(new MdHeader('General', 2), true);
         $this->br();
         $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), 'Code:'));
+        $this->space();
         $this->add(new MdCode($this->data->code), true);
         $this->br();
 
         $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), 'Vendor:'));
+        $this->space();
         $this->add(new MdCode($this->data->vendor), true);
         $this->br();
 
@@ -50,6 +52,7 @@ final class ProviderOverviewBuilder extends MdBuilder
             $viewLang = strtoupper($lang);
             $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::PLAIN), ":\t[$viewLang] $val"), true);
         }
+        $this->br();
 
         if (null !== $this->data->description) {
             $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), 'Description:'), true);
@@ -63,7 +66,7 @@ final class ProviderOverviewBuilder extends MdBuilder
         }
 
         if (null !== $this->data->categories) {
-            $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), 'Categories:'), true);
+            $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), 'Categories:'));
 
             foreach ($this->data->categories as $category) {
                 $this->add(new MdCode($category));
@@ -141,7 +144,7 @@ final class ProviderOverviewBuilder extends MdBuilder
                     'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
                     'set_template' => function (string $code) {
                         /*
-                         * TODO: link to method overview page
+                         * FIXME: link to payout method overview page, NAME instead of code
                         */
                         return new MdLink($code, '#');
                     },

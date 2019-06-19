@@ -26,6 +26,11 @@ trait ImagesTrait
         return "https://static.openfintech.io/payout_methods/$code/icon.png?w=278&c=v0.59.26#w40";
     }
 
+    private function getPayoutMethodLogo(string $code): string
+    {
+        return "https://static.openfintech.io/payout_methods/$code/logo.png?w=400&c=v0.59.26#w24";
+    }
+
     private function getPaymentMethodLogo(string $code): string
     {
         return "https://static.openfintech.io/payment_methods/$code/logo.svg?w=400&c=v0.59.26#w200";

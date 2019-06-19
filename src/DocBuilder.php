@@ -10,14 +10,14 @@ use Oft\Generator\Service\PayoutServiceOverviewBuilder;
 use Oft\Generator\Service\PayoutServicesListBuilder;
 use Oft\Generator\Service\ProviderOverviewBuilder;
 use Oft\Generator\Service\ProvidersListBuilder;
-use Oft\Generator\Traits\SortingTrait;
+use Oft\Generator\Traits\UtilsTrait;
 use Symfony\Component\Filesystem\Exception\IOExceptionInterface;
 use Symfony\Component\Filesystem\Filesystem;
 use Symfony\Component\Yaml\Yaml;
 
 class DocBuilder
 {
-    use SortingTrait;
+    use UtilsTrait;
 
     const PATH_TO_DOCS = __DIR__.'/../docs';
     const CONFIG_FILE_PATH = __DIR__.'/../mkdocs.yml';
@@ -125,7 +125,6 @@ class DocBuilder
             array_push( $paymentMethods, [ucfirst($method->code) => 'payment-methods/'.$method->code.'/index.md']);
         }
         array_push($nav, ['Payment methods' => $paymentMethods]);
-
 
         $this->writeFile(self::CONFIG_FILE_PATH, $this->dataProvider->getConfig().Yaml::dump(['nav' => $nav], 5, 2));
     }

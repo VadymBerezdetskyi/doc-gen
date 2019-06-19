@@ -2,18 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6118e819-5c91-4dc5-88f7-b352b921177a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Dto/PayoutMethodDto.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dto/PaymentMethodDto.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dto/PaymentMethodDto.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DocBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DocBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Enums/TextEmphasisPatternEnum.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enums/TextEmphasisPatternEnum.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Md/MdTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Md/MdTable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/MdBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/MdBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/PayoutServicesListBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/PayoutServicesListBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/ProviderOverviewBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/ProviderOverviewBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/ProvidersListBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/ProvidersListBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Traits/ImagesTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Traits/ImagesTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Traits/SortingTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Traits/UtilsTrait.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" doNotAsk="true">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="DONT_SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/oft_docs$oft_docs.xml" NAME="oft_docs Coverage Results" MODIFIED="1558705689190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -37,41 +49,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PayoutServiceOverviewBuilder.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Service/PayoutServiceOverviewBuilder.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-471">
-              <caret line="19" column="58" lean-forward="true" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PayoutMethodDto.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Dto/PayoutMethodDto.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="26" column="52" lean-forward="true" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PaymentMethodDto.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Dto/PaymentMethodDto.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Service/ProviderOverviewBuilder.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="768">
-              <caret line="32" column="5" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="32" selection-end-column="5" />
+              <caret line="162" column="87" lean-forward="true" selection-start-line="162" selection-start-column="87" selection-end-line="162" selection-end-column="87" />
+              <folding>
+                <element signature="e#41#72#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DocBuilder.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DocBuilder.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Service/MdBuilder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-              <folding>
-                <element signature="e#33#72#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="407">
+              <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/payment-providers/zaakpay/index.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="311">
+                <caret line="37" column="15" lean-forward="true" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -92,6 +98,7 @@
       <find>acb_bank</find>
       <find>247</find>
       <find>9-dra</find>
+      <find>TextEmphasisPatternEnum</find>
     </findStrings>
     <replaceStrings>
       <replace>Oft\Generator</replace>
@@ -106,7 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ImagesTrait.php" />
         <option value="$PROJECT_DIR$/src/Md/MdHeaderId.php" />
         <option value="$PROJECT_DIR$/src/Md/MdImage.php" />
         <option value="$PROJECT_DIR$/src/Md/MdULItem.php" />
@@ -133,47 +139,49 @@
         <option value="$PROJECT_DIR$/mkdocs.yml" />
         <option value="$PROJECT_DIR$/serve.sh" />
         <option value="$PROJECT_DIR$/docs/providers/index.md" />
-        <option value="$PROJECT_DIR$/src/Md/MdTable.php" />
-        <option value="$PROJECT_DIR$/src/Traits/SortingTrait.php" />
         <option value="$PROJECT_DIR$/docs/providers/123x/index.md" />
         <option value="$PROJECT_DIR$/src/Md/MdHeader.php" />
         <option value="$PROJECT_DIR$/src/Md/MdText.php" />
         <option value="$PROJECT_DIR$/src/Md/MdCodeBlock.php" />
-        <option value="$PROJECT_DIR$/src/Service/ProvidersListBuilder.php" />
-        <option value="$PROJECT_DIR$/src/Service/PayoutServicesListBuilder.php" />
         <option value="$PROJECT_DIR$/src/Md/MdCode.php" />
         <option value="$PROJECT_DIR$/docs/payout-services/advcash_wallet_rub/index.md" />
-        <option value="$PROJECT_DIR$/src/Service/MdBuilder.php" />
-        <option value="$PROJECT_DIR$/src/Traits/ImagesTrait.php" />
-        <option value="$PROJECT_DIR$/src/Enums/TextEmphasisPatternEnum.php" />
         <option value="$PROJECT_DIR$/src/Service/PaymentMethodOverviewBuilder.php" />
-        <option value="$PROJECT_DIR$/src/Service/ProviderOverviewBuilder.php" />
         <option value="$PROJECT_DIR$/buildandserve.sh" />
         <option value="$PROJECT_DIR$/src/Service/PayoutServiceOverviewBuilder.php" />
         <option value="$PROJECT_DIR$/src/Dto/ServiceFieldDto.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/Dto/PaymentServiceDto.php" />
-        <option value="$PROJECT_DIR$/src/DataProvider.php" />
-        <option value="$PROJECT_DIR$/src/DocBuilder.php" />
         <option value="$PROJECT_DIR$/src/Dto/PaymentMethodDto.php" />
         <option value="$PROJECT_DIR$/src/Dto/PayoutMethodDto.php" />
+        <option value="$PROJECT_DIR$/src/DocBuilder.php" />
+        <option value="$PROJECT_DIR$/src/Traits/ImagesTrait.php" />
+        <option value="$PROJECT_DIR$/src/Enums/TextEmphasisPatternEnum.php" />
+        <option value="$PROJECT_DIR$/src/DataProvider.php" />
+        <option value="$PROJECT_DIR$/src/Traits/SortingTrait.php" />
+        <option value="$PROJECT_DIR$/src/Traits/UtilsTrait.php" />
+        <option value="$PROJECT_DIR$/src/Md/MdTable.php" />
+        <option value="$PROJECT_DIR$/src/Service/PayoutServicesListBuilder.php" />
+        <option value="$PROJECT_DIR$/src/Service/ProvidersListBuilder.php" />
+        <option value="$PROJECT_DIR$/src/Service/MdBuilder.php" />
+        <option value="$PROJECT_DIR$/src/Service/ProviderOverviewBuilder.php" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
-  <component name="PhpDebugGeneral" xdebug_debug_port="9005" />
+  <component name="PhpDebugGeneral" ignore_connections_through_unregistered_servers="true" />
   <component name="PhpServers">
-    <servers />
+    <servers>
+      <server host="0.0.0.0" id="9daba053-606b-4d4e-b087-6a339d2bdeda" name="0.0.0.0" port="9000" />
+      <server host="127.0.0.1" id="015c6f48-0d78-485f-9b86-c8af4b41a7f9" name="127.0.0.1" port="9000" use_path_mappings="true" />
+    </servers>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2">
+  <component name="PhpWebServerValidation" path_to_validation_script="$PROJECT_DIR$" selected_validation_type="LOCAL" web_path_to_validation_script="http://127.0.0.1/" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/composer" />
       <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
@@ -182,6 +190,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
     </include_path>
   </component>
+  <component name="PhpXdebugProxy" ide_key="PHPSTORM_IDE" />
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1920" />
     <option name="width" value="1920" />
@@ -196,48 +205,85 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="oft_docs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oft_docs" type="462c0819:PsiDirectoryNode" />
+              <item name="doc-gen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doc-gen" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="oft_docs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oft_docs" type="462c0819:PsiDirectoryNode" />
+              <item name="doc-gen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doc-gen" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doc-gen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doc-gen" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="oft_docs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oft_docs" type="462c0819:PsiDirectoryNode" />
+              <item name="doc-gen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doc-gen" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="payment-providers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doc-gen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doc-gen" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="payment-providers" type="462c0819:PsiDirectoryNode" />
+              <item name="zaakpay" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doc-gen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doc-gen" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="oft_docs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oft_docs" type="462c0819:PsiDirectoryNode" />
+              <item name="doc-gen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doc-gen" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Dto" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="oft_docs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oft_docs" type="462c0819:PsiDirectoryNode" />
+              <item name="doc-gen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doc-gen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Enums" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doc-gen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doc-gen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Md" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doc-gen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doc-gen" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doc-gen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doc-gen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Traits" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cardgate" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -260,6 +306,7 @@
   <component name="RunManager">
     <configuration name="oft_docs" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner directory="$PROJECT_DIR$" />
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
@@ -289,13 +336,14 @@
       <workItem from="1560255504276" duration="8847000" />
       <workItem from="1560430111048" duration="16636000" />
       <workItem from="1560765043743" duration="14975000" />
+      <workItem from="1560849987257" duration="147000" />
+      <workItem from="1560850193137" duration="73000" />
+      <workItem from="1560865643645" duration="993000" />
+      <workItem from="1560929563849" duration="8851000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="oft_docs - 2019.05.22 at 15h 09m 45s.xml">
-      <configuration name="oft_docs" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
     <history-entry file="oft_docs - 2019.05.22 at 15h 09m 49s.xml">
       <configuration name="oft_docs" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
@@ -323,49 +371,41 @@
     <history-entry file="oft_docs - 2019.06.11 at 16h 55m 24s.xml">
       <configuration name="oft_docs" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="oft_docs - 2019.06.19 at 12h 24m 10s.xml">
+      <configuration name="oft_docs" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141371000" />
+    <option name="totallyTimeSpent" value="151435000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="0" width="1920" height="1172" extended-state="6" />
+    <frame x="1920" y="-1" width="1920" height="1160" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.19884726" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.32660902" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4978678" weight="0.31676415" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49902534" visible="true" weight="0.21162046" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.32846004" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49902534" visible="true" weight="0.22091782" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50097466" side_tool="true" weight="0.19669509" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5021322" side_tool="true" weight="0.4883041" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.32846004" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49839914" weight="0.3264907" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5026681" side_tool="true" weight="0.3841642" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49733192" weight="0.3841642" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.19884726" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="3" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints-dialog>
-        <breakpoints-dialog />
-      </breakpoints-dialog>
-      <option name="time" value="35" />
-    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -397,51 +437,10 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/yaml/Exception/ParseException.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="37" column="33" lean-forward="true" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/providers/1pay/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/payment-methods/test/index.md" />
     <entry file="file://$PROJECT_DIR$/docs/payment-methods/7eleven/index.md" />
-    <entry file="file:///tmp/ide-phpunit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/yaml/Dumper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2088">
-          <caret line="94" selection-start-line="94" selection-end-line="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/yaml/Tests/ParserTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10440">
-          <caret line="446" column="32" selection-start-line="446" selection-start-column="32" selection-end-line="446" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/yaml/Dumper.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/yaml/Tests/ParserTest.php" />
     <entry file="file://$PROJECT_DIR$/composer.lock">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -449,27 +448,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/yaml/Parser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="62" column="70" selection-start-line="62" selection-start-column="70" selection-end-line="62" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/composer/ClassLoader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="321" selection-start-line="321" selection-end-line="321" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/yaml/Yaml.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="51" column="70" selection-start-line="51" selection-start-column="69" selection-end-line="51" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/yaml/Parser.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/composer/ClassLoader.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/yaml/Yaml.php" />
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/Core/Core_c.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="543">
@@ -478,26 +459,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/serve.sh" />
-    <entry file="file://$PROJECT_DIR$/docs/providers/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="96">
-            <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Md/MdTable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#36#75#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/providers/index.md" />
     <entry file="file://$PROJECT_DIR$/src/Md/MdLink.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -533,27 +495,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/providers/123x/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="504">
-            <caret line="21" column="74" selection-start-line="21" selection-start-column="74" selection-end-line="21" selection-end-column="74" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/providers/123x/index.md" />
     <entry file="file://$PROJECT_DIR$/src/Md/MdCodeBlock.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
           <caret line="43" column="71" selection-start-line="43" selection-start-column="71" selection-end-line="43" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -564,44 +510,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/providers/acceptance/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="312">
-            <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/providers/acceptance/index.md" />
     <entry file="file://$PROJECT_DIR$/data/payout_services.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
           <caret line="327" column="3" selection-start-line="327" selection-start-column="3" selection-end-line="327" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Traits/SortingTrait.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Service/PayoutServicesListBuilder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="56" column="47" lean-forward="true" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Service/ProvidersListBuilder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-          <folding>
-            <element signature="e#41#72#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -612,35 +525,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/payout-services/advcash_wallet_rub/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="168">
-            <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/payment_methods/alandsbanken/logo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/payment_methods/alandsbanken/icon.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Traits/ImagesTrait.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="767">
-          <caret line="35" column="67" selection-start-line="35" selection-start-column="67" selection-end-line="35" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Enums/TextEmphasisPatternEnum.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Md/MdText.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -649,58 +538,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Service/PaymentMethodOverviewBuilder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="64" column="101" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="101" />
-          <folding>
-            <element signature="e#41#72#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Service/ProviderOverviewBuilder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="27" column="43" lean-forward="true" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
-          <folding>
-            <element signature="e#41#72#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/buildandserve.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Service/MdBuilder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="29" column="50" lean-forward="true" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Dto/ServiceFieldDto.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="479">
           <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Dto/PayoutServiceDto.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="33" column="5" selection-start-line="22" selection-start-column="22" selection-end-line="33" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -718,44 +559,195 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataProvider.php">
+    <entry file="file://$PROJECT_DIR$/src/Dto/PaymentMethodDto.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
-          <folding>
-            <element signature="e#33#72#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="768">
+          <caret line="32" column="5" selection-start-line="22" selection-start-column="21" selection-end-line="32" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DocBuilder.php">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-          <folding>
-            <element signature="e#33#72#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="24">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Service/PayoutServiceOverviewBuilder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-471">
-          <caret line="19" column="58" lean-forward="true" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+        <state relative-caret-position="-1022">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+          <folding>
+            <element signature="e#41#72#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Dto/PaymentMethodDto.php">
+    <entry file="file://$PROJECT_DIR$/src/Service/PaymentMethodOverviewBuilder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="32" column="5" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="32" selection-end-column="5" />
+        <state relative-caret-position="-721">
+          <caret line="64" column="101" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="101" />
+          <folding>
+            <element signature="e#41#72#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Dto/PayoutServiceDto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buildandserve.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///tmp/ide-phpunit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DocBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+          <folding>
+            <element signature="e#33#72#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Enums/TextEmphasisPatternEnum.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Dto/PayoutMethodDto.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="26" column="52" lean-forward="true" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+        <state relative-caret-position="600">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Traits/UtilsTrait.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Md/MdTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="89" column="20" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
+          <folding>
+            <element signature="e#36#75#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/payout-services/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="168">
+            <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/payout-services/advcash_wallet_rub/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-72" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/PayoutServicesListBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="658">
+          <caret line="101" column="52" selection-start-line="101" selection-start-column="52" selection-end-line="101" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3432">
+          <caret line="143" column="35" selection-start-line="143" selection-start-column="35" selection-end-line="143" selection-end-column="35" />
+          <folding>
+            <element signature="e#33#72#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Traits/ImagesTrait.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="30" column="96" selection-start-line="30" selection-start-column="96" selection-end-line="30" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/ProvidersListBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="58" column="88" selection-start-line="58" selection-start-column="82" selection-end-line="58" selection-end-column="88" />
+          <folding>
+            <element signature="e#41#72#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/payment-providers/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="144">
+            <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/MdBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/ProviderOverviewBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="162" column="87" lean-forward="true" selection-start-line="162" selection-start-column="87" selection-end-line="162" selection-end-column="87" />
+          <folding>
+            <element signature="e#41#72#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/payment-providers/zaakpay/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="311">
+            <caret line="37" column="15" lean-forward="true" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

@@ -23,6 +23,11 @@ class MdBuilder
         $this->content = $this->content." \n";
     }
 
+    public function space(): void
+    {
+        $this->content = $this->content.' ';
+    }
+
     public function add(MdElementInterface $element, bool $return = false, int $indent = 0): void
     {
         $this->content = $indent
