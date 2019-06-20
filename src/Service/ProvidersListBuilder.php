@@ -58,7 +58,7 @@ final class ProvidersListBuilder extends MdBuilder
                     'key' => 'Logo',
                     'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
                     'set_template' => function (ProviderDto $row) {
-                        return new MdImage($this->getProviderLogo($row->code), $row->code);
+                        return new MdImage($this->getProviderLogo($row->code, '600'), $row->code);
                     },
                 ]),
                 MdTableColumnDto::fromArray([

@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-php index.php
+time php index.php
 mkdocs serve

@@ -106,7 +106,7 @@ final class PaymentMethodOverviewBuilder extends MdBuilder
                 'key' => 'Name',
                 'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
                 'set_template' => function (ProviderDto $provider) {
-                    return new MdLink($provider->getName()->en ?? '', '/providers/'.$provider->code);
+                    return new MdLink($provider->getName()->en ?? '', '/payment-providers/'.$provider->code);
                 },
             ]),
             MdTableColumnDto::fromArray([
